@@ -44,5 +44,19 @@ public class BookModelTest {
 
     }
 
+    @Test
+    public void testIfABookIsEqualsToItself(){
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        try {
+            Date publishDate = dateFormat.parse("10/09/2018");
+            Book book = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
+            Book sameBook = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
+            assertEquals(true, book.equals(sameBook));
+        }catch (ParseException e ){ }
+
+
+    }
+
 
 }
