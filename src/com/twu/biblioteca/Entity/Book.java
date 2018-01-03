@@ -44,4 +44,9 @@ public class Book {
 
         return this.toString().equals(book.toString());
     }
+
+    @Override
+    public String toString() {
+        return this.getAuthor() + " - " + this.getFormattedPublishDate() + " - " + this.getFormattedPublishDate();
+    }
 }
