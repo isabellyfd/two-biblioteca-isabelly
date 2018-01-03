@@ -18,7 +18,7 @@ public class Book {
         return this.name;
     }
 
-    public String getAuthor(String author) {
+    public String getAuthor() {
         return this.author;
     }
 

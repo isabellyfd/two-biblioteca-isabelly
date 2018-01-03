@@ -20,10 +20,10 @@ public class BookModelTest {
 
             Book book = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
             assertEquals("O pequeno príncipe", book.getName("O pequeno príncipe"));
-            assertEquals("Le vie es rouge", book.getAuthor("Le vie es rouge"));
+            assertEquals("Le vie es rouge", book.getAuthor());
             assertEquals("10/09/2018", book.getFormatedPublishDate());
 
         } catch (ParseException e) { }
-        
+
     }
 }
