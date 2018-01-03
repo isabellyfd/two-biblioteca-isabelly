@@ -30,11 +30,11 @@ public class Book {
         return dateFormat.format(this.publishedDate);
     }
 
-    public boolean isAvaliable() {
+    public boolean isAvailable() {
         return this.isAvaliable;
     }
 
-    public void setAvaliable(boolean isAvaliable) {
+    public void setAvailable(boolean isAvaliable) {
         this.isAvaliable = isAvaliable;
     }
 

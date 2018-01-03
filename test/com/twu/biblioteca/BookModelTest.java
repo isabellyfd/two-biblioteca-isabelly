@@ -1,6 +1,5 @@
 package com.twu.biblioteca;
 
-import org.junit.Before;
 import org.junit.Test;
 import com.twu.biblioteca.Entity.Book;
 
@@ -24,7 +23,7 @@ public class BookModelTest {
             assertEquals("O pequeno príncipe", book.getName());
             assertEquals("Le vie es rouge", book.getAuthor());
             assertEquals("10/09/2018", book.getFormattedPublishDate());
-            assertEquals(true, book.isAvaliable());
+            assertEquals(true, book.isAvailable());
         } catch (ParseException e) { }
 
     }
@@ -36,8 +35,8 @@ public class BookModelTest {
         try {
             Date publishDate = dateFormat.parse("10/09/2018");
             Book book = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
-            book.setAvaliable(false);
-            assertEquals(false, book.isAvaliable());
+            book.setAvailable(false);
+            assertEquals(false, book.isAvailable());
 
         }catch (ParseException e ){ }
 
