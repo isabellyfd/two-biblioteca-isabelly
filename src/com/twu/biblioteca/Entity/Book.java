@@ -25,7 +25,7 @@ public class Book {
         return this.author;
     }
 
-    public String getFormatedPublishDate() {
+    public String getFormattedPublishDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         return dateFormat.format(this.publishedDate);
     }
