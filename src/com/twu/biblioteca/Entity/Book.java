@@ -33,4 +33,6 @@ public class Book {
     public boolean isAvaliable() {
         return this.isAvaliable;
     }
+
+    public void setAvaliable(boolean isAvaliable) {}
 }

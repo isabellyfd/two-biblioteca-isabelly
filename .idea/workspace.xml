@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BookModelTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" />
     </list>
@@ -31,8 +31,8 @@
       <file leaf-file-name="BookModelTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="177">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +43,8 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
@@ -185,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookModelTest.testBookAttributesEquality">
+  <component name="RunManager" selected="JUnit.BookModelTest.testIsAvaliableDidChangeTheValueToFalse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -245,6 +245,31 @@
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookModelTest" />
       <option name="METHOD_NAME" value="testBookAttributesEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BookModelTest.testIsAvaliableDidChangeTheValueToFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookModelTest" />
+      <option name="METHOD_NAME" value="testIsAvaliableDidChangeTheValueToFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -342,16 +367,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BookModelTest.testBookAttributesEquality" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BookModelTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookModelTest.testIsAvaliableDidChangeTheValueToFalse" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BookModelTest.testBookAttributesEquality" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BookModelTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookModelTest.testIsAvaliableDidChangeTheValueToFalse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookModelTest.testBookAttributesEquality" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BookModelTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -372,9 +399,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookModelTest - 2018.01.03 at 13h 46m 35s.xml">
-      <configuration name="BookModelTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookModelTest - 2018.01.03 at 14h 00m 00s.xml">
       <configuration name="BookModelTest" configurationId="JUnit" />
     </history-entry>
@@ -401,6 +425,9 @@
     </history-entry>
     <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 14h 11m 29s.xml">
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookModelTest_testIsAvaliableDidChangeTheValueToFalse - 2018.01.03 at 14h 27m 41s.xml">
+      <configuration name="BookModelTest.testIsAvaliableDidChangeTheValueToFalse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -451,6 +478,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -462,20 +499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="177">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -484,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="462">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />

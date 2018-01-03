@@ -1,5 +1,6 @@
 package com.twu.biblioteca;
 
+import org.junit.Before;
 import org.junit.Test;
 import com.twu.biblioteca.Entity.Book;
 
@@ -11,6 +12,7 @@ import java.util.Date;
 import static org.junit.Assert.assertEquals;
 
 public class BookModelTest {
+
 
     @Test
     public void testBookAttributesEquality() {
@@ -26,5 +28,21 @@ public class BookModelTest {
         } catch (ParseException e) { }
 
     }
+
+    @Test
+    public void testIsAvaliableDidChangeTheValueToFalse() {
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        try {
+            Date publishDate = dateFormat.parse("10/09/2018");
+            Book book = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
+            book.setAvaliable(false);
+            assertEquals(false, book.isAvaliable());
+
+        }catch (ParseException e ){ }
+
+
+    }
+
 
 }
