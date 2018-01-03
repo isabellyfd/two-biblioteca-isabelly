@@ -1,4 +1,4 @@
-package com.twu.biblioteca;
+package com.twu.biblioteca.controller;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -17,17 +17,9 @@ public class LibraryControllerTest {
 
     @Before
     public void setup() {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         ArrayList<Book> bookList = new ArrayList<Book>();
-
-        try {
-            bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling", dateFormat.parse("31/06/1997")));
-            bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", dateFormat.parse("31/06/1999")));
-            
-        }catch(ParseException e){
-            Assert.fail();
-        }
-
+        bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling",1997));
+        bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", 1999));
         controller = new LibraryController(bookList);
     }
 

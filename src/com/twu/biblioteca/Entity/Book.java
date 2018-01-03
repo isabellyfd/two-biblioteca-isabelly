@@ -6,14 +6,14 @@ import java.util.Date;
 public class Book {
     private String name;
     private String author;
-    private Date publishedDate;
+    private int publishYear;
     private boolean isAvaliable;
 
 
-    public Book(String name, String author, Date publishedDate){
+    public Book(String name, String author, int publishYear){
         this.name =  name;
         this.author = author;
-        this.publishedDate =  publishedDate;
+        this.publishYear =  publishYear;
         this.isAvaliable = true;
     }
 
@@ -25,9 +25,8 @@ public class Book {
         return this.author;
     }
 
-    public String getFormattedPublishDate() {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        return dateFormat.format(this.publishedDate);
+    public int getPublishYear() {
+        return this.publishYear;
     }
 
     public boolean isAvailable() {
@@ -47,6 +46,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return this.getAuthor() + " - " + this.getFormattedPublishDate() + " - " + this.getFormattedPublishDate();
+        return this.getName() + " - " + this.getAuthor() + " - " + this.getPublishYear();
     }
 }
