@@ -14,11 +14,11 @@ public class Book {
     }
 
     public String getName(String name) {
-        return name;
+        return this.name;
     }
 
     public String getAuthor(String author) {
-        return author;
+        return this.author;
     }
 
     public String getFormatedPublishDate(String formatedString) {
