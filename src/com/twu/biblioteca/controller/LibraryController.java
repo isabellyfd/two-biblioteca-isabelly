@@ -4,13 +4,14 @@ import com.twu.biblioteca.Entity.Book;
 import java.util.ArrayList;
 
 public class LibraryController {
-    
-    public LibraryController(ArrayList<Book> bookList){
+    private ArrayList<Book> bookList;
 
+    public LibraryController(ArrayList<Book> bookList){
+        this.bookList =  bookList;
     }
 
     public ArrayList<Book> getBookList() {
-        return new ArrayList<Book>();
+        return this.bookList;
     }
 
 }
