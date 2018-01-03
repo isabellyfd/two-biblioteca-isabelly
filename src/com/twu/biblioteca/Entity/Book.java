@@ -27,4 +27,8 @@ public class Book {
         String formatedString = dateFormat.format(this.publishedDate);
         return formatedString;
     }
+
+    public boolean isAvaliable() {
+        return false;
+    }
 }

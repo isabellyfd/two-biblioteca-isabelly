@@ -22,7 +22,7 @@ public class BookModelTest {
             assertEquals("O pequeno príncipe", book.getName());
             assertEquals("Le vie es rouge", book.getAuthor());
             assertEquals("10/09/2018", book.getFormatedPublishDate());
-
+            assertEquals(true, book.isAvaliable());
         } catch (ParseException e) { }
 
     }
