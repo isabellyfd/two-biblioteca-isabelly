@@ -11,8 +11,8 @@ public class BookModelTest {
     public void testBookAttributesEquality(){
 
         Book book = new Book();
-        assertEquals("O pequeno príncipe", book.getName());
-        assertEquals("Le vie es rouge", book.getAuthor());
-        assertEquals("10/09/2018", book.getFormatedPublishDate());
+        assertEquals("O pequeno príncipe", book.getName("O pequeno príncipe"));
+        assertEquals("Le vie es rouge", book.getAuthor("Le vie es rouge"));
+        assertEquals("10/09/2018", book.getFormatedPublishDate("10/09/2018"));
     }
 }

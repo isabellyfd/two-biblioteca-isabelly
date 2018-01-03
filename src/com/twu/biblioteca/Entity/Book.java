@@ -2,15 +2,15 @@ package com.twu.biblioteca.Entity;
 
 public class Book {
 
-    public String getName() {
-        return "";
+    public String getName(String name) {
+        return name;
     }
 
-    public String getAuthor() {
-        return "";
+    public String getAuthor(String author) {
+        return author;
     }
 
-    public String getFormatedPublishDate() {
-        return "";
+    public String getFormatedPublishDate(String formatedString) {
+        return formatedString;
     }
 }
