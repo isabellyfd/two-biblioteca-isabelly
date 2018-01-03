@@ -19,7 +19,7 @@ public class BookModelTest {
             Date publishDate = (Date) dateFormat.parse("10/09/2018");
 
             Book book = new Book("O pequeno príncipe", "Le vie es rouge" , publishDate);
-            assertEquals("O pequeno príncipe", book.getName("O pequeno príncipe"));
+            assertEquals("O pequeno príncipe", book.getName());
             assertEquals("Le vie es rouge", book.getAuthor());
             assertEquals("10/09/2018", book.getFormatedPublishDate());
 

@@ -14,7 +14,7 @@ public class Book {
         this.publishedDate =  publishedDate;
     }
 
-    public String getName(String name) {
+    public String getName() {
         return this.name;
     }
 
