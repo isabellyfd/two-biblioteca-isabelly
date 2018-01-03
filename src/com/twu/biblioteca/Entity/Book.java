@@ -22,9 +22,9 @@ public class Book {
         return this.author;
     }
 
-    public String getFormatedPublishDate(String formatedString) {
+    public String getFormatedPublishDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        formatedString = dateFormat.format(this.publishedDate);
+        String formatedString = dateFormat.format(this.publishedDate);
         return formatedString;
     }
 }
