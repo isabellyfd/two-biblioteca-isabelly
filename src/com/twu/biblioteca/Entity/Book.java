@@ -1,5 +1,6 @@
 package com.twu.biblioteca.Entity;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Book {
@@ -22,6 +23,8 @@ public class Book {
     }
 
     public String getFormatedPublishDate(String formatedString) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        formatedString = dateFormat.format(this.publishedDate);
         return formatedString;
     }
 }
