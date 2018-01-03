@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Entity/Book.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Entity/Book.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BookModelTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BookModelTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BookModelTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" />
     </list>
@@ -33,8 +31,8 @@
       <file leaf-file-name="BookModelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,15 +43,15 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="168">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" />
       </list>
     </option>
   </component>
@@ -181,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookModelTest">
+  <component name="RunManager" selected="JUnit.BookModelTest.testBookAttributesEquality">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -345,8 +343,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BookModelTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BookModelTest.testBookAttributesEquality" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookModelTest.testBookAttributesEquality" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookModelTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
       </list>
     </recent_temporary>
@@ -375,6 +373,9 @@
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 11h 54m 47s.xml">
+      <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 12h 08m 09s.xml">
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExampleTest - 2018.01.03 at 11h 31m 42s.xml">
@@ -421,6 +422,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -429,6 +445,14 @@
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="360" column="16" lean-forward="false" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,25 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
