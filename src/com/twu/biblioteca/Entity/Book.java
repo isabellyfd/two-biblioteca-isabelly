@@ -27,8 +27,7 @@ public class Book {
 
     public String getFormatedPublishDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        String formatedString = dateFormat.format(this.publishedDate);
-        return formatedString;
+        return dateFormat.format(this.publishedDate);
     }
 
     public boolean isAvaliable() {

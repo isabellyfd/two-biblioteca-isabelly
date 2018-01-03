@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BookModelTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,16 +41,16 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="355">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -380,9 +379,6 @@
     <history-entry file="BookModelTest - 2018.01.03 at 14h 00m 00s.xml">
       <configuration name="BookModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 12h 08m 09s.xml">
-      <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 13h 50m 57s.xml">
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
     </history-entry>
@@ -399,6 +395,9 @@
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 14h 06m 27s.xml">
+      <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookModelTest_testBookAttributesEquality - 2018.01.03 at 14h 08m 35s.xml">
       <configuration name="BookModelTest.testBookAttributesEquality" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -483,16 +482,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="355">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
           </folding>
         </state>
       </provider>
