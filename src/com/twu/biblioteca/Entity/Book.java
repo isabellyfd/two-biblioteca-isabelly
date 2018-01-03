@@ -38,4 +38,10 @@ public class Book {
         this.isAvaliable = isAvaliable;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        Book book = (Book) obj;
+
+        return this.toString().equals(book.toString());
+    }
 }
