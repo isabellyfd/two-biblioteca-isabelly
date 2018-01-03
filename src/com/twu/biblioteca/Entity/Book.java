@@ -29,6 +29,6 @@ public class Book {
     }
 
     public boolean isAvaliable() {
-        return false;
+        return true;
     }
 }
