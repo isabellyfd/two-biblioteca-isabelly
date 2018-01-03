@@ -23,6 +23,7 @@ public class LibraryControllerTest {
         try {
             bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling", dateFormat.parse("31/06/1997")));
             bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", dateFormat.parse("31/06/1999")));
+            
         }catch(ParseException e){
             Assert.fail();
         }
@@ -38,5 +39,14 @@ public class LibraryControllerTest {
         Assert.assertEquals(2, books.size());
         Assert.assertEquals("Harry Potter e a pedra filosofal", books.get(0).getName());
         Assert.assertEquals("Harry Potter camara secreta", books.get(1).getName());
+   }
+
+   @Test
+    public void testListAllAvailableMethodBringsOnlyAvailable() {
+        ArrayList<Book> books = this.controller.listAllAvailableBooks();
+
+        for(Book book : books){
+            Assert.assertEquals(true, book.isAvailable());
+        }
    }
 }
