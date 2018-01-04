@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="392">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleHelperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsoleHelperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
       </list>
     </option>
   </component>
@@ -199,6 +199,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TWU_Biblioteca-master" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -447,8 +454,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BookTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BookTest.testIfABookIsEqualsToItself" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookTest.testIfABookIsEqualsToItself" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testGettingAllBooksFromLibrary" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.BookTest.testIsAvaliableDidChangeTheValueToFalse" />
@@ -478,8 +485,8 @@
     <history-entry file="BookTest_testIfABookIsEqualsToItself - 2018.01.03 at 19h 01m 20s.xml">
       <configuration name="BookTest.testIfABookIsEqualsToItself" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryControllerTest - 2018.01.03 at 17h 49m 20s.xml">
-      <configuration name="LibraryControllerTest" configurationId="JUnit" />
+    <history-entry file="BookTest_testIfABookIsEqualsToItself - 2018.01.04 at 10h 50m 01s.xml">
+      <configuration name="BookTest.testIfABookIsEqualsToItself" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryControllerTest - 2018.01.03 at 17h 49m 55s.xml">
       <configuration name="LibraryControllerTest" configurationId="JUnit" />
@@ -1043,16 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/ConsoleHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,6 +1063,16 @@
         <state relative-caret-position="14">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
