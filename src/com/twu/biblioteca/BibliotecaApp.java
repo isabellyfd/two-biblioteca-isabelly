@@ -30,8 +30,10 @@ public class BibliotecaApp {
 
     private static void runLibrary() {
         BibliotecaApp app = BibliotecaApp.getInstance();
+
         app.printWelcomeMessage();
         app.printMenu();
+        
         String option = ConsoleHelper.getUserInput();
         if (app.isAvailableCommand(option)) {
             System.out.println("ok");
