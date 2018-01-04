@@ -16,10 +16,18 @@ public class BibliotecaApp {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        ArrayList<Book> books = new ArrayList<>();
+        books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
+        books.add(new Book("Press Here", "Herve Tullet", 2011));
+
+        BibliotecaApp app = new BibliotecaApp(books);
+
+        app.printWelcomeMessage();
+        app.printAllBooksAvailable();
+
     }
 
-    public void printWelcomeMessage(){
+    protected void printWelcomeMessage(){
         System.out.print(ConsoleHelper.welcomeMessage());
     }
 
