@@ -28,10 +28,6 @@ public class BibliotecaApp {
     }
 
     public void printAllBooksAvailable() {
-        int count = 1;
-        for (Book book : getBooksInLibrary()){
-            System.out.println( count + " - " + book.getName() + " by " + book.getAuthor() + " - " + book.getPublishYear());
-            count++;
-        }
+        ConsoleHelper.printList(getBooksInLibrary());
     }
 }
