@@ -43,6 +43,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return this.getName() + " - " + this.getAuthor() + " - " + this.getPublishYear();
+        return this.getName() + " by " + this.getAuthor() + " - " + this.getPublishYear();
     }
 }

@@ -16,7 +16,7 @@ public class ConsoleHelper {
     public static void printList(ArrayList<Book> books){
         int count = 1;
         for(Book book : books){
-            System.out.println(count + " - " + book.getName() + " by " + book.getAuthor() + " - " + book.getPublishYear());
+            System.out.println(count + " - " + book.toString());
             count++;
         }
     }
