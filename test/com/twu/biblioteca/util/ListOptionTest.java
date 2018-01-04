@@ -27,6 +27,6 @@ public class ListOptionTest {
 
     @Test
     public void testGettingMessageFromListOption() {
-        Assert.assertEquals("[list] shows you all avaliable books in the library", this.listOption.getMessage());
+        Assert.assertEquals("[list] shows you all available books in the library", this.listOption.getMessage());
     }
 }
