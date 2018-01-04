@@ -26,4 +26,10 @@ public class BibliotecaApp {
     protected ArrayList<Book> getBooksInLibrary() {
         return this.controller.listAllAvailableBooks();
     }
+
+    public void printAllBooksAvailable() {
+        for (Book book : getBooksInLibrary()){
+            System.out.println(book.toString());
+        }
+    }
 }
