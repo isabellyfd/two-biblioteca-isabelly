@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListOptionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -28,14 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListOption.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding>
                 <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -434,9 +434,6 @@
     <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.04 at 14h 46m 36s.xml">
       <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest - 2018.01.04 at 14h 00m 50s.xml">
-      <configuration name="ConsoleHelperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConsoleHelperTest_testPrintAllElementsOfTheListFormattedWithToString - 2018.01.04 at 14h 03m 15s.xml">
       <configuration name="ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" configurationId="JUnit" />
     </history-entry>
@@ -447,6 +444,9 @@
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListOptionTest_testIfIsChosenListOption - 2018.01.04 at 14h 58m 15s.xml">
+      <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListOptionTest_testIfIsChosenListOption - 2018.01.04 at 15h 01m 37s.xml">
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -462,7 +462,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1024,6 +1024,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1032,17 +1043,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
