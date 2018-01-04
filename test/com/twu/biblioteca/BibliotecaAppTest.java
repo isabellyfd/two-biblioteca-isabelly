@@ -62,4 +62,10 @@ public class BibliotecaAppTest {
         app.printMenu();
         Assert.assertEquals("[list] shows you all available books in the library", outContent.toString().trim());
     }
+
+    @Test
+    public void testUserInputAvailableInMainMenu() {
+        String userInput = "list";
+        Assert.assertTrue(app.isAvailableCommand(userInput));
+    }
 }

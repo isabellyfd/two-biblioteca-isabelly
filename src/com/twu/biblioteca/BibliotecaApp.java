@@ -44,4 +44,8 @@ public class BibliotecaApp {
         ListOption list = new ListOption();
         ConsoleHelper.printMessage(list.getMessage());
     }
+
+    public boolean isAvailableCommand(String command) {
+        return false;
+    }
 }
