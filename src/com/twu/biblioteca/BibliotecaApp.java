@@ -7,11 +7,11 @@ import com.twu.biblioteca.util.ConsoleHelper;
 import java.util.ArrayList;
 
 public class BibliotecaApp {
-    private ArrayList<Book> books;
+
     private LibraryController controller;
 
     public BibliotecaApp(ArrayList<Book> books){
-        this.books = books;
+
         this.controller = new LibraryController(books);
     }
 
