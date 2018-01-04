@@ -1,11 +1,6 @@
 package com.twu.biblioteca.entity;
 
 import org.junit.Test;
-import com.twu.biblioteca.Entity.Book;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 import static org.junit.Assert.assertEquals;

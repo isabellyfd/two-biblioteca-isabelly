@@ -4,12 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import com.twu.biblioteca.controller.LibraryController;
-import com.twu.biblioteca.Entity.Book;
+import com.twu.biblioteca.entity.Book;
 
 
 public class LibraryControllerTest {

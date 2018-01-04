@@ -1,7 +1,4 @@
-package com.twu.biblioteca.Entity;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
+package com.twu.biblioteca.entity;
 
 public class Book {
     private String name;

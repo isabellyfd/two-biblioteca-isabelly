@@ -1,6 +1,6 @@
 package com.twu.biblioteca.controller;
 
-import com.twu.biblioteca.Entity.Book;
+import com.twu.biblioteca.entity.Book;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
