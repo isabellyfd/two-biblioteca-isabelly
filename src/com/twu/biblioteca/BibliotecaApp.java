@@ -12,9 +12,16 @@ public class BibliotecaApp {
     private LibraryController controller;
     private ListOption listOption;
 
-    public BibliotecaApp(ArrayList<Book> books){
+    protected BibliotecaApp(ArrayList<Book> books){
         this.controller = new LibraryController(books);
         this.listOption = new ListOption();
+    }
+
+    public static BibliotecaApp getInstance() {
+        ArrayList<Book> books = new ArrayList<>();
+        books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
+        books.add(new Book("Press Here", "Herve Tullet", 2011));
+        return new BibliotecaApp(books);
     }
 
     public static void main(String[] args) {
@@ -22,17 +29,10 @@ public class BibliotecaApp {
     }
 
     private static void runLibrary() {
-        ArrayList<Book> books = new ArrayList<>();
-        books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
-        books.add(new Book("Press Here", "Herve Tullet", 2011));
-
-        BibliotecaApp app = new BibliotecaApp(books);
-
+        BibliotecaApp app = BibliotecaApp.getInstance();
         app.printWelcomeMessage();
         app.printMenu();
-
         String option = ConsoleHelper.getUserInput();
-
         if (app.isAvailableCommand(option)) {
             System.out.println("ok");
         }
@@ -51,12 +51,10 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
-        ListOption list = new ListOption();
         ConsoleHelper.printMessage(listOption.getMessage());
     }
 
     public boolean isAvailableCommand(String command) {
-        ListOption list = new ListOption();
         return listOption.check(command);
     }
 }
