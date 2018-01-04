@@ -3,6 +3,7 @@ package com.twu.biblioteca;
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.util.ConsoleHelper;
+import com.twu.biblioteca.util.ListOption;
 
 import java.util.ArrayList;
 
@@ -40,6 +41,7 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
-        System.out.println("[list] shows you all avaliable books in the library");
+        ListOption list = new ListOption();
+        System.out.println(list.getMessage());
     }
 }
