@@ -4,6 +4,7 @@ import com.twu.biblioteca.entity.Book;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ConsoleHelper {
 
@@ -26,6 +27,6 @@ public class ConsoleHelper {
     }
 
     public static String getUserInput() {
-        return "list";
+        return new Scanner(System.in).next();
     }
 }
