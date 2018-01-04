@@ -1,10 +1,7 @@
 package com.twu.biblioteca;
 
 import com.twu.biblioteca.entity.Book;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.Assert;
+import org.junit.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -15,11 +12,6 @@ public class BibliotecaAppTest {
     private static final ByteArrayOutputStream outContent =  new ByteArrayOutputStream();
     private BibliotecaApp app;
 
-    @BeforeClass
-    public static void setupStreams(){
-        System.setOut(new PrintStream(outContent));
-    }
-
     @Before
     public void setup(){
         ArrayList<Book> books = new ArrayList<>();
@@ -27,8 +19,16 @@ public class BibliotecaAppTest {
         books.add(new Book("Press Here", "Herve Tullet", 2011));
 
         app = new BibliotecaApp(books);
+
+        System.setOut(new PrintStream(outContent));
     }
 
+
+    @After
+    public void teardown() {
+        outContent.reset();
+        System.setOut(null);
+    }
 
     @Test
     public void testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod() {
@@ -60,6 +60,6 @@ public class BibliotecaAppTest {
     @Test
     public void testIfMenuIsPrinted() {
         app.printMenu();
-        Assert.assertEquals("[list] shows you all avaliable books in the library", outContent.toString().trim());
+        Assert.assertEquals("[list] shows you all available books in the library", outContent.toString().trim());
     }
 }

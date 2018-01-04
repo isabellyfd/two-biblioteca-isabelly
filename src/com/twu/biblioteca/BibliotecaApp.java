@@ -29,7 +29,7 @@ public class BibliotecaApp {
     }
 
     public void printWelcomeMessage(){
-        System.out.print(ConsoleHelper.welcomeMessage());
+        ConsoleHelper.printMessage(ConsoleHelper.welcomeMessage());
     }
 
     protected ArrayList<Book> getBooksInLibrary() {
@@ -42,6 +42,6 @@ public class BibliotecaApp {
 
     public void printMenu() {
         ListOption list = new ListOption();
-        System.out.println(list.getMessage());
+        ConsoleHelper.printMessage(list.getMessage());
     }
 }
