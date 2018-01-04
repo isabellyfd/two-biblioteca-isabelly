@@ -4,6 +4,7 @@ import com.twu.biblioteca.entity.Book;
 import org.junit.*;
 import com.twu.biblioteca.util.ConsoleHelper;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -43,5 +44,14 @@ public class ConsoleHelperTest {
         String message = "Oi amiguinho!";
         ConsoleHelper.printMessage(message);
         Assert.assertEquals("Oi amiguinho!", outContent.toString().trim());
+    }
+
+    @Test
+    public void testGettingUserInput() {
+        String expectedInput = "list";
+        ByteArrayInputStream inContent = new ByteArrayInputStream(expectedInput.getBytes());
+        System.setIn(System.in);
+        String userInput = ConsoleHelper.getUserInput();
+        Assert.assertEquals(expectedInput, userInput);
     }
 }

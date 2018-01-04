@@ -24,7 +24,7 @@ public class BibliotecaApp {
         BibliotecaApp app = new BibliotecaApp(books);
 
         app.printWelcomeMessage();
-        app.printAllBooksAvailable();
+        app.printMenu();
 
     }
 
