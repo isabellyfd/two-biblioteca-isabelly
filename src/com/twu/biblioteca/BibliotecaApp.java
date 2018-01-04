@@ -40,6 +40,6 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
-
+        System.out.println("[list] shows you all avaliable books in the library");
     }
 }

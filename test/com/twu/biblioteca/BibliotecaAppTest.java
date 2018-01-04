@@ -60,6 +60,6 @@ public class BibliotecaAppTest {
     @Test
     public void testIfMenuIsPrinted() {
         app.printMenu();
-        Assert.assertEquals("[list] shows you all avaliable books in the library", outContent.toString());
+        Assert.assertEquals("[list] shows you all avaliable books in the library", outContent.toString().trim());
     }
 }
