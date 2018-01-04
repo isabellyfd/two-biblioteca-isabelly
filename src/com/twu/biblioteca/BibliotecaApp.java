@@ -6,5 +6,7 @@ public class BibliotecaApp {
         System.out.println("Hello, world!");
     }
 
-    protected void printWelcomeMessage(){ }
+    protected void printWelcomeMessage(){
+        System.out.print("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!");
+    }
 }
