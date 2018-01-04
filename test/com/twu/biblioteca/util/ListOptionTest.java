@@ -24,4 +24,9 @@ public class ListOptionTest {
         String userInput =  "lits";
         Assert.assertFalse(this.listOption.check(userInput));
     }
+
+    @Test
+    public void testGettingMessageFromListOption() {
+        Assert.assertEquals("[list] shows you all avaliable books in the library", this.listOption.getMessage());
+    }
 }

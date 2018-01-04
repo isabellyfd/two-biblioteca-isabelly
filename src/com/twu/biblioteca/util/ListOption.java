@@ -4,9 +4,12 @@ public class ListOption {
 
     private final String COMMAND = "list";
 
-    protected boolean check(String userInput){
+    public boolean check(String userInput){
         return COMMAND.equals(userInput);
     }
 
+    public String getMessage(){
+        return "";
+    }
 
 }
