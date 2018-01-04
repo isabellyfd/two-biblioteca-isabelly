@@ -27,6 +27,6 @@ public class BibliotecaAppTest {
     @Test
     public void testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod() {
         app.printWelcomeMessage();
-        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!", outContent.toString());
+        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!\n", outContent.toString());
     }
 }

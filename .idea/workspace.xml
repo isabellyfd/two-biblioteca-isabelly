@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="" />
+    <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +44,8 @@
       <file leaf-file-name="BibliotecaAppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="397">
+              <caret line="29" column="116" lean-forward="false" selection-start-line="29" selection-start-column="116" selection-end-line="29" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -100,10 +102,10 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
       </list>
     </option>
   </component>
@@ -208,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BibliotecaAppTest">
+  <component name="RunManager" selected="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -418,10 +420,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintWelcomeMessageCorrectly" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintWelcomeMessageCorrectly" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
       </list>
     </recent_temporary>
@@ -464,8 +466,8 @@
     <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 11h 16m 12s.xml">
       <configuration name="BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest - 2018.01.04 at 10h 58m 42s.xml">
-      <configuration name="ConsoleHelperTest" configurationId="JUnit" />
+    <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 11h 21m 56s.xml">
+      <configuration name="BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConsoleHelperTest_testPrintWelcomeMessageCorrectly - 2018.01.04 at 11h 19m 06s.xml">
       <configuration name="ConsoleHelperTest.testPrintWelcomeMessageCorrectly" configurationId="JUnit" />
@@ -486,7 +488,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1016,8 +1018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="397">
+          <caret line="29" column="116" lean-forward="false" selection-start-line="29" selection-start-column="116" selection-end-line="29" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
