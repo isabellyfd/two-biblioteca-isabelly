@@ -8,6 +8,6 @@ public class ConsoleHelperTest {
 
     @Test
     public void testPrintWelcomeMessageCorrectly() {
-        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!", ConsoleHelper.welcomeMessage());
+        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!\n", ConsoleHelper.welcomeMessage());
     }
 }
