@@ -9,7 +9,7 @@ public class ListOption {
     }
 
     public String getMessage(){
-        return "";
+        return "[list] shows you all avaliable books in the library";
     }
 
 }
