@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/util/ListOption.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/util/ListOption.class" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="ListOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -31,11 +33,11 @@
       <file leaf-file-name="ListOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="42">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListOptionTest.testIfIsChosenListOption">
+  <component name="RunManager" selected="JUnit.ListOptionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -275,7 +277,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.twu.biblioteca.util.*" />
@@ -286,9 +288,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.twu.biblioteca.util" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.util.ConsoleHelperTest" />
-      <option name="METHOD_NAME" value="testPrintAllElementsOfTheListFormattedWithToString" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.util.ListOptionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -387,18 +389,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfMenuIsPrinted" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ListOptionTest.testIfIsChosenListOption" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfMenuIsPrinted" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListOptionTest.testIfIsChosenListOption" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListOptionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ListOptionTest.testIfIsChosenListOption" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfMenuIsPrinted" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ListOptionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ListOptionTest.testIfIsChosenListOption" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfMenuIsPrinted" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted" />
       </list>
     </recent_temporary>
   </component>
@@ -434,11 +436,11 @@
     <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.04 at 14h 46m 36s.xml">
       <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest_testPrintAllElementsOfTheListFormattedWithToString - 2018.01.04 at 14h 03m 15s.xml">
-      <configuration name="ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" configurationId="JUnit" />
+    <history-entry file="ListOptionTest - 2018.01.04 at 15h 03m 06s.xml">
+      <configuration name="ListOptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest_testPrintAllElementsOfTheListFormattedWithToString - 2018.01.04 at 14h 08m 18s.xml">
-      <configuration name="ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" configurationId="JUnit" />
+    <history-entry file="ListOptionTest - 2018.01.04 at 15h 03m 50s.xml">
+      <configuration name="ListOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListOptionTest_testIfIsChosenListOption - 2018.01.04 at 14h 57m 51s.xml">
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
@@ -1026,19 +1028,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ListOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
