@@ -26,6 +26,6 @@ public class ConsoleHelper {
     }
 
     public static String getUserInput() {
-        return "";
+        return "list";
     }
 }
