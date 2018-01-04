@@ -37,4 +37,11 @@ public class ConsoleHelperTest {
         ConsoleHelper.printList(books);
         Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007\n2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
     }
+
+    @Test
+    public void testPrintMessageMethod(){
+        String message = "Oi amiguinho!";
+        ConsoleHelper.printMessage(message);
+        Assert.assertEquals("Oi amiguinho!", outContent.toString().trim());
+    }
 }

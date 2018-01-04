@@ -20,4 +20,8 @@ public class ConsoleHelper {
             count++;
         }
     }
+
+    public static void printMessage(String message){
+
+    }
 }
