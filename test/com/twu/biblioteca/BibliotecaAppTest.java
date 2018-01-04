@@ -33,7 +33,7 @@ public class BibliotecaAppTest {
     @Test
     public void testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod() {
         app.printWelcomeMessage();
-        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!\n", outContent.toString());
+        Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!", outContent.toString().trim());
     }
 
     @Test
@@ -54,7 +54,7 @@ public class BibliotecaAppTest {
     @Test
     public void testIfAllBooksWerePrinted() {
         app.printAllBooksAvailable();
-        Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007\n", outContent.toString());
-        Assert.assertEquals("2 - Press Here by Herve Tullet - 2011", outContent.toString());
+        Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007", outContent.toString().trim());
+        Assert.assertEquals("2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
     }
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BibliotecaAppTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/BibliotecaAppTest.class" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
     </list>
@@ -30,8 +33,8 @@
       <file leaf-file-name="BibliotecaApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="462">
+              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
@@ -48,8 +51,8 @@
       <file leaf-file-name="BibliotecaAppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="57" column="90" lean-forward="true" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+            <state relative-caret-position="89">
+              <caret line="35" column="145" lean-forward="false" selection-start-line="35" selection-start-column="145" selection-end-line="35" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#477#478#0" expanded="true" />
@@ -106,8 +109,8 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
       </list>
     </option>
   </component>
@@ -212,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted">
+  <component name="RunManager" selected="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -422,11 +425,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBookWereRecovered" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBooksWerePrinted" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testIfAllBookWereRecovered" />
       </list>
     </recent_temporary>
   </component>
@@ -447,15 +450,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BibliotecaAppTest - 2018.01.04 at 11h 43m 50s.xml">
-      <configuration name="BibliotecaAppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BibliotecaAppTest - 2018.01.04 at 11h 49m 55s.xml">
-      <configuration name="BibliotecaAppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BibliotecaAppTest - 2018.01.04 at 11h 51m 58s.xml">
-      <configuration name="BibliotecaAppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BibliotecaAppTest - 2018.01.04 at 11h 53m 14s.xml">
       <configuration name="BibliotecaAppTest" configurationId="JUnit" />
     </history-entry>
@@ -465,16 +459,25 @@
     <history-entry file="BibliotecaAppTest - 2018.01.04 at 12h 00m 30s.xml">
       <configuration name="BibliotecaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BibliotecaAppTest_testIfAllBookWereRecovered - 2018.01.04 at 11h 40m 21s.xml">
-      <configuration name="BibliotecaAppTest.testIfAllBookWereRecovered" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BibliotecaAppTest_testIfAllBooksWerePrinted - 2018.01.04 at 12h 00m 47s.xml">
       <configuration name="BibliotecaAppTest.testIfAllBooksWerePrinted" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BibliotecaAppTest_testIfAllBooksWerePrinted - 2018.01.04 at 12h 03m 32s.xml">
       <configuration name="BibliotecaAppTest.testIfAllBooksWerePrinted" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 11h 21m 56s.xml">
+    <history-entry file="BibliotecaAppTest_testIfAllBooksWerePrinted - 2018.01.04 at 12h 05m 47s.xml">
+      <configuration name="BibliotecaAppTest.testIfAllBooksWerePrinted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfAllBooksWerePrinted - 2018.01.04 at 12h 06m 39s.xml">
+      <configuration name="BibliotecaAppTest.testIfAllBooksWerePrinted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfAllBooksWerePrinted - 2018.01.04 at 12h 07m 39s.xml">
+      <configuration name="BibliotecaAppTest.testIfAllBooksWerePrinted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 12h 07m 11s.xml">
+      <configuration name="BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 12h 08m 54s.xml">
       <configuration name="BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -572,7 +575,7 @@
         <state relative-caret-position="125">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,7 +644,7 @@
         <state relative-caret-position="350">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#350#356#0" expanded="true" />
+            <element signature="e#350#356#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,7 +654,7 @@
         <state relative-caret-position="283">
           <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,7 +710,7 @@
         <state relative-caret-position="125">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,7 +767,7 @@
         <state relative-caret-position="125">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,7 +803,7 @@
         <state relative-caret-position="375">
           <caret line="53" column="92" lean-forward="false" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -877,7 +880,7 @@
         <state relative-caret-position="125">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,7 +936,7 @@
         <state relative-caret-position="125">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,7 +991,7 @@
         <state relative-caret-position="476">
           <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <element signature="e#350#356#0" expanded="true" />
+            <element signature="e#350#356#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,7 +1009,7 @@
         <state relative-caret-position="392">
           <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1040,21 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state relative-caret-position="462">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
@@ -1067,10 +1059,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="57" column="90" lean-forward="true" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+        <state relative-caret-position="89">
+          <caret line="35" column="145" lean-forward="false" selection-start-line="35" selection-start-column="145" selection-end-line="35" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
