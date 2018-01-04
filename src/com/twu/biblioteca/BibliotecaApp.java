@@ -27,7 +27,7 @@ public class BibliotecaApp {
 
     }
 
-    protected void printWelcomeMessage(){
+    public void printWelcomeMessage(){
         System.out.print(ConsoleHelper.welcomeMessage());
     }
 
@@ -37,5 +37,9 @@ public class BibliotecaApp {
 
     public void printAllBooksAvailable() {
         ConsoleHelper.printList(getBooksInLibrary());
+    }
+
+    public void printMenu() {
+
     }
 }
