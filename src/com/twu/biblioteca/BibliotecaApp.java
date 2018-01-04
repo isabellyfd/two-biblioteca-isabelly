@@ -24,6 +24,6 @@ public class BibliotecaApp {
     }
 
     protected ArrayList<Book> getBooksInLibrary() {
-        return this.books;
+        return this.controller.listAllAvailableBooks();
     }
 }
