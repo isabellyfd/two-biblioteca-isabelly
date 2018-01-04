@@ -10,10 +10,11 @@ import java.util.ArrayList;
 public class BibliotecaApp {
 
     private LibraryController controller;
+    private ListOption listOption;
 
     public BibliotecaApp(ArrayList<Book> books){
-
         this.controller = new LibraryController(books);
+        this.listOption = new ListOption();
     }
 
     public static void main(String[] args) {
@@ -42,11 +43,11 @@ public class BibliotecaApp {
 
     public void printMenu() {
         ListOption list = new ListOption();
-        ConsoleHelper.printMessage(list.getMessage());
+        ConsoleHelper.printMessage(listOption.getMessage());
     }
 
     public boolean isAvailableCommand(String command) {
         ListOption list = new ListOption();
-        return list.check(command);
+        return listOption.check(command);
     }
 }
