@@ -33,10 +33,12 @@ public class BibliotecaApp {
 
         app.printWelcomeMessage();
         app.printMenu();
-        
+
         String option = ConsoleHelper.getUserInput();
         if (app.isAvailableCommand(option)) {
-            System.out.println("ok");
+           ConsoleHelper.printList(app.getBooksInLibrary());
+        }else {
+            ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
         }
     }
 
