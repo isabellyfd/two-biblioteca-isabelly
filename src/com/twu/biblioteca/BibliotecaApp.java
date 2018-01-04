@@ -1,5 +1,7 @@
 package com.twu.biblioteca;
 
+import com.twu.biblioteca.util.ConsoleHelper;
+
 public class BibliotecaApp {
 
     public static void main(String[] args) {
@@ -7,6 +9,6 @@ public class BibliotecaApp {
     }
 
     protected void printWelcomeMessage(){
-        System.out.print("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!");
+        System.out.print(ConsoleHelper.welcomeMessage());
     }
 }
