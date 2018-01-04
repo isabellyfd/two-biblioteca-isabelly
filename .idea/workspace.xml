@@ -35,8 +35,8 @@
       <file leaf-file-name="BibliotecaApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="458">
+              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#841#842#0" expanded="true" />
@@ -45,8 +45,6 @@
                 <element signature="e#1030#1031#0" expanded="true" />
                 <element signature="e#1074#1075#0" expanded="true" />
                 <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -464,8 +462,8 @@
     <history-entry file="BibliotecaAppTest_testUserInputAvailableInMainMenu - 2018.01.04 at 16h 27m 18s.xml">
       <configuration name="BibliotecaAppTest.testUserInputAvailableInMainMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest - 2018.01.04 at 15h 52m 02s.xml">
-      <configuration name="ConsoleHelperTest" configurationId="JUnit" />
+    <history-entry file="BibliotecaAppTest_testUserInputAvailableInMainMenu - 2018.01.04 at 16h 28m 47s.xml">
+      <configuration name="BibliotecaAppTest.testUserInputAvailableInMainMenu" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConsoleHelperTest_testGettingUserInput - 2018.01.04 at 16h 06m 43s.xml">
       <configuration name="ConsoleHelperTest.testGettingUserInput" configurationId="JUnit" />
@@ -591,8 +589,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,8 +668,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,8 +746,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,8 +781,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,8 +838,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,8 +915,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1092,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="458">
+          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#841#842#0" expanded="true" />
@@ -1102,8 +1088,6 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
           </folding>
         </state>
       </provider>

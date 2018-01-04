@@ -46,6 +46,7 @@ public class BibliotecaApp {
     }
 
     public boolean isAvailableCommand(String command) {
-        return true;
+        ListOption list = new ListOption();
+        return list.check(command);
     }
 }
