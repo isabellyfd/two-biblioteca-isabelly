@@ -17,8 +17,8 @@
       <file leaf-file-name="ListOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="322">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -419,9 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.04 at 14h 46m 36s.xml">
-      <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListOptionTest - 2018.01.04 at 15h 03m 06s.xml">
       <configuration name="ListOptionTest" configurationId="JUnit" />
     </history-entry>
@@ -447,6 +444,9 @@
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListOptionTest_testIfIsNotChosenListOption - 2018.01.04 at 15h 06m 37s.xml">
+      <configuration name="ListOptionTest.testIfIsNotChosenListOption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListOptionTest_testIfIsNotChosenListOption - 2018.01.04 at 15h 07m 40s.xml">
       <configuration name="ListOptionTest.testIfIsNotChosenListOption" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1037,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ListOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="322">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />

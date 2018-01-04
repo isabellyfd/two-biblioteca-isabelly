@@ -21,7 +21,7 @@ public class ListOptionTest {
 
     @Test
     public void testIfIsNotChosenListOption() {
-        String userInput =  "list";
+        String userInput =  "lits";
         Assert.assertFalse(this.listOption.check(userInput));
     }
 }
