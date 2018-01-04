@@ -46,6 +46,6 @@ public class BibliotecaApp {
     }
 
     public boolean isAvailableCommand(String command) {
-        return false;
+        return true;
     }
 }
