@@ -18,4 +18,10 @@ public class ListOptionTest {
         String userInput = "list";
         Assert.assertTrue(this.listOption.check(userInput));
     }
+
+    @Test
+    public void testIfIsNotChosenListOption() {
+        String userInput =  "list";
+        Assert.assertFalse(this.listOption.check(userInput));
+    }
 }
