@@ -7,4 +7,6 @@ public class ListOption {
     protected boolean check(String userInput){
         return COMMAND.equals(userInput);
     }
+
+
 }
