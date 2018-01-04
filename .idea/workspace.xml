@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
+              <caret line="10" column="140" lean-forward="false" selection-start-line="10" selection-start-column="140" selection-end-line="10" selection-end-column="140" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +60,11 @@
       <file leaf-file-name="ConsoleHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="137" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="137" />
+            <state relative-caret-position="126">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,10 +102,10 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Entity/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/BookTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
       </list>
     </option>
   </component>
@@ -463,9 +463,6 @@
     <history-entry file="BibliotecaAppTest_testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod - 2018.01.04 at 11h 16m 12s.xml">
       <configuration name="BibliotecaAppTest.testIfPrintedWelcomeMessageWhenCalledPrintWelcomeMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_testIfABookIsEqualsToItself - 2018.01.04 at 10h 50m 01s.xml">
-      <configuration name="BookTest.testIfABookIsEqualsToItself" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConsoleHelperTest - 2018.01.04 at 10h 58m 42s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
@@ -473,6 +470,9 @@
       <configuration name="ConsoleHelperTest.testPrintWelcomeMessageCorrectly" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConsoleHelperTest_testPrintWelcomeMessageCorrectly - 2018.01.04 at 11h 19m 06s.xml">
+      <configuration name="ConsoleHelperTest.testPrintWelcomeMessageCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsoleHelperTest_testPrintWelcomeMessageCorrectly - 2018.01.04 at 11h 19m 53s.xml">
       <configuration name="ConsoleHelperTest.testPrintWelcomeMessageCorrectly" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -995,17 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="137" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="137" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -1020,10 +1009,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
+          <caret line="10" column="140" lean-forward="false" selection-start-line="10" selection-start-column="140" selection-end-line="10" selection-end-column="140" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
