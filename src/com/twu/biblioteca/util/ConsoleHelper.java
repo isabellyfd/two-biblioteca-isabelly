@@ -2,6 +2,7 @@ package com.twu.biblioteca.util;
 
 import com.twu.biblioteca.entity.Book;
 
+import java.awt.*;
 import java.util.ArrayList;
 
 public class ConsoleHelper {
@@ -13,6 +14,10 @@ public class ConsoleHelper {
     }
 
     public static void printList(ArrayList<Book> books){
-
+        int count = 1;
+        for(Book book : books){
+            System.out.println(count + " - " + book.getName() + " by " + book.getAuthor() + " - " + book.getPublishYear());
+            count++;
+        }
     }
 }

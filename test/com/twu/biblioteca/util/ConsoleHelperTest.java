@@ -1,10 +1,7 @@
 package com.twu.biblioteca.util;
 
 import com.twu.biblioteca.entity.Book;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.Assert;
+import org.junit.*;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 import java.io.ByteArrayOutputStream;
@@ -13,13 +10,17 @@ import java.util.ArrayList;
 
 public class ConsoleHelperTest {
 
-    private static final ByteArrayOutputStream outContent =  new ByteArrayOutputStream();
+    private final ByteArrayOutputStream outContent =  new ByteArrayOutputStream();
 
-    @BeforeClass
-    public static void setupStreams(){
+    @Before
+    public void setup(){
         System.setOut(new PrintStream(outContent));
     }
 
+    @After
+    public void teardown(){
+        System.setOut(null);
+    }
 
 
     @Test
@@ -34,7 +35,6 @@ public class ConsoleHelperTest {
         books.add(new Book("Press Here", "Herve Tullet", 2011));
 
         ConsoleHelper.printList(books);
-        Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007", outContent.toString().trim());
-        Assert.assertEquals("2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
+        Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007\n2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
     }
 }
