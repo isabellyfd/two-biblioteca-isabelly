@@ -6,9 +6,10 @@ import com.twu.biblioteca.util.ConsoleHelper;
 import java.util.ArrayList;
 
 public class BibliotecaApp {
+    private ArrayList<Book> books;
 
     public BibliotecaApp(ArrayList<Book> books){
-
+        this.books = books;
     }
 
     public static void main(String[] args) {
@@ -20,6 +21,6 @@ public class BibliotecaApp {
     }
 
     protected ArrayList<Book> getBooksInLibrary() {
-        return new ArrayList<>();
+        return this.books;
     }
 }
