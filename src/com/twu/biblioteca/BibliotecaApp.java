@@ -70,6 +70,7 @@ public class BibliotecaApp {
     }
 
     public boolean isQuitCommand(String command) {
-        return true;
+        QuitOption quitOption = new QuitOption();
+        return quitOption.check(command);
     }
 }
