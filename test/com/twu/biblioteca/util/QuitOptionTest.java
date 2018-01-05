@@ -21,4 +21,9 @@ public class QuitOptionTest {
         Assert.assertTrue(this.quitOption.check(userInput));
     }
 
+    @Test
+    public void testIfChosenOptionIsNotQuitOption(){
+        String userInput = "quit";
+        Assert.assertFalse(this.quitOption.check(userInput));
+    }
 }

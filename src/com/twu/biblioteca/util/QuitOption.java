@@ -2,7 +2,9 @@ package com.twu.biblioteca.util;
 
 public class QuitOption {
 
+    private final String COMMAND = "quit";
+
     public boolean check(String userInput){
-        return "quit".equals(userInput);
+        return COMMAND.equals(userInput);
     }
 }
