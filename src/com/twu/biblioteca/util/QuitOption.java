@@ -9,6 +9,6 @@ public class QuitOption {
     }
 
     public String getMessage() {
-        return "";
+        return "[quit] quits the program";
     }
 }
