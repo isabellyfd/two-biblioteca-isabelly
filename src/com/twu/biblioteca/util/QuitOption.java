@@ -7,4 +7,8 @@ public class QuitOption {
     public boolean check(String userInput){
         return COMMAND.equals(userInput);
     }
+
+    public String getMessage() {
+        return "";
+    }
 }

@@ -26,4 +26,9 @@ public class QuitOptionTest {
         String userInput = "qut";
         Assert.assertFalse(this.quitOption.check(userInput));
     }
+
+    @Test
+    public void testGettingMessageFromCommand() {
+        Assert.assertEquals("[quit] quits the program", this.quitOption.getMessage());
+    }
 }
