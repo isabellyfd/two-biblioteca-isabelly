@@ -73,4 +73,8 @@ public class BibliotecaApp {
         QuitOption quitOption = new QuitOption();
         return quitOption.check(command);
     }
+
+    public boolean isListCommand(String command){
+        return false;
+    }
 }

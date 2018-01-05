@@ -74,4 +74,10 @@ public class BibliotecaAppTest {
         String userInput = "quit";
         Assert.assertTrue(app.isQuitCommand(userInput));
     }
+
+    @Test
+    public void testUserInputIsList() {
+        String userInput = "list";
+        Assert.assertTrue(app.isListCommand(userInput));
+    }
 }
