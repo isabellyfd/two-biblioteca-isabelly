@@ -72,7 +72,6 @@ public class BibliotecaApp {
     }
 
     public boolean isListCommand(String command){
-        ListOption listOption = new ListOption();
-        return listOption.check(command);
+        return this.listOption.check(command);
     }
 }
