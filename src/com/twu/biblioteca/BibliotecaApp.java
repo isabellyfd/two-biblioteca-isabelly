@@ -3,8 +3,8 @@ package com.twu.biblioteca;
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.util.ConsoleHelper;
-import com.twu.biblioteca.entity.ListOption;
-import com.twu.biblioteca.entity.QuitOption;
+import com.twu.biblioteca.menu.ListOption;
+import com.twu.biblioteca.menu.QuitOption;
 
 import java.util.ArrayList;
 

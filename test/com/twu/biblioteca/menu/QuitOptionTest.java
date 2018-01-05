@@ -1,6 +1,6 @@
-package com.twu.biblioteca.entity;
+package com.twu.biblioteca.menu;
 
-import com.twu.biblioteca.entity.QuitOption;
+import com.twu.biblioteca.menu.QuitOption;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package com.twu.biblioteca.entity;
+package com.twu.biblioteca.menu;
 
 public class Commands {
     public static final String QUIT_COMMAND = "quit";

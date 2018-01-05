@@ -1,4 +1,4 @@
-package com.twu.biblioteca.entity;
+package com.twu.biblioteca.menu;
 
 public class Option {
     private String command;
