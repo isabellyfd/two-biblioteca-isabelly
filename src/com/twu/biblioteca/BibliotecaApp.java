@@ -56,8 +56,9 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
+        QuitOption quitOption = new QuitOption();
         ConsoleHelper.printMessage(listOption.getMessage());
-        ConsoleHelper.printMessage("[quit] quits the program");
+        ConsoleHelper.printMessage(quitOption.getMessage());
     }
 
     public boolean isAvailableCommand(String command) {

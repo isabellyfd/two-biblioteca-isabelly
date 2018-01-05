@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="BibliotecaApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+            <state relative-caret-position="298">
+              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/QuitOptionTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/QuitOption.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
       </list>
     </option>
   </component>
@@ -490,6 +490,9 @@
     <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.05 at 11h 09m 33s.xml">
       <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.05 at 11h 11m 04s.xml">
+      <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BibliotecaAppTest_testUserInputAvailableInMainMenu - 2018.01.05 at 11h 02m 34s.xml">
       <configuration name="BibliotecaAppTest.testUserInputAvailableInMainMenu" configurationId="JUnit" />
     </history-entry>
@@ -504,9 +507,6 @@
     </history-entry>
     <history-entry file="QuitOptionTest_testGettingMessageFromCommand - 2018.01.05 at 10h 51m 44s.xml">
       <configuration name="QuitOptionTest.testGettingMessageFromCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuitOptionTest_testIfChosenOptionIsNotQuitOption - 2018.01.05 at 10h 45m 15s.xml">
-      <configuration name="QuitOptionTest.testIfChosenOptionIsNotQuitOption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuitOptionTest_testIfChosenOptionIsNotQuitOption - 2018.01.05 at 10h 46m 31s.xml">
       <configuration name="QuitOptionTest.testIfChosenOptionIsNotQuitOption" configurationId="JUnit" />
@@ -1092,8 +1092,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="59" column="62" lean-forward="false" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+        <state relative-caret-position="298">
+          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
