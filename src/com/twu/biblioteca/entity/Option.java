@@ -4,10 +4,6 @@ public class Option {
     private String command;
     private String message;
 
-    public String getCommand() {
-        return this.command;
-    }
-
     public void setCommand(String command) {
         this.command = command;
     }
