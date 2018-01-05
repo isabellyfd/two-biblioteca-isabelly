@@ -23,7 +23,7 @@ public class QuitOptionTest {
 
     @Test
     public void testIfChosenOptionIsNotQuitOption(){
-        String userInput = "quit";
+        String userInput = "qut";
         Assert.assertFalse(this.quitOption.check(userInput));
     }
 }
