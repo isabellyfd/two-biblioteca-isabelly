@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/entity/ListOptionTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/entity/QuitOptionTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/entity/Commands.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/entity/ListOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListOption.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/entity/Option.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/entity/QuitOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/entity/ListOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/entity/QuitOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/QuitOptionTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,11 +71,13 @@
       <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="140">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -508,9 +499,6 @@
     <history-entry file="ListOptionTest - 2018.01.05 at 15h 38m 35s.xml">
       <configuration name="ListOptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListOptionTest_testIfIsChosenListOption - 2018.01.05 at 15h 38m 30s.xml">
-      <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListOptionTest_testIfIsChosenListOption - 2018.01.05 at 15h 41m 51s.xml">
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
     </history-entry>
@@ -521,6 +509,9 @@
       <configuration name="ListOptionTest.testIfIsChosenListOption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest - 2018.01.05 at 16h 13m 25s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest - 2018.01.05 at 16h 19m 19s.xml">
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest_testCreationOfMenu - 2018.01.05 at 16h 12m 37s.xml">
@@ -1174,11 +1165,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="140">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
