@@ -75,6 +75,6 @@ public class BibliotecaApp {
     }
 
     public boolean isListCommand(String command){
-        return false;
+        return true;
     }
 }
