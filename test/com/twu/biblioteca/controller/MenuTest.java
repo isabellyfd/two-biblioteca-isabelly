@@ -25,6 +25,8 @@ public class MenuTest {
         String command = "quit";
         Assert.assertTrue(menu.isCommandAvailable(command));
 
+        command = "list";
+        Assert.assertTrue(menu.isCommandAvailable(command));
     }
 
 
