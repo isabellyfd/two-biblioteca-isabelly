@@ -68,4 +68,8 @@ public class BibliotecaApp {
         }
         return false;
     }
+
+    public boolean isQuitCommand(String command) {
+        return false;
+    }
 }
