@@ -36,10 +36,15 @@ public class BibliotecaApp {
         app.printMenu();
 
         String option = ConsoleHelper.getUserInput();
-        if (app.isAvailableCommand(option)) {
-           ConsoleHelper.printList(app.getBooksInLibrary());
-        }else {
-            ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
+
+        while (!app.isQuitCommand(option)){
+            if (app.isListCommand(option)) {
+                ConsoleHelper.printList(app.getBooksInLibrary());
+            }else {
+                ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
+            }
+            app.printMenu();
+            option = ConsoleHelper.getUserInput();
         }
     }
 
@@ -75,6 +80,7 @@ public class BibliotecaApp {
     }
 
     public boolean isListCommand(String command){
-        return true;
+        ListOption listOption = new ListOption();
+        return listOption.check(command);
     }
 }
