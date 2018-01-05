@@ -66,14 +66,6 @@ public class BibliotecaApp {
         ConsoleHelper.printMessage(quitOption.getMessage());
     }
 
-    public boolean isAvailableCommand(String command) {
-        QuitOption quitOption = new QuitOption();
-        if (listOption.check(command) || quitOption.check(command)) {
-            return true;
-        }
-        return false;
-    }
-
     public boolean isQuitCommand(String command) {
         QuitOption quitOption = new QuitOption();
         return quitOption.check(command);
