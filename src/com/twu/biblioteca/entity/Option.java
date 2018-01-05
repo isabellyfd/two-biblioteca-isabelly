@@ -1,13 +1,22 @@
 package com.twu.biblioteca.entity;
 
 public class Option {
-    private String COMMAND;
+    private String command;
+    private String message;
 
-    public String getCOMMAND() {
-        return this.COMMAND;
+    public String getCommand() {
+        return this.command;
     }
 
-    public void setCOMMAND(String command) {
-        this.COMMAND = command;
+    public void setCommand(String command) {
+        this.command = command;
+    }
+
+    public String getMessage(){
+        return this.message;
+    }
+
+    public void setMessage(String message){
+        this.message = message;
     }
 }
