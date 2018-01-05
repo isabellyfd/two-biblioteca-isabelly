@@ -19,4 +19,8 @@ public class Option {
     public void setMessage(String message){
         this.message = message;
     }
+
+    public boolean check(String command) {
+        return this.command.equals(command);
+    }
 }

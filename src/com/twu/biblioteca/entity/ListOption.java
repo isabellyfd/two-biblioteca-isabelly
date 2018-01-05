@@ -6,8 +6,4 @@ public class ListOption extends Option {
         this.setCommand(Commands.LIST_COMMAND);
         this.setMessage(Commands.LIST_COMMAND_MESSAGE);
     }
-
-    public boolean check(String userInput){
-        return this.getCommand().equals(userInput);
-    }
 }
