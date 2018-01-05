@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="BibliotecaAppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="313">
+              <caret line="62" column="139" lean-forward="false" selection-start-line="62" selection-start-column="139" selection-end-line="62" selection-end-column="139" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/QuitOptionTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/QuitOption.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
       </list>
     </option>
   </component>
@@ -487,6 +487,9 @@
     <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.05 at 11h 08m 13s.xml">
       <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BibliotecaAppTest_testIfMenuIsPrinted - 2018.01.05 at 11h 09m 33s.xml">
+      <configuration name="BibliotecaAppTest.testIfMenuIsPrinted" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BibliotecaAppTest_testUserInputAvailableInMainMenu - 2018.01.05 at 11h 02m 34s.xml">
       <configuration name="BibliotecaAppTest.testUserInputAvailableInMainMenu" configurationId="JUnit" />
     </history-entry>
@@ -501,9 +504,6 @@
     </history-entry>
     <history-entry file="QuitOptionTest_testGettingMessageFromCommand - 2018.01.05 at 10h 51m 44s.xml">
       <configuration name="QuitOptionTest.testGettingMessageFromCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuitOptionTest_testIfChosenOptionIsNotQuitOption - 2018.01.05 at 10h 45m 01s.xml">
-      <configuration name="QuitOptionTest.testIfChosenOptionIsNotQuitOption" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuitOptionTest_testIfChosenOptionIsNotQuitOption - 2018.01.05 at 10h 45m 15s.xml">
       <configuration name="QuitOptionTest.testIfChosenOptionIsNotQuitOption" configurationId="JUnit" />
@@ -524,7 +524,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1110,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="313">
+          <caret line="62" column="139" lean-forward="false" selection-start-line="62" selection-start-column="139" selection-end-line="62" selection-end-column="139" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
