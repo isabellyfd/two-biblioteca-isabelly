@@ -1,4 +1,4 @@
-package com.twu.biblioteca.util;
+package com.twu.biblioteca.entity;
 
 public class ListOption {
 

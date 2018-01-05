@@ -1,5 +1,6 @@
-package com.twu.biblioteca.util;
+package com.twu.biblioteca.entity;
 
+import com.twu.biblioteca.entity.ListOption;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;
