@@ -22,8 +22,8 @@
       <file leaf-file-name="QuitOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/QuitOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="439">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
@@ -36,13 +36,13 @@
       <file leaf-file-name="QuitOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/QuitOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="168">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuitOptionTest.testGettingMessageFromCommand">
+  <component name="RunManager" selected="JUnit.QuitOptionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -418,10 +418,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testGettingMessageFromCommand" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testIfChosenOptionIsNotQuitOption" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testIfChosenOptionIsQuitOption" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QuitOptionTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.QuitOptionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testGettingMessageFromCommand" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testIfChosenOptionIsNotQuitOption" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.QuitOptionTest.testIfChosenOptionIsQuitOption" />
         <item index="4" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
       </list>
     </recent_temporary>
@@ -443,13 +443,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuitOptionTest - 2018.01.05 at 10h 34m 06s.xml">
-      <configuration name="QuitOptionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuitOptionTest - 2018.01.05 at 10h 35m 21s.xml">
       <configuration name="QuitOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuitOptionTest - 2018.01.05 at 10h 35m 53s.xml">
+      <configuration name="QuitOptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuitOptionTest - 2018.01.05 at 10h 54m 14s.xml">
       <configuration name="QuitOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuitOptionTest_testGettingMessageFromCommand - 2018.01.05 at 10h 49m 59s.xml">
@@ -486,7 +486,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1081,21 +1081,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/util/QuitOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="168">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/QuitOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="439">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
