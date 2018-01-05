@@ -1,12 +1,15 @@
 package com.twu.biblioteca.entity;
 
-public class QuitOption {
+public class QuitOption extends Option {
 
-    private final String COMMAND = "quit";
     private final String MESSAGE = "[quit] quits the program";
 
+    public QuitOption(){
+        this.setCOMMAND(Commands.QUIT_COMMAND);
+    }
+
     public boolean check(String userInput){
-        return COMMAND.equals(userInput);
+        return this.getCOMMAND().equals(userInput);
     }
 
     public String getMessage() {
