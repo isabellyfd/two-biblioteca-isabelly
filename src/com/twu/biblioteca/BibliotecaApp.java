@@ -4,6 +4,7 @@ import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.util.ConsoleHelper;
 import com.twu.biblioteca.util.ListOption;
+import com.twu.biblioteca.util.QuitOption;
 
 import java.util.ArrayList;
 
@@ -59,6 +60,10 @@ public class BibliotecaApp {
     }
 
     public boolean isAvailableCommand(String command) {
-        return listOption.check(command);
+        QuitOption quitOption = new QuitOption();
+        if (listOption.check(command) || quitOption.check(command)) {
+            return true;
+        }
+        return false;
     }
 }
