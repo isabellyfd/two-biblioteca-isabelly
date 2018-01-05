@@ -12,6 +12,7 @@ public class BibliotecaApp {
 
     private LibraryController controller;
     private ListOption listOption;
+    private QuitOption quitOption;
 
     protected BibliotecaApp(ArrayList<Book> books){
         this.controller = new LibraryController(books);
@@ -61,14 +62,12 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
-        QuitOption quitOption = new QuitOption();
-        ConsoleHelper.printMessage(listOption.getMessage());
-        ConsoleHelper.printMessage(quitOption.getMessage());
+        ConsoleHelper.printMessage(this.listOption.getMessage());
+        ConsoleHelper.printMessage(this.quitOption.getMessage());
     }
 
     public boolean isQuitCommand(String command) {
-        QuitOption quitOption = new QuitOption();
-        return quitOption.check(command);
+        return this.quitOption.check(command);
     }
 
     public boolean isListCommand(String command){
