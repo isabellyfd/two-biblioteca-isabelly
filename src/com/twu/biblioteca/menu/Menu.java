@@ -1,5 +1,7 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.util.ConsoleHelper;
+
 public class Menu {
     private Option[] options;
 
@@ -16,5 +18,11 @@ public class Menu {
             if (option.check(command)) return true;
         }
         return false;
+    }
+
+    public void printMenu() {
+        for(Option option : this.options){
+            ConsoleHelper.printMessage(option.getMessage());
+        }
     }
 }

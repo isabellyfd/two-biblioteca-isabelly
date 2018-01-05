@@ -33,11 +33,4 @@ public class MenuTest {
         command = "list";
         Assert.assertTrue(menu.isCommandAvailable(command));
     }
-
-    @Test
-    public void testPrintingAllMenu() {
-
-    }
-
-
 }
