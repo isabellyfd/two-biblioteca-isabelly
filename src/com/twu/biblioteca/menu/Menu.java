@@ -12,6 +12,6 @@ public class Menu {
     }
 
     public boolean isCommandAvailable(String command) {
-        return false;
+        return new QuitOption().check(command);
     }
 }

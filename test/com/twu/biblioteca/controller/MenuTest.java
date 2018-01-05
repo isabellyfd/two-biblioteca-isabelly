@@ -24,6 +24,7 @@ public class MenuTest {
         Menu menu = new Menu(new ListOption(), new QuitOption());
         String command = "quit";
         Assert.assertTrue(menu.isCommandAvailable(command));
+
     }
 
 
