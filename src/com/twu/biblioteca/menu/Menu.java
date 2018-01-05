@@ -12,6 +12,9 @@ public class Menu {
     }
 
     public boolean isCommandAvailable(String command) {
-        return new QuitOption().check(command);
+        for (Option option : this.options){
+            if (option.check(command)) return true;
+        }
+        return false;
     }
 }

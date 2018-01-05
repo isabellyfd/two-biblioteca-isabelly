@@ -1,5 +1,6 @@
 package com.twu.biblioteca.controller;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;
 
@@ -10,10 +11,15 @@ import com.twu.biblioteca.menu.Menu;
 
 public class MenuTest {
 
+    private Menu menu;
+
+    @Before
+    public void setup() {
+        menu = new Menu(new ListOption(), new QuitOption());
+    }
+
     @Test
     public void testCreationOfMenu() {
-        Menu menu = new Menu(new ListOption(), new QuitOption());
-
         Assert.assertEquals(2, menu.getOptions().length);
         Assert.assertTrue(menu.getOptions()[0] instanceof ListOption);
         Assert.assertTrue(menu.getOptions()[1] instanceof QuitOption);
@@ -21,12 +27,16 @@ public class MenuTest {
 
     @Test
     public void testIfCommandIsAvailableInMenu() {
-        Menu menu = new Menu(new ListOption(), new QuitOption());
         String command = "quit";
         Assert.assertTrue(menu.isCommandAvailable(command));
 
         command = "list";
         Assert.assertTrue(menu.isCommandAvailable(command));
+    }
+
+    @Test
+    public void testPrintingAllMenu() {
+
     }
 
 
