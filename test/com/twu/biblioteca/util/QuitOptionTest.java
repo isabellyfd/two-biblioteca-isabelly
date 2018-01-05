@@ -16,7 +16,7 @@ public class QuitOptionTest {
     }
 
     @Test
-    public void testIfChoosenOptionIsQuitOption() {
+    public void testIfChosenOptionIsQuitOption() {
         String userInput = "quit";
         Assert.assertTrue(this.quitOption.check(userInput));
     }
