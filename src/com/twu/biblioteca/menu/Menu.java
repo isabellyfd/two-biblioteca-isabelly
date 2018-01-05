@@ -10,4 +10,8 @@ public class Menu {
     public Option[] getOptions() {
         return this.options;
     }
+
+    public boolean isCommandAvailable(String command) {
+        return false;
+    }
 }

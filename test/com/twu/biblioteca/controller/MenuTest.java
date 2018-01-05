@@ -18,4 +18,13 @@ public class MenuTest {
         Assert.assertTrue(menu.getOptions()[0] instanceof ListOption);
         Assert.assertTrue(menu.getOptions()[1] instanceof QuitOption);
     }
+
+    @Test
+    public void testIfCommandIsAvailableInMenu() {
+        Menu menu = new Menu(new ListOption(), new QuitOption());
+        String command = "quit";
+        Assert.assertTrue(menu.isCommandAvailable(command));
+    }
+
+
 }
