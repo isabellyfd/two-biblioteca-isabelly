@@ -33,4 +33,11 @@ public class MenuTest {
         command = "list";
         Assert.assertTrue(menu.isCommandAvailable(command));
     }
+
+    @Test
+    public void testRetrieveOptionWhenInputListCommand(){
+        String userInput = "list";
+        Option option = new Menu(new ListOption(), new QuitOption()).getOptionFor(userInput);
+        Assert.assertEquals(userInput, option.getCommand());
+    }
 }

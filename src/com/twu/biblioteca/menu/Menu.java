@@ -25,4 +25,8 @@ public class Menu {
             ConsoleHelper.printMessage(option.getMessage());
         }
     }
+
+    public Option getOptionFor(String command){
+        return null;
+    }
 }

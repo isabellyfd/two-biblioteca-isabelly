@@ -2,6 +2,7 @@ package com.twu.biblioteca;
 
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.menu.Menu;
 import com.twu.biblioteca.util.ConsoleHelper;
 import com.twu.biblioteca.menu.ListOption;
 import com.twu.biblioteca.menu.QuitOption;
@@ -13,11 +14,13 @@ public class BibliotecaApp {
     private LibraryController controller;
     private ListOption listOption;
     private QuitOption quitOption;
+    private Menu menuController;
 
     protected BibliotecaApp(ArrayList<Book> books){
         this.controller = new LibraryController(books);
         this.listOption = new ListOption();
         this.quitOption = new QuitOption();
+        this.menuController = new Menu();
     }
 
     public static BibliotecaApp getInstance() {
@@ -35,17 +38,17 @@ public class BibliotecaApp {
         BibliotecaApp app = BibliotecaApp.getInstance();
 
         app.printWelcomeMessage();
-        app.printMenu();
+
 
         String option = ConsoleHelper.getUserInput();
 
         while (!app.isQuitCommand(option)){
-            if (app.isListCommand(option)) {
+            app.printMenu();
+            if (app.getMenuController().isCommandAvailable(option)) {
                 ConsoleHelper.printList(app.getBooksInLibrary());
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }
-            app.printMenu();
             option = ConsoleHelper.getUserInput();
         }
     }
@@ -73,5 +76,9 @@ public class BibliotecaApp {
 
     public boolean isListCommand(String command){
         return this.listOption.check(command);
+    }
+
+    public Menu getMenuController() {
+        return this.menuController;
     }
 }
