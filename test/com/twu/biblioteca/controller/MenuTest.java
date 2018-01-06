@@ -54,4 +54,5 @@ public class MenuTest {
         Option option = this.menu.getOptionFor(userInput);
         Assert.assertNull(option);
     }
+
 }

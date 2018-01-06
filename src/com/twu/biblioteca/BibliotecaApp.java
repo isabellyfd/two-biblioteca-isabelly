@@ -2,11 +2,8 @@ package com.twu.biblioteca;
 
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
-import com.twu.biblioteca.menu.Menu;
-import com.twu.biblioteca.menu.Option;
+import com.twu.biblioteca.menu.*;
 import com.twu.biblioteca.util.ConsoleHelper;
-import com.twu.biblioteca.menu.ListOption;
-import com.twu.biblioteca.menu.QuitOption;
 
 import java.util.ArrayList;
 
@@ -75,9 +72,8 @@ public class BibliotecaApp {
     }
 
     public boolean isQuitCommand(String command) {
-        return this.quitOption.check(command);
+        return this.menuController.getOptionFor(command).check(Commands.QUIT_COMMAND);
     }
-
 
     public Menu getMenuController() {
         return this.menuController;
