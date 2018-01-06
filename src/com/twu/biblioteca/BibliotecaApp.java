@@ -58,10 +58,6 @@ public class BibliotecaApp {
         return this.controller.listAllAvailableBooks();
     }
 
-    public void printAllBooksAvailable() {
-        ConsoleHelper.printList(getBooksInLibrary());
-    }
-
     public void printMenu() {
         this.menuController.printMenu();
     }

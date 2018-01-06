@@ -50,12 +50,7 @@ public class BibliotecaAppTest {
         Assert.assertEquals("Herve Tullet", booksInLibrary.get(1).getAuthor());
         Assert.assertEquals(2011, booksInLibrary.get(1).getPublishYear());
     }
-
-    @Test
-    public void testIfAllBooksWerePrinted() {
-        app.printAllBooksAvailable();
-        Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007\n2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
-    }
+    
 
     @Test
     public void testIfMenuIsPrinted() {
