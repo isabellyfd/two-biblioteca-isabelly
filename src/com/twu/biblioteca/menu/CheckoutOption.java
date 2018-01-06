@@ -3,8 +3,8 @@ package com.twu.biblioteca.menu;
 public class CheckoutOption extends Option {
 
     public CheckoutOption() {
-        this.setCommand("checkout");
-        this.setMessage("[checkout] <index> checks out the book in the index passed as argument.");
+        this.setCommand(Commands.CHECKOUT_COMMAND);
+        this.setMessage(Commands.CHECKOUT_COMMAND_MESSAGE);
     }
 
     @Override
