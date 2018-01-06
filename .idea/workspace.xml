@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/Menu.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/Menu.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/MenuTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/MenuTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +51,8 @@
       <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="495">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -504,9 +500,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MenuTest - 2018.01.06 at 18h 17m 52s.xml">
-      <configuration name="MenuTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MenuTest - 2018.01.06 at 18h 21m 17s.xml">
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
@@ -514,6 +507,9 @@
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest - 2018.01.06 at 18h 41m 50s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest - 2018.01.06 at 18h 43m 02s.xml">
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest_testRetriveNullOptionWhenNoInputMatched - 2018.01.06 at 18h 40m 34s.xml">
@@ -1144,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="495">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />

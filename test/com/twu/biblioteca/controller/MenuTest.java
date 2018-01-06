@@ -47,5 +47,11 @@ public class MenuTest {
         Option option = new Menu(new ListOption(), new QuitOption()).getOptionFor(userInput);
         Assert.assertEquals(userInput, option.getCommand());
     }
-    
+
+    @Test
+    public void testRetrieveNullOptionWhenNoInputMatched() {
+        String userInput = "oi'";
+        Option option = this.menu.getOptionFor(userInput);
+        Assert.assertNull(option);
+    }
 }
