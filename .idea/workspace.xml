@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +63,8 @@
       <file leaf-file-name="CheckoutOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="252">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckoutOptionTest.testIfCheckOutOptionIsChosen">
+  <component name="RunManager" selected="JUnit.CheckoutOptionTest.testIdCheckoutOptionIsNotChosen">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -368,19 +368,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="BibliotecaAppTest.testUserInputIsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutOptionTest.testIdCheckoutOptionIsNotChosen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="PATTERN" value="com.twu.biblioteca.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaAppTest" />
-      <option name="METHOD_NAME" value="testUserInputIsList" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.CheckoutOptionTest" />
+      <option name="METHOD_NAME" value="testIdCheckoutOptionIsNotChosen" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -530,18 +530,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testUserInputIsList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIfCheckOutOptionIsChosen" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIfCheckOutOptionIsChosen" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIdCheckoutOptionIsNotChosen" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIfCheckOutOptionIsChosen" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BibliotecaAppTest.testUserInputIsList" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIdCheckoutOptionIsNotChosen" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutOptionTest.testIfCheckOutOptionIsChosen" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
       </list>
     </recent_temporary>
   </component>
@@ -564,6 +564,9 @@
   <component name="TestHistory">
     <history-entry file="BibliotecaAppTest_testUserInputIsList - 2018.01.06 at 19h 06m 50s.xml">
       <configuration name="BibliotecaAppTest.testUserInputIsList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutOptionTest_testIdCheckoutOptionIsNotChosen - 2018.01.06 at 20h 13m 35s.xml">
+      <configuration name="CheckoutOptionTest.testIdCheckoutOptionIsNotChosen" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutOptionTest_testIfCheckOutOptionIsChosen - 2018.01.06 at 20h 03m 35s.xml">
       <configuration name="CheckoutOptionTest.testIfCheckOutOptionIsChosen" configurationId="JUnit" />
@@ -588,9 +591,6 @@
     </history-entry>
     <history-entry file="ConsoleHelperTest_testGettingUserInput - 2018.01.06 at 19h 47m 04s.xml">
       <configuration name="ConsoleHelperTest.testGettingUserInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MenuTest - 2018.01.06 at 18h 45m 01s.xml">
-      <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1197,8 +1197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="252">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
