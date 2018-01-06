@@ -71,8 +71,7 @@ public class BibliotecaApp {
     }
 
     public void printMenu() {
-        ConsoleHelper.printMessage(this.listOption.getMessage());
-        ConsoleHelper.printMessage(this.quitOption.getMessage());
+        this.menuController.printMenu();
     }
 
     public boolean isQuitCommand(String command) {

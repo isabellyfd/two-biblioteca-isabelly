@@ -24,6 +24,7 @@ public class Menu {
         for(Option option : this.options){
             ConsoleHelper.printMessage(option.getMessage());
         }
+        ConsoleHelper.printMessage("");
     }
 
     public Option getOptionFor(String command){

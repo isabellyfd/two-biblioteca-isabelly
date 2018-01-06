@@ -20,6 +20,7 @@ public class ConsoleHelper {
             System.out.println(count + " - " + book.toString());
             count++;
         }
+        System.out.println();
     }
 
     public static void printMessage(String message){
