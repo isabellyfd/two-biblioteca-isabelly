@@ -37,14 +37,14 @@ public class MenuTest {
     @Test
     public void testRetrieveOptionWhenInputListCommand(){
         String userInput = "list";
-        Option option = new Menu(new ListOption(), new QuitOption()).getOptionFor(userInput);
+        Option option = this.menu.getOptionFor(userInput);
         Assert.assertEquals(userInput, option.getCommand());
     }
 
     @Test
     public void testRetrieveOptionWhenInputQuitCommand() {
         String userInput = "quit";
-        Option option = new Menu(new ListOption(), new QuitOption()).getOptionFor(userInput);
+        Option option = this.menu.getOptionFor(userInput);
         Assert.assertEquals(userInput, option.getCommand());
     }
 
