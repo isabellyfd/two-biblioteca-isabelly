@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,9 +49,12 @@
       <file leaf-file-name="QuitOption.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="154">
+              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1206,9 +1208,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
