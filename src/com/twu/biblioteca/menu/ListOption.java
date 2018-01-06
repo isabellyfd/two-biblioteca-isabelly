@@ -14,7 +14,7 @@ public class ListOption extends Option {
     }
 
     public void action() {
-        ArrayList<Book> avaliableBooks = Facade.shared.getAllAvailableBooks();
-        ConsoleHelper.printList(avaliableBooks);
+        ArrayList<Book> availableBooks = Facade.shared.getAllAvailableBooks();
+        ConsoleHelper.printList(availableBooks);
     }
 }
