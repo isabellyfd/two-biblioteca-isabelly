@@ -38,8 +38,8 @@ public class BibliotecaApp {
         String command = ConsoleHelper.getUserInput();
 
         while (isRunning){
-            if (app.getMenuController().isCommandAvailable(command)) {
-                Option option = app.getMenuController().getOptionFor(command);
+            if (app.isCommandAvailable(command)) {
+                Option option = app.getOptionFor(command);
                 option.action();
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
@@ -61,8 +61,12 @@ public class BibliotecaApp {
     public boolean isQuitCommand(String command) {
         return this.menuController.getOptionFor(command).check(Commands.QUIT_COMMAND);
     }
+    
+    public boolean isCommandAvailable(String command){
+        return this.menuController.isCommandAvailable(command);
+    }
 
-    public Menu getMenuController() {
-        return this.menuController;
+    public Option getOptionFor(String command){
+        return this.menuController.getOptionFor(command);
     }
 }
