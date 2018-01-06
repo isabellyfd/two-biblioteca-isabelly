@@ -41,7 +41,7 @@ public class BibliotecaAppTest {
     @Test
     public void testIfMenuIsPrinted() {
         app.printMenu();
-        Assert.assertEquals("[list] shows you all available books in the library\n[quit] quits the program", outContent.toString().trim());
+        Assert.assertEquals("[list] shows you all available books in the library\n[checkout] <index> checks out the book in the index passed as argument\n[quit] quits the program", outContent.toString().trim());
     }
 
 
