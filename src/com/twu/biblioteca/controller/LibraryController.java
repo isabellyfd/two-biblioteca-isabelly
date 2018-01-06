@@ -24,7 +24,7 @@ public class LibraryController {
     }
 
     public Book getBookAtIndex(int index){
-        return null;
+        return this.bookList.get(0);
     }
 
 }
