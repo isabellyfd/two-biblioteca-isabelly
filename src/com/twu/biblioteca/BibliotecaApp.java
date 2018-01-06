@@ -34,18 +34,21 @@ public class BibliotecaApp {
 
     private static void runLibrary() {
         BibliotecaApp app = BibliotecaApp.getInstance();
-
+        boolean isRunning = true;
         app.printWelcomeMessage();
 
         app.printMenu();
 
         String command = ConsoleHelper.getUserInput();
 
-        while (!app.isQuitCommand(command)){
+        while (isRunning){
             if (app.getMenuController().isCommandAvailable(command)) {
                 Option option = app.getMenuController().getOptionFor(command);
-                ListOption list = (ListOption)option;
-                list.action();
+                if (option instanceof ListOption){
+                    ((ListOption)option).action();
+                }else if (option instanceof QuitOption){
+                    ((QuitOption)option).action();
+                }
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }
