@@ -78,9 +78,6 @@ public class BibliotecaApp {
         return this.quitOption.check(command);
     }
 
-    public boolean isListCommand(String command){
-        return this.listOption.check(command);
-    }
 
     public Menu getMenuController() {
         return this.menuController;
