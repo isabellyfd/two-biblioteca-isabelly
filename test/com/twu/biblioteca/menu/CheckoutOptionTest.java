@@ -20,4 +20,10 @@ public class CheckoutOptionTest {
         CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertFalse(checkoutOption.check(userInput));
     }
+
+    @Test
+    public void testGettingMessageFromCheckoutOption() {
+        CheckoutOption checkoutOption = new CheckoutOption();
+        Assert.assertEquals("[checkout] <index> checks out the book in the index passed as argument.", checkoutOption.getMessage());
+    }
 }
