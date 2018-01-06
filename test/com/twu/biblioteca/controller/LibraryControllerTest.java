@@ -15,36 +15,40 @@ public class LibraryControllerTest {
     @Before
     public void setup() {
         ArrayList<Book> bookList = new ArrayList<Book>();
-        bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling",1997));
+        bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling", 1997));
         bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", 1999));
         controller = new LibraryController(bookList);
     }
 
-   @Test
-   public void testGettingAllBooksFromLibrary() {
+    @Test
+    public void testGettingAllBooksFromLibrary() {
         ArrayList<Book> books = this.controller.getBookList();
 
         Assert.assertNotNull(books);
         Assert.assertEquals(2, books.size());
         Assert.assertEquals("Harry Potter e a pedra filosofal", books.get(0).getName());
         Assert.assertEquals("Harry Potter camara secreta", books.get(1).getName());
-   }
+    }
 
-   @Test
+    @Test
     public void testListAllAvailableMethodBringsOnlyAvailable() {
         ArrayList<Book> books = this.controller.listAllAvailableBooks();
 
-        for(Book book : books){
+        for (Book book : books) {
             Assert.assertEquals(true, book.isAvailable());
         }
-   }
+    }
 
-   @Test
-   public void testGettingBookAtIndex() {
+    @Test
+    public void testGettingBookAtIndex() {
         int expectedIndex = 0;
         Book book = this.controller.getBookAtIndex(expectedIndex);
         Assert.assertEquals("Harry Potter e a pedra filosofal", book.getName());
         Assert.assertEquals("J.K. Rolling", book.getAuthor());
-        
-   }
+
+        expectedIndex = 1;
+        book = this.controller.getBookAtIndex(expectedIndex);
+        Assert.assertEquals("Harry Potter e a camara secreta", book.getName());
+        Assert.assertEquals("J.K. Rolling", book.getAuthor());
+    }
 }
