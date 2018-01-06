@@ -7,12 +7,17 @@ import java.util.ArrayList;
 
 public class Facade {
 
-    public Facade shared = new Facade();
-    private LibraryController library = new LibraryController();
+    public static final Facade shared = new Facade();
+    private LibraryController library;
 
-    private Facade() {}
+    private Facade() {
+        ArrayList<Book> books = new ArrayList<>();
+        books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
+        books.add(new Book("Press Here", "Herve Tullet", 2011));
+        this.library = new LibraryController(books);
+    }
 
-    public ArrayList<Book> getAllAvaliableBooks() {
+    public ArrayList<Book> getAllAvailableBooks() {
         return this.library.listAllAvailableBooks();
     }
 }
