@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/Menu.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/Menu.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/MenuTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/MenuTest.class" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +55,8 @@
       <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+            <state relative-caret-position="411">
+              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -76,8 +79,8 @@
       <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="462">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
@@ -139,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
       </list>
     </option>
   </component>
@@ -260,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.testRetriveOptionWhenInputQuitCommand">
+  <component name="RunManager" selected="JUnit.MenuTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -357,6 +360,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="MenuTest.testRetriveNullOptionWhenNoInputMatched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.controller.MenuTest" />
+      <option name="METHOD_NAME" value="testRetriveNullOptionWhenNoInputMatched" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="MenuTest.testRetriveOptionWhenInputQuitCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -371,31 +399,6 @@
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.controller.MenuTest" />
       <option name="METHOD_NAME" value="testRetriveOptionWhenInputQuitCommand" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="QuitOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.QuitOptionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -468,19 +471,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.QuitOptionTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.testCreationOfMenu" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.testIfCommandIsAvailableInMenu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveOptionWhenInputQuitCommand" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.testCreationOfMenu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.testIfCommandIsAvailableInMenu" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveOptionWhenInputQuitCommand" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveNullOptionWhenNoInputMatched" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveOptionWhenInputQuitCommand" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.testCreationOfMenu" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.testIfCommandIsAvailableInMenu" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QuitOptionTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveNullOptionWhenNoInputMatched" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.testRetriveOptionWhenInputQuitCommand" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.testCreationOfMenu" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.testIfCommandIsAvailableInMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -510,14 +513,14 @@
     <history-entry file="MenuTest - 2018.01.06 at 18h 21m 36s.xml">
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MenuTest_testCreationOfMenu - 2018.01.05 at 16h 50m 53s.xml">
-      <configuration name="MenuTest.testCreationOfMenu" configurationId="JUnit" />
+    <history-entry file="MenuTest - 2018.01.06 at 18h 41m 50s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MenuTest_testIfCommandIsAvailableInMenu - 2018.01.05 at 16h 41m 27s.xml">
-      <configuration name="MenuTest.testIfCommandIsAvailableInMenu" configurationId="JUnit" />
+    <history-entry file="MenuTest_testRetriveNullOptionWhenNoInputMatched - 2018.01.06 at 18h 40m 34s.xml">
+      <configuration name="MenuTest.testRetriveNullOptionWhenNoInputMatched" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MenuTest_testIfCommandIsAvailableInMenu - 2018.01.05 at 16h 43m 18s.xml">
-      <configuration name="MenuTest.testIfCommandIsAvailableInMenu" configurationId="JUnit" />
+    <history-entry file="MenuTest_testRetriveNullOptionWhenNoInputMatched - 2018.01.06 at 18h 40m 56s.xml">
+      <configuration name="MenuTest.testRetriveNullOptionWhenNoInputMatched" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest_testRetriveOptionWhenInputQuitCommand - 2018.01.06 at 18h 26m 15s.xml">
       <configuration name="MenuTest.testRetriveOptionWhenInputQuitCommand" configurationId="JUnit" />
@@ -1128,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="462">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
@@ -1141,8 +1144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        <state relative-caret-position="411">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />

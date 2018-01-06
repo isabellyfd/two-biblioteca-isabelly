@@ -27,9 +27,10 @@ public class Menu {
     }
 
     public Option getOptionFor(String command){
-        if (options[0].check(command))
-            return options[0];
-        else
-            return options[1];
+        for (Option option : this.options){
+            if (option.check(command))
+                return option;
+        }
+        return options[0];
     }
 }

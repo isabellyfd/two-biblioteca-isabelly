@@ -42,9 +42,10 @@ public class MenuTest {
     }
 
     @Test
-    public void testRetriveOptionWhenInputQuitCommand() {
+    public void testRetrieveOptionWhenInputQuitCommand() {
         String userInput = "quit";
         Option option = new Menu(new ListOption(), new QuitOption()).getOptionFor(userInput);
         Assert.assertEquals(userInput, option.getCommand());
     }
+    
 }
