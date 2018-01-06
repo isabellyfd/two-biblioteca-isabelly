@@ -48,7 +48,7 @@ public class LibraryControllerTest {
 
         expectedIndex = 1;
         book = this.controller.getBookAtIndex(expectedIndex);
-        Assert.assertEquals("Harry Potter e a camara secreta", book.getName());
+        Assert.assertEquals("Harry Potter camara secreta", book.getName());
         Assert.assertEquals("J.K. Rolling", book.getAuthor());
     }
 }
