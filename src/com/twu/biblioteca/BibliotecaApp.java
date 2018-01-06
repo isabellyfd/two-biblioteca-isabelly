@@ -61,7 +61,7 @@ public class BibliotecaApp {
     public boolean isQuitCommand(String command) {
         return this.menuController.getOptionFor(command).check(Commands.QUIT_COMMAND);
     }
-    
+
     public boolean isCommandAvailable(String command){
         return this.menuController.isCommandAvailable(command);
     }

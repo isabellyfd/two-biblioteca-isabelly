@@ -8,7 +8,7 @@ public class LibraryController {
     private ArrayList<Book> bookList;
 
     public LibraryController(ArrayList<Book> bookList){
-        this.bookList =  bookList;
+        this.bookList = bookList;
     }
 
     public ArrayList<Book> getBookList() {
@@ -21,6 +21,10 @@ public class LibraryController {
                                     .filter(book -> book.isAvailable())
                                     .collect(Collectors.toCollection(ArrayList::new));
         return books;
+    }
+
+    public Book getBookAtIndex(int index){
+        return null;
     }
 
 }
