@@ -9,6 +9,6 @@ public class CheckoutOption extends Option {
 
     @Override
     public void action() {
-
+        System.out.println("chosen checkout");
     }
 }

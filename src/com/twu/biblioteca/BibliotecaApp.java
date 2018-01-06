@@ -14,7 +14,7 @@ public class BibliotecaApp {
 
     protected BibliotecaApp(ArrayList<Book> books){
         this.controller = new LibraryController(books);
-        this.menuController = new Menu(new ListOption(), new QuitOption());
+        this.menuController = new Menu(new ListOption(), new CheckoutOption(), new QuitOption());
     }
 
     public static BibliotecaApp getInstance() {
