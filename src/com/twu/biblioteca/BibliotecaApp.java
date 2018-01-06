@@ -44,11 +44,7 @@ public class BibliotecaApp {
         while (isRunning){
             if (app.getMenuController().isCommandAvailable(command)) {
                 Option option = app.getMenuController().getOptionFor(command);
-                if (option instanceof ListOption){
-                    ((ListOption)option).action();
-                }else if (option instanceof QuitOption){
-                    ((QuitOption)option).action();
-                }
+                option.action();
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }

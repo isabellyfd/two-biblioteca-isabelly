@@ -1,6 +1,6 @@
 package com.twu.biblioteca.menu;
 
-public class Option {
+public abstract class Option {
     private String command;
     private String message;
 
@@ -21,4 +21,6 @@ public class Option {
     public boolean check(String command) {
         return this.command.equals(command);
     }
+
+    public abstract void action();
 }
