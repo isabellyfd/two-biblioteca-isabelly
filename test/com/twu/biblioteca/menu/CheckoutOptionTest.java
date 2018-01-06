@@ -12,4 +12,6 @@ public class CheckoutOptionTest {
         CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertTrue(checkoutOption.check(userInput));
     }
+
+
 }
