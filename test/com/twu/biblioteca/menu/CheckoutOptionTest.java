@@ -16,7 +16,7 @@ public class CheckoutOptionTest {
 
     @Test
     public void testIdCheckoutOptionIsNotChosen() {
-        String userInput = "checkout";
+        String userInput = "check";
         CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertFalse(checkoutOption.check(userInput));
     }
