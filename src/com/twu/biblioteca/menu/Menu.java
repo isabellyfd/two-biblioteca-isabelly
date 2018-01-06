@@ -31,6 +31,6 @@ public class Menu {
             if (option.check(command))
                 return option;
         }
-        return options[0];
+        return null;
     }
 }
