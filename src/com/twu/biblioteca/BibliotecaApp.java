@@ -3,6 +3,7 @@ package com.twu.biblioteca;
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.menu.Menu;
+import com.twu.biblioteca.menu.Option;
 import com.twu.biblioteca.util.ConsoleHelper;
 import com.twu.biblioteca.menu.ListOption;
 import com.twu.biblioteca.menu.QuitOption;
@@ -20,7 +21,7 @@ public class BibliotecaApp {
         this.controller = new LibraryController(books);
         this.listOption = new ListOption();
         this.quitOption = new QuitOption();
-        this.menuController = new Menu();
+        this.menuController = new Menu(new ListOption(), new QuitOption());
     }
 
     public static BibliotecaApp getInstance() {
@@ -39,17 +40,21 @@ public class BibliotecaApp {
 
         app.printWelcomeMessage();
 
+        app.printMenu();
 
-        String option = ConsoleHelper.getUserInput();
+        String command = ConsoleHelper.getUserInput();
 
-        while (!app.isQuitCommand(option)){
-            app.printMenu();
-            if (app.getMenuController().isCommandAvailable(option)) {
-                ConsoleHelper.printList(app.getBooksInLibrary());
+        while (!app.isQuitCommand(command)){
+            if (app.getMenuController().isCommandAvailable(command)) {
+                Option option = app.getMenuController().getOptionFor(command);
+                ListOption list = (ListOption)option;
+                list.action();
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }
-            option = ConsoleHelper.getUserInput();
+
+            app.printMenu();
+            command = ConsoleHelper.getUserInput();
         }
     }
 

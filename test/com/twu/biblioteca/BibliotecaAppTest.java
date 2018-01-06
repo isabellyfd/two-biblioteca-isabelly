@@ -63,6 +63,7 @@ public class BibliotecaAppTest {
         Assert.assertEquals("[list] shows you all available books in the library\n[quit] quits the program", outContent.toString().trim());
     }
 
+
     @Test
     public void testUserInputIsQuit() {
         String userInput = "quit";
