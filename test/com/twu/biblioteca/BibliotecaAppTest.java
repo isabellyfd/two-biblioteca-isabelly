@@ -36,21 +36,7 @@ public class BibliotecaAppTest {
         Assert.assertEquals("Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!", outContent.toString().trim());
     }
 
-    @Test
-    public void testIfAllBookWereRecovered(){
-        ArrayList<Book> booksInLibrary = app.getBooksInLibrary();
 
-        Assert.assertNotNull(booksInLibrary);
-        Assert.assertEquals(2, booksInLibrary.size());
-        Assert.assertEquals("Goodnight Moon", booksInLibrary.get(0).getName());
-        Assert.assertEquals("Margaret Wise Brown, Clement Hurd", booksInLibrary.get(0).getAuthor());
-        Assert.assertEquals(2007, booksInLibrary.get(0).getPublishYear());
-
-        Assert.assertEquals("Press Here", booksInLibrary.get(1).getName());
-        Assert.assertEquals("Herve Tullet", booksInLibrary.get(1).getAuthor());
-        Assert.assertEquals(2011, booksInLibrary.get(1).getPublishYear());
-    }
-    
 
     @Test
     public void testIfMenuIsPrinted() {

@@ -54,10 +54,6 @@ public class BibliotecaApp {
         ConsoleHelper.printMessage(ConsoleHelper.welcomeMessage());
     }
 
-    protected ArrayList<Book> getBooksInLibrary() {
-        return this.controller.listAllAvailableBooks();
-    }
-
     public void printMenu() {
         this.menuController.printMenu();
     }
