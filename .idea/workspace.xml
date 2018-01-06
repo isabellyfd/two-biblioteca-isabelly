@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/MenuTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,14 +76,14 @@
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -509,14 +505,14 @@
     <history-entry file="MenuTest - 2018.01.06 at 18h 17m 52s.xml">
       <configuration name="MenuTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MenuTest - 2018.01.06 at 18h 21m 17s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest - 2018.01.06 at 18h 21m 36s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MenuTest_testCreationOfMenu - 2018.01.05 at 16h 50m 53s.xml">
       <configuration name="MenuTest.testCreationOfMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MenuTest_testIfCommandIsAvailableInMenu - 2018.01.05 at 16h 35m 46s.xml">
-      <configuration name="MenuTest.testIfCommandIsAvailableInMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MenuTest_testIfCommandIsAvailableInMenu - 2018.01.05 at 16h 38m 08s.xml">
-      <configuration name="MenuTest.testIfCommandIsAvailableInMenu" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuTest_testIfCommandIsAvailableInMenu - 2018.01.05 at 16h 38m 24s.xml">
       <configuration name="MenuTest.testIfCommandIsAvailableInMenu" configurationId="JUnit" />
@@ -1123,26 +1119,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

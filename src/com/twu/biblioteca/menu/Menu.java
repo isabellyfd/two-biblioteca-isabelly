@@ -27,6 +27,6 @@ public class Menu {
     }
 
     public Option getOptionFor(String command){
-        return null;
+        return options[0];
     }
 }
