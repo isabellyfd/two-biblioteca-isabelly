@@ -1,5 +1,6 @@
 package com.twu.biblioteca.controller;
 
+import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +8,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import com.twu.biblioteca.entity.Book;
-import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+import com.twu.biblioteca.exception.CouldNotCheckoutBookExceptionTest;
 
 
 public class LibraryControllerTest {

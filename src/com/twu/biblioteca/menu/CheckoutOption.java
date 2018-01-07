@@ -19,7 +19,7 @@ public class CheckoutOption extends Option {
     public void action(int index) {
         Book book = Facade.shared.getBookAt(--index);
 
-        ConsoleHelper.printMessage("Do you realy want to check you:");
+        ConsoleHelper.printMessage("Do you really want to check you:");
         ConsoleHelper.printMessage(book.toString());
 
         String decision = "";
@@ -30,7 +30,7 @@ public class CheckoutOption extends Option {
             try {
                 Facade.shared.checkoutBookAt(index);
             }catch (CouldNotCheckoutBookException exception){ }
-        }else (this.isNegativeDecision(decision)){
+        }else {
             ConsoleHelper.printMessage("Okay then!");
         }
     }
