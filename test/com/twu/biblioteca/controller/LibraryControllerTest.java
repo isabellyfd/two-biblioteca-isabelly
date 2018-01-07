@@ -58,6 +58,7 @@ public class LibraryControllerTest {
         try {
             int bookIndex = 0;
             this.controller.checkoutBookAt(bookIndex);
+            Assert.assertEquals(1, this.controller.listAllAvailableBooks().size());
         }catch (CouldNotCheckoutBookException e){
             Assert.fail();
         }
