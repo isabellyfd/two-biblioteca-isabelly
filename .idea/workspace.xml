@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +25,12 @@
       <file leaf-file-name="CheckoutOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <file leaf-file-name="CheckoutOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="397">
+              <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
@@ -221,8 +221,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
       </list>
     </option>
   </component>
@@ -563,9 +563,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BibliotecaAppTest - 2018.01.06 at 20h 50m 39s.xml">
-      <configuration name="BibliotecaAppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutOptionTest - 2018.01.06 at 21h 32m 52s.xml">
       <configuration name="CheckoutOptionTest" configurationId="JUnit" />
     </history-entry>
@@ -581,8 +578,11 @@
     <history-entry file="CheckoutOptionTest_testIfDecisionIsYesInCheckoutBookUsingCapslook - 2018.01.06 at 21h 39m 55s.xml">
       <configuration name="CheckoutOptionTest.testIfDecisionIsYesInCheckoutBookUsingCapslook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryControllerTest - 2018.01.06 at 20h 58m 05s.xml">
-      <configuration name="LibraryControllerTest" configurationId="JUnit" />
+    <history-entry file="CheckoutOptionTest_testIfDecisionIsYesInCheckoutBookUsingCapslook - 2018.01.06 at 21h 40m 58s.xml">
+      <configuration name="CheckoutOptionTest.testIfDecisionIsYesInCheckoutBookUsingCapslook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutOptionTest_testIfDecisionIsYesInCheckoutBookUsingCapslook - 2018.01.06 at 21h 41m 17s.xml">
+      <configuration name="CheckoutOptionTest.testIfDecisionIsYesInCheckoutBookUsingCapslook" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryControllerTest_testCheckingOutABook - 2018.01.06 at 20h 58m 14s.xml">
       <configuration name="LibraryControllerTest.testCheckingOutABook" configurationId="JUnit" />
@@ -606,7 +606,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1170,20 +1170,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="397">
+          <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
