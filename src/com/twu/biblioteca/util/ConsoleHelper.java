@@ -4,6 +4,7 @@ import com.sun.tools.doclets.internal.toolkit.util.DocFinder;
 import com.twu.biblioteca.entity.Book;
 
 import java.awt.*;
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,6 +31,8 @@ public class ConsoleHelper {
 
     public static String getUserInput() {
         Scanner in = new Scanner(System.in);
+        String input = in.nextLine();
+        ConsoleHelper.parseInput(input);
         return in.next();
     }
 
