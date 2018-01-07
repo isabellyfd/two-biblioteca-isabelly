@@ -36,4 +36,10 @@ public class CheckoutOptionTest {
         String userDecision = "yes";
         Assert.assertTrue(this.checkoutOption.isPositiveDecision(userDecision));
     }
+
+    @Test
+    public void testIfDecisionIsYesInCheckoutBookUsingCapslook() {
+        String userDecision = "YES";
+        Assert.assertTrue(this.checkoutOption.isPositiveDecision(userDecision));
+    }
 }
