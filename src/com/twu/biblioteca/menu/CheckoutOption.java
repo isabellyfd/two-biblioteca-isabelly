@@ -18,23 +18,31 @@ public class CheckoutOption extends Option {
     @Override
     public void action(int index) {
         Book book = Facade.shared.getBookAt(--index);
+        printCheckoutBookMessage(book);
+        String decision = "";
+        decision = retrieveRightInputDecision(decision);
+        actOnDecision(index, decision);
+    }
 
+    private void printCheckoutBookMessage(Book book) {
         ConsoleHelper.printMessage("Do you really want to check you:");
         ConsoleHelper.printMessage(book.toString());
+    }
 
-        String decision = "";
-
-        decision = retrieveRightInputDecision(decision);
-
+    private void actOnDecision(int index, String decision) {
         if (this.isPositiveDecision(decision)){
-            try {
-                Facade.shared.checkoutBookAt(index);
-                ConsoleHelper.printMessage("Thank you! Enjoy the book.");
-            }catch (CouldNotCheckoutBookException exception){
-                ConsoleHelper.printMessage(exception.getMessage());
-            }
+            checkoutBookAndPrintMessage(index);
         }else {
             ConsoleHelper.printMessage("Okay then!");
+        }
+    }
+
+    private void checkoutBookAndPrintMessage(int index) {
+        try {
+            Facade.shared.checkoutBookAt(index);
+            ConsoleHelper.printMessage("Thank you! Enjoy the book.");
+        }catch (CouldNotCheckoutBookException exception){
+            ConsoleHelper.printMessage(exception.getMessage());
         }
     }
 
