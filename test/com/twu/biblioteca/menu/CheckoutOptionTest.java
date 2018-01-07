@@ -2,14 +2,20 @@ package com.twu.biblioteca.menu;
 
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class CheckoutOptionTest {
 
+    private CheckoutOption checkoutOption;
+    @Before
+    public void setup() {
+        this.checkoutOption = new CheckoutOption();
+    }
+
     @Test
     public void testIfCheckoutOptionIsChosen() {
         String userInput = "checkout";
-        CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertTrue(checkoutOption.check(userInput));
     }
 
@@ -17,13 +23,17 @@ public class CheckoutOptionTest {
     @Test
     public void testIdCheckoutOptionIsNotChosen() {
         String userInput = "check";
-        CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertFalse(checkoutOption.check(userInput));
     }
 
     @Test
     public void testGettingMessageFromCheckoutOption() {
-        CheckoutOption checkoutOption = new CheckoutOption();
         Assert.assertEquals("[checkout] <index> checks out the book in the index passed as argument", checkoutOption.getMessage());
+    }
+
+    @Test
+    public void testIfDecisionIsYesInCheckoutBook() {
+        String userDecision = "yes";
+        Assert.assertTrue(this.checkoutOption.isPositiveDecision(userDecision));
     }
 }

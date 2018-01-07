@@ -21,5 +21,9 @@ public class CheckoutOption extends Option {
 
         String decision = ConsoleHelper.getUserInput();
     }
-    
+
+    protected boolean isPositiveDecision(String decision){
+        return false;
+    }
+
 }
