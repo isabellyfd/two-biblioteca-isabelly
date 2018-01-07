@@ -9,6 +9,11 @@ public class Input {
         this.argument = argument;
     }
 
+    public Input(String command){
+        this.command = command;
+        this.argument = -1;
+    }
+
     public String getCommand() {
         return this.command;
     }

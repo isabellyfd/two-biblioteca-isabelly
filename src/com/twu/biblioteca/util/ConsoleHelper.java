@@ -35,6 +35,10 @@ public class ConsoleHelper {
 
     protected static Input parseInput(String input){
         String[] splited = input.split(" ");
-        return new Input(splited[0], Integer.valueOf(splited[1]));
+        if (splited.length > 1){
+            return new Input(splited[0], Integer.valueOf(splited[1]));
+        }else{
+            return new Input(splited[0]);
+        }
     }
 }
