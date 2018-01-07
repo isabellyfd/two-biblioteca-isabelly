@@ -23,7 +23,7 @@ public class CheckoutOption extends Option {
     }
 
     protected boolean isPositiveDecision(String decision){
-        return true;
+        return "yes".equals(decision);
     }
 
 }
