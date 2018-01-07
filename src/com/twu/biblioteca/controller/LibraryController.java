@@ -1,6 +1,8 @@
 package com.twu.biblioteca.controller;
 
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -27,4 +29,7 @@ public class LibraryController {
         return this.bookList.get(index);
     }
 
+    public void checkoutBookAt(int index) throws CouldNotCheckoutBookException {
+        throw new CouldNotCheckoutBookException();
+    }
 }

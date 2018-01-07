@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 
 
 public class LibraryControllerTest {
@@ -50,5 +51,15 @@ public class LibraryControllerTest {
         book = this.controller.getBookAtIndex(expectedIndex);
         Assert.assertEquals("Harry Potter camara secreta", book.getName());
         Assert.assertEquals("J.K. Rolling", book.getAuthor());
+    }
+
+    @Test
+    public void testCheckingOutABook() {
+        try {
+            int bookIndex = 0;
+            this.controller.checkoutBookAt(bookIndex);
+        }catch (CouldNotCheckoutBookException e){
+            Assert.fail();
+        }
     }
 }
