@@ -6,6 +6,8 @@ import com.twu.biblioteca.util.ConsoleHelper;
 
 public class CheckoutOption extends Option {
 
+    private final String POSITIVE_DECISION = "yes";
+
     public CheckoutOption() {
         this.setCommand(Commands.CHECKOUT_COMMAND);
         this.setMessage(Commands.CHECKOUT_COMMAND_MESSAGE);
@@ -23,7 +25,7 @@ public class CheckoutOption extends Option {
     }
 
     protected boolean isPositiveDecision(String decision){
-        return "yes".equals(decision);
+        return POSITIVE_DECISION.equals(decision);
     }
 
 }
