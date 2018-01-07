@@ -28,4 +28,8 @@ public class CheckoutOption extends Option {
         return POSITIVE_DECISION.equals(decision.toLowerCase());
     }
 
+    protected boolean isNegativeDecision(String decision){
+        return false;
+    }
+
 }
