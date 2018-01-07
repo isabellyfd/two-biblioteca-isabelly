@@ -30,6 +30,11 @@ public class LibraryController {
     }
 
     public void checkoutBookAt(int index) throws CouldNotCheckoutBookException {
-        throw new CouldNotCheckoutBookException();
+        Book book = this.getBookAtIndex(index);
+        if (book.isAvailable()){
+            book.setAvailable(false);
+        }else {
+            throw new CouldNotCheckoutBookException();
+        }
     }
 }
