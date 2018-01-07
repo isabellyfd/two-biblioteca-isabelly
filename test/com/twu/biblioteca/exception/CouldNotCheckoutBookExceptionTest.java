@@ -8,6 +8,6 @@ public class CouldNotCheckoutBookExceptionTest {
     @Test
     public void testIfMessageOfExceptionIsCorrect() {
         CouldNotCheckoutBookException exception = new CouldNotCheckoutBookException();
-        Assert.assertEquals("This book is not available!", exception.getMessage());
+        Assert.assertEquals("That book is not available.", exception.getMessage());
     }
 }
