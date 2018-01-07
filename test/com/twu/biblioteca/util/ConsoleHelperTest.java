@@ -63,4 +63,12 @@ public class ConsoleHelperTest {
         Assert.assertEquals("checkout", input.getCommand());
         Assert.assertEquals(2, input.getArgument());
     }
+
+    @Test
+    public void testParsingMethodUsingListInput() {
+        String userInput = "list";
+        Input input = ConsoleHelper.parseInput(userInput);
+        Assert.assertEquals(userInput, input.getCommand());
+        Assert.assertEquals(-1, input.getArgument());
+    }
 }
