@@ -34,6 +34,7 @@ public class ConsoleHelper {
     }
 
     protected static Input parseInput(String input){
-        return new Input("checkout", 1);
+        String[] splited = input.split(" ");
+        return new Input(splited[0], Integer.valueOf(splited[1]));
     }
 }
