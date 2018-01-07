@@ -48,4 +48,10 @@ public class CheckoutOptionTest {
         String userDecision = "no";
         Assert.assertTrue(this.checkoutOption.isNegativeDecision(userDecision));
     }
+
+    @Test
+    public void testIfDecisionIFConInCheckOutBookUsingCapsLock() {
+        String userDecision = "NO";
+        Assert.assertTrue(this.checkoutOption.isPositiveDecision(userDecision));
+    }
 }
