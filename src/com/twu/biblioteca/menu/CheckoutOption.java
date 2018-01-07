@@ -7,6 +7,7 @@ import com.twu.biblioteca.util.ConsoleHelper;
 public class CheckoutOption extends Option {
 
     private final String POSITIVE_DECISION = "yes";
+    private final String NEGATIVE_DECISION = "no";
 
     public CheckoutOption() {
         this.setCommand(Commands.CHECKOUT_COMMAND);
@@ -29,7 +30,7 @@ public class CheckoutOption extends Option {
     }
 
     protected boolean isNegativeDecision(String decision){
-        return "no".equals(decision);
+        return NEGATIVE_DECISION.equals(decision);
     }
 
 }
