@@ -55,4 +55,12 @@ public class ConsoleHelperTest {
         Assert.assertEquals(expectedInput, userInput);
         System.setIn(null);
     }
+
+    @Test
+    public void testParsingMethodUsingCheckoutInput(){
+        String userInput = "checkout 2";
+        Input input = ConsoleHelper.parseInput(userInput);
+        Assert.assertEquals("checkout", input.getCommand());
+        Assert.assertEquals(2, input.getArgument());
+    }
 }

@@ -1,5 +1,6 @@
 package com.twu.biblioteca.util;
 
+import com.sun.tools.doclets.internal.toolkit.util.DocFinder;
 import com.twu.biblioteca.entity.Book;
 
 import java.awt.*;
@@ -28,6 +29,11 @@ public class ConsoleHelper {
     }
 
     public static String getUserInput() {
-        return new Scanner(System.in).next();
+        Scanner in = new Scanner(System.in);
+        return in.next();
+    }
+
+    protected static Input parseInput(String input){
+        return new Input("checkout", 1);
     }
 }
