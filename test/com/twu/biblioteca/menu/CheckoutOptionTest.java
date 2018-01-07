@@ -52,6 +52,6 @@ public class CheckoutOptionTest {
     @Test
     public void testIfDecisionIFConInCheckOutBookUsingCapsLock() {
         String userDecision = "NO";
-        Assert.assertTrue(this.checkoutOption.isPositiveDecision(userDecision));
+        Assert.assertTrue(this.checkoutOption.isNegativeDecision(userDecision));
     }
 }

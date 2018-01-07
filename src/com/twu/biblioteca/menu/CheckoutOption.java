@@ -30,7 +30,7 @@ public class CheckoutOption extends Option {
     }
 
     protected boolean isNegativeDecision(String decision){
-        return NEGATIVE_DECISION.equals(decision);
+        return NEGATIVE_DECISION.equals(decision.toLowerCase());
     }
 
 }
