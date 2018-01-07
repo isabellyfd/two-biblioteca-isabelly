@@ -29,7 +29,7 @@ public class CheckoutOption extends Option {
     }
 
     protected boolean isNegativeDecision(String decision){
-        return true;
+        return "no".equals(decision);
     }
 
 }

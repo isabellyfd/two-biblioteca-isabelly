@@ -26,13 +26,13 @@
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#804#805#0" expanded="true" />
                 <element signature="e#875#876#0" expanded="true" />
                 <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <file leaf-file-name="CheckoutOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="415">
+              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
@@ -223,8 +223,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
       </list>
     </option>
   </component>
@@ -574,6 +574,9 @@
     <history-entry file="CheckoutOptionTest_testIfDecisionIsNoInCheckOutBook - 2018.01.06 at 21h 50m 19s.xml">
       <configuration name="CheckoutOptionTest.testIfDecisionIsNoInCheckOutBook" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CheckoutOptionTest_testIfDecisionIsNoInCheckOutBook - 2018.01.06 at 21h 51m 00s.xml">
+      <configuration name="CheckoutOptionTest.testIfDecisionIsNoInCheckOutBook" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CheckoutOptionTest_testIfDecisionIsYesInCheckoutBook - 2018.01.06 at 21h 34m 11s.xml">
       <configuration name="CheckoutOptionTest.testIfDecisionIsYesInCheckoutBook" configurationId="JUnit" />
     </history-entry>
@@ -591,9 +594,6 @@
     </history-entry>
     <history-entry file="CheckoutOptionTest_testIfDecisionIsYesInCheckoutBookUsingCapslook - 2018.01.06 at 21h 41m 17s.xml">
       <configuration name="CheckoutOptionTest.testIfDecisionIsYesInCheckoutBookUsingCapslook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryControllerTest_testCheckingOutABook - 2018.01.06 at 21h 07m 40s.xml">
-      <configuration name="LibraryControllerTest.testCheckingOutABook" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1159,6 +1159,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/QuitOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1170,24 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="415">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
