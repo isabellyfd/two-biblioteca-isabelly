@@ -22,5 +22,5 @@ public abstract class Option {
         return this.command.equals(command);
     }
 
-    public abstract void action();
+    public abstract void action(int index);
 }

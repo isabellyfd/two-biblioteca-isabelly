@@ -13,7 +13,8 @@ public class ListOption extends Option {
         this.setMessage(Commands.LIST_COMMAND_MESSAGE);
     }
 
-    public void action() {
+    @Override
+    public void action(int index) {
         ArrayList<Book> availableBooks = Facade.shared.getAllAvailableBooks();
         ConsoleHelper.printList(availableBooks);
     }

@@ -2,6 +2,7 @@ package com.twu.biblioteca;
 
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 
 import java.util.ArrayList;
 
@@ -19,5 +20,13 @@ public class Facade {
 
     public ArrayList<Book> getAllAvailableBooks() {
         return this.library.listAllAvailableBooks();
+    }
+
+    public Book getBookAt(int index){
+        return this.library.getBookAtIndex(index);
+    }
+
+    public void checkoutBookAt(int index) throws CouldNotCheckoutBookException{
+        this.library.checkoutBookAt(index);
     }
 }

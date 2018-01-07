@@ -1,5 +1,9 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.Facade;
+import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.util.ConsoleHelper;
+
 public class CheckoutOption extends Option {
 
     public CheckoutOption() {
@@ -8,7 +12,14 @@ public class CheckoutOption extends Option {
     }
 
     @Override
-    public void action() {
-        System.out.println("chosen checkout");
+    public void action(int index) {
+        Book book = Facade.shared.getBookAt(--index);
+
+        ConsoleHelper.printMessage("Do you realy want to check you:");
+        ConsoleHelper.printMessage(book.toString());
+        ConsoleHelper.printMessage("yes or no?\n");
+
+        String decision = ConsoleHelper.getUserInput();
     }
+    
 }

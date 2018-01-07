@@ -40,7 +40,7 @@ public class BibliotecaApp {
         while (isRunning){
             if (app.isCommandAvailable(command)) {
                 Option option = app.getOptionFor(command);
-                option.action();
+                option.action(2);
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }

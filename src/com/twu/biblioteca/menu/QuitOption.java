@@ -8,7 +8,8 @@ public class QuitOption extends Option {
         this.setMessage(Commands.QUIT_COMMAND_MESSAGE);
     }
 
-    public void action() {
+    @Override
+    public void action(int index) {
         System.exit(EXIT_WITHOUT_ERRORS);
     }
 }
