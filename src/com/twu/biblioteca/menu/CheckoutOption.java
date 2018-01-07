@@ -24,7 +24,7 @@ public class CheckoutOption extends Option {
 
         String decision = "";
 
-        whileUserIsNotInputingTheRightCommand(decision);
+        decision = retrieveRightInputDecision(decision);
 
         if (this.isPositiveDecision(decision)){
             try {
@@ -37,11 +37,12 @@ public class CheckoutOption extends Option {
         }
     }
 
-    private void whileUserIsNotInputingTheRightCommand(String decision) {
+    private String retrieveRightInputDecision(String decision) {
         while(this.isNotTheRightCommand(decision)){
             ConsoleHelper.printMessage("yes or no?");
-            decision = ConsoleHelper.getUserInput();
+            decision = ConsoleHelper.getUserInput().getCommand();
         }
+        return decision;
     }
 
     protected boolean isPositiveDecision(String decision){

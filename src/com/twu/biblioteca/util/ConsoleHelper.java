@@ -29,11 +29,10 @@ public class ConsoleHelper {
         System.out.println(message);
     }
 
-    public static String getUserInput() {
+    public static Input getUserInput() {
         Scanner in = new Scanner(System.in);
         String input = in.nextLine();
-        ConsoleHelper.parseInput(input);
-        return in.next();
+        return ConsoleHelper.parseInput(input);
     }
 
     protected static Input parseInput(String input){

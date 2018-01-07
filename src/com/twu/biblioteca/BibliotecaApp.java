@@ -4,6 +4,7 @@ import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.menu.*;
 import com.twu.biblioteca.util.ConsoleHelper;
+import com.twu.biblioteca.util.Input;
 
 import java.util.ArrayList;
 
@@ -35,18 +36,17 @@ public class BibliotecaApp {
 
         app.printMenu();
 
-        String command = ConsoleHelper.getUserInput();
+        Input userInput = ConsoleHelper.getUserInput();
 
         while (isRunning){
-            if (app.isCommandAvailable(command)) {
-                Option option = app.getOptionFor(command);
-                option.action(2);
+            if (app.isCommandAvailable(userInput.getCommand())) {
+                Option option = app.getOptionFor(userInput.getCommand());
+                option.action(userInput.getArgument());
             }else {
                 ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
             }
-
             app.printMenu();
-            command = ConsoleHelper.getUserInput();
+            userInput = ConsoleHelper.getUserInput();
         }
     }
 
