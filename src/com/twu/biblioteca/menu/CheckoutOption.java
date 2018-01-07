@@ -2,6 +2,7 @@ package com.twu.biblioteca.menu;
 
 import com.twu.biblioteca.Facade;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 public class CheckoutOption extends Option {
@@ -20,9 +21,25 @@ public class CheckoutOption extends Option {
 
         ConsoleHelper.printMessage("Do you realy want to check you:");
         ConsoleHelper.printMessage(book.toString());
-        ConsoleHelper.printMessage("yes or no?\n");
 
-        String decision = ConsoleHelper.getUserInput();
+        String decision = "";
+
+        whileUserIsNotInputingTheRightCommand(decision);
+
+        if (this.isPositiveDecision(decision)){
+            try {
+                Facade.shared.checkoutBookAt(index);
+            }catch (CouldNotCheckoutBookException exception){ }
+        }else (this.isNegativeDecision(decision)){
+            ConsoleHelper.printMessage("Okay then!");
+        }
+    }
+
+    private void whileUserIsNotInputingTheRightCommand(String decision) {
+        while(this.isNotTheRightCommand(decision)){
+            ConsoleHelper.printMessage("yes or no?");
+            decision = ConsoleHelper.getUserInput();
+        }
     }
 
     protected boolean isPositiveDecision(String decision){
@@ -31,6 +48,10 @@ public class CheckoutOption extends Option {
 
     protected boolean isNegativeDecision(String decision){
         return NEGATIVE_DECISION.equals(decision.toLowerCase());
+    }
+
+    private boolean isNotTheRightCommand(String command){
+        return (!this.isPositiveDecision(command) && !this.isNegativeDecision(command));
     }
 
 }
