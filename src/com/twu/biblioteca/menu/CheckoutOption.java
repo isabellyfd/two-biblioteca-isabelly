@@ -29,7 +29,9 @@ public class CheckoutOption extends Option {
         if (this.isPositiveDecision(decision)){
             try {
                 Facade.shared.checkoutBookAt(index);
-            }catch (CouldNotCheckoutBookException exception){ }
+            }catch (CouldNotCheckoutBookException exception){
+                ConsoleHelper.printMessage(exception.getMessage());
+            }
         }else {
             ConsoleHelper.printMessage("Okay then!");
         }
