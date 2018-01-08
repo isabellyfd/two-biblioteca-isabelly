@@ -10,9 +10,13 @@ import java.util.Scanner;
 
 public class ConsoleHelper {
 
+    public static ConsoleHelper shared = new ConsoleHelper();
+
     private static final String WELCOME_MESSAGE = "Hello, explorer!\nWelcome to Isabelly's awesome library!\nI hope you enjoy your stay!\n";
 
-    public static String welcomeMessage() {
+    private ConsoleHelper(){}
+
+    public String welcomeMessage() {
         return WELCOME_MESSAGE;
     }
 

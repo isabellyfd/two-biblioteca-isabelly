@@ -50,7 +50,7 @@ public class BibliotecaApp {
     }
 
     public void printWelcomeMessage(){
-        ConsoleHelper.printMessage(ConsoleHelper.welcomeMessage());
+        ConsoleHelper.printMessage(ConsoleHelper.shared.welcomeMessage());
     }
 
     public void printMenu() {
