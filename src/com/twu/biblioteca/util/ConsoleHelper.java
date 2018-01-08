@@ -20,10 +20,10 @@ public class ConsoleHelper {
         return WELCOME_MESSAGE;
     }
 
-    public void printList(ArrayList<Book> books){
+    public <T> void printList(ArrayList<T> elements){
         int count = 1;
-        for(Book book : books){
-            System.out.println(count + " - " + book.toString());
+        for(T element : elements){
+            System.out.println(count + " - " + element.toString());
             count++;
         }
         System.out.println();
