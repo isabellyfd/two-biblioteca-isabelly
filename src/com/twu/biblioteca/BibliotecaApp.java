@@ -34,7 +34,7 @@ public class BibliotecaApp {
 
         app.printMenu();
 
-        Input userInput = ConsoleHelper.getUserInput();
+        Input userInput = ConsoleHelper.shared.getUserInput();
 
         while (isRunning){
             if (app.isCommandAvailable(userInput.getCommand())) {
@@ -45,7 +45,7 @@ public class BibliotecaApp {
                 ConsoleHelper.shared.printMessage("");
             }
             app.printMenu();
-            userInput = ConsoleHelper.getUserInput();
+            userInput = ConsoleHelper.shared.getUserInput();
         }
     }
 

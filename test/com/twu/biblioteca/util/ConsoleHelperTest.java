@@ -51,7 +51,7 @@ public class ConsoleHelperTest {
         String expectedInput = "list";
         ByteArrayInputStream inContent = new ByteArrayInputStream(expectedInput.getBytes());
         System.setIn(inContent);
-        String userInput = ConsoleHelper.getUserInput().getCommand();
+        String userInput = ConsoleHelper.shared.getUserInput().getCommand();
         Assert.assertEquals(expectedInput, userInput);
         System.setIn(null);
     }

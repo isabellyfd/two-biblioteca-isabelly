@@ -49,7 +49,7 @@ public class CheckoutOption extends Option {
     private String retrieveRightInputDecision(String decision) {
         while(this.isNotTheRightCommand(decision)){
             ConsoleHelper.shared.printMessage("yes or no?");
-            decision = ConsoleHelper.getUserInput().getCommand();
+            decision = ConsoleHelper.shared.getUserInput().getCommand();
         }
         return decision;
     }

@@ -33,7 +33,7 @@ public class ConsoleHelper {
         System.out.println(message);
     }
 
-    public static Input getUserInput() {
+    public Input getUserInput() {
         Scanner in = new Scanner(System.in);
         String input = in.nextLine();
         return ConsoleHelper.parseInput(input);
