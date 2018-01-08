@@ -5,12 +5,14 @@ public class Movie {
     private String director;
     private int year;
     private double rating;
+    private boolean isAvailable;
 
     public Movie(String name, String director, int year, double rating){
         this.name = name;
         this.director = director;
         this.year = year;
         this.rating = rating;
+        this.isAvailable = true;
     }
 
     public String getName() {
@@ -30,7 +32,7 @@ public class Movie {
     }
 
     public boolean isAvailable() {
-        return false;
+        return this.isAvailable;
     }
 
     @Override
