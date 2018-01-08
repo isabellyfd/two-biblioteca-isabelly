@@ -19,5 +19,10 @@ public class ReturnOptionTest {
         Assert.assertFalse(returnOption.check(userInput));
 
     }
-    
+
+    @Test
+    public void testGettingMessageFromReturnOption() {
+        ReturnOption returnOption = new ReturnOption();
+        Assert.assertEquals("[return] returns a book to library", returnOption.getMessage());
+    }
 }
