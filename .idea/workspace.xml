@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,16 +76,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutOption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConsoleHelperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,8 +111,8 @@
       <file leaf-file-name="CheckoutMovieOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="154">
+              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,12 +123,22 @@
       <file leaf-file-name="CheckoutMovieOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="70">
+              <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Commands.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,8 +146,8 @@
       <file leaf-file-name="Option.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="196">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#455#456#0" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
@@ -224,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListOptionTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListBooksOptionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/entity/MovieTest.java" />
@@ -241,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" />
       </list>
     </option>
@@ -611,6 +612,9 @@
     <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsChosen - 2018.01.08 at 19h 13m 17s.xml">
       <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsChosen" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsChosen - 2018.01.08 at 19h 14m 43s.xml">
+      <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsChosen" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ConsoleHelperTest - 2018.01.08 at 19h 04m 54s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
@@ -626,9 +630,6 @@
     <history-entry file="ConsoleHelperTest_testParsingMethodUsingListInput - 2018.01.08 at 19h 04m 49s.xml">
       <configuration name="ConsoleHelperTest.testParsingMethodUsingListInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest_testPrintMessageMethod - 2018.01.08 at 18h 59m 56s.xml">
-      <configuration name="ConsoleHelperTest.testPrintMessageMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConsoleHelperTest_testPrintMessageMethod - 2018.01.08 at 19h 01m 07s.xml">
       <configuration name="ConsoleHelperTest.testPrintMessageMethod" configurationId="JUnit" />
     </history-entry>
@@ -638,7 +639,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -648,12 +648,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -904,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListBooksOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1115,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Option.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="196">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="e#455#456#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
@@ -1124,21 +1116,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="70">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="154">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
