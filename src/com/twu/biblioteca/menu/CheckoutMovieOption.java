@@ -7,6 +7,7 @@ import com.twu.biblioteca.util.ConsoleHelper;
 public class CheckoutMovieOption extends Option {
 
     private final String POSITIVE_DECISION = "yes";
+    private final String NEGATIVE_DECISION = "no";
 
     public CheckoutMovieOption() {
         this.setCommand(Commands.CHECKOUT_MOVIE_COMMAND);
@@ -28,6 +29,6 @@ public class CheckoutMovieOption extends Option {
     }
 
     protected boolean isNegativeDecision(String userInput){
-        return false;
+        return NEGATIVE_DECISION.equals(userInput);
     }
 }

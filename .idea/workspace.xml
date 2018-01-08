@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutMovieOptionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutMovieOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+            <state relative-caret-position="428">
+              <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -103,17 +102,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutMovieOption.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckoutMovieOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="58" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+            <state relative-caret-position="411">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -607,13 +606,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutBookOptionTest - 2018.01.08 at 19h 27m 34s.xml">
-      <configuration name="CheckoutBookOptionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutMovieOptionTest - 2018.01.08 at 19h 41m 13s.xml">
       <configuration name="CheckoutMovieOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutMovieOptionTest_testDecisionIsNoLowerCase - 2018.01.08 at 19h 47m 39s.xml">
+      <configuration name="CheckoutMovieOptionTest.testDecisionIsNoLowerCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutMovieOptionTest_testDecisionIsNoLowerCase - 2018.01.08 at 19h 48m 59s.xml">
       <configuration name="CheckoutMovieOptionTest.testDecisionIsNoLowerCase" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutMovieOptionTest_testDecisionIsYesLowerCase - 2018.01.08 at 19h 41m 58s.xml">
@@ -1111,6 +1110,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1121,36 +1128,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="411">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+        <state relative-caret-position="428">
+          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="58" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
