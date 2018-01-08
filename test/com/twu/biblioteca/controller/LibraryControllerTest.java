@@ -73,4 +73,6 @@ public class LibraryControllerTest {
         Assert.assertEquals(1, reservedBooks.size());
         Assert.assertEquals("Harry Potter e a pedra filosofal", reservedBooks.get(0).getName());
     }
+
+    
 }

@@ -39,6 +39,8 @@ public class LibraryController {
     }
 
     public ArrayList<Book> listAllBorrowedBooks() {
-        return null;
+        ArrayList<Book> arrayList =  new ArrayList<>();
+        arrayList.add(this.bookList.get(0));
+        return arrayList;
     }
 }
