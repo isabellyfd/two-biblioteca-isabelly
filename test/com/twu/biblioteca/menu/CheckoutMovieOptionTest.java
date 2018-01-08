@@ -1,27 +1,38 @@
 package com.twu.biblioteca.menu;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class CheckoutMovieOptionTest {
 
+    private CheckoutMovieOption checkoutMovieOption;
+
+    @Before
+    public void setup() {
+        checkoutMovieOption = new CheckoutMovieOption();
+    }
+
     @Test
     public void testIfCheckOutMovieIsChosen() {
         String userInput = "checkout-movie";
-        CheckoutMovieOption checkoutMovieOption = new CheckoutMovieOption();
         Assert.assertTrue(checkoutMovieOption.check(userInput));
     }
 
     @Test
     public void testIfCheckOutMovieIsNotChosen() {
         String userInput = "checkout-moie";
-        CheckoutMovieOption checkoutMovieOption = new CheckoutMovieOption();
         Assert.assertFalse(checkoutMovieOption.check(userInput));
     }
 
     @Test
     public void testGettingMessageOfCheckingOutMovie() {
-        CheckoutMovieOption checkoutMovieOption = new CheckoutMovieOption();
         Assert.assertEquals("[checkout-movie] <index> checks out the movie in the index passed as argument", checkoutMovieOption.getMessage());
+    }
+
+    @Test
+    public void testDecisionIsYesLowerCase() {
+        String userInput = "yes";
+        Assert.assertTrue(checkoutMovieOption.isPositiveDecision(userInput));
     }
 }

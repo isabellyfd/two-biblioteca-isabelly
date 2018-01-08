@@ -20,4 +20,8 @@ public class CheckoutMovieOption extends Option {
 
         String decision = "";
     }
+
+    protected boolean isPositiveDecision(String userInput){
+        return false;
+    }
 }
