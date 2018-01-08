@@ -20,7 +20,10 @@ public class LibraryControllerTest {
         ArrayList<Book> bookList = new ArrayList<>();
         bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling", 1997));
         bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", 1999));
-        controller = new LibraryController(bookList);
+        ArrayList<Movie> movieList = new ArrayList<>();
+        movieList.add(new Movie("Little Miss Sunshine", "Jonathan Dayton, Valerie Faris", 2006, 5.0));
+        movieList.add(new Movie("Into the wild", "Sean Penn", 2008, 5.0));
+        controller = new LibraryController(bookList, movieList);
     }
 
     @Test

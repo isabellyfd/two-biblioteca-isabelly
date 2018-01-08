@@ -2,6 +2,7 @@ package com.twu.biblioteca;
 
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.entity.Movie;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.exception.CouldNotReturnBookException;
 
@@ -16,7 +17,7 @@ public class Facade {
         ArrayList<Book> books = new ArrayList<>();
         books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
         books.add(new Book("Press Here", "Herve Tullet", 2011));
-        this.library = new LibraryController(books);
+        this.library = new LibraryController(books, new ArrayList<Movie>());
     }
 
     public ArrayList<Book> getAllAvailableBooks() {

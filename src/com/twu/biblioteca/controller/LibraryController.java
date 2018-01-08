@@ -10,9 +10,11 @@ import java.util.stream.Collectors;
 
 public class LibraryController {
     private ArrayList<Book> bookList;
+    private ArrayList<Movie> movieList;
 
-    public LibraryController(ArrayList<Book> bookList){
+    public LibraryController(ArrayList<Book> bookList, ArrayList<Movie> movieList){
         this.bookList = bookList;
+        this.movieList = movieList;
     }
 
     public ArrayList<Book> listAllAvailableBooks() {
