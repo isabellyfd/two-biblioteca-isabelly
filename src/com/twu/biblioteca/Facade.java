@@ -17,7 +17,10 @@ public class Facade {
         ArrayList<Book> books = new ArrayList<>();
         books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
         books.add(new Book("Press Here", "Herve Tullet", 2011));
-        this.library = new LibraryController(books, new ArrayList<Movie>());
+        ArrayList<Movie> movieList = new ArrayList<>();
+        movieList.add(new Movie("Little Miss Sunshine", "Jonathan Dayton, Valerie Faris", 2006, 5.0));
+        movieList.add(new Movie("Into the wild", "Sean Penn", 2008, 5.0));
+        this.library = new LibraryController(books, movieList);
     }
 
     public ArrayList<Book> getAllAvailableBooks() {
@@ -38,6 +41,10 @@ public class Facade {
 
     public void returnBook(Book book) throws CouldNotReturnBookException{
         this.library.returnBook(book);
+    }
+
+    public ArrayList<Movie>  getAllAvailableMovies() {
+        return this.library.listAllAvailableMovies();
     }
 }
 

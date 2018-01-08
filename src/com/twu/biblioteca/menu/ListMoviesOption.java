@@ -1,5 +1,11 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.Facade;
+import com.twu.biblioteca.entity.Movie;
+import com.twu.biblioteca.util.ConsoleHelper;
+
+import java.util.ArrayList;
+
 public class ListMoviesOption extends Option {
 
     public ListMoviesOption() {
@@ -9,6 +15,10 @@ public class ListMoviesOption extends Option {
 
     @Override
     public void action(int index) {
-        System.out.println("list movies");
+        ArrayList<Movie> movies = Facade.shared.getAllAvailableMovies();
+
+        for (Movie movie: movies){
+            ConsoleHelper.printMessage(movie.toString());
+        }
     }
 }
