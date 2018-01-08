@@ -4,7 +4,7 @@ public class ListMoviesOption extends Option {
 
     public ListMoviesOption() {
         this.setCommand(Commands.LIST_MOVIES_COMMAND);
-        this.setMessage("[list-movies] list all movies available in the library");
+        this.setMessage(Commands.LIST_MOVIES_COMMAND_MESSAGE);
     }
 
     @Override
