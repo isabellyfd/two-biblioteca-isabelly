@@ -16,7 +16,7 @@ public class LibraryControllerTest {
 
     @Before
     public void setup() {
-        ArrayList<Book> bookList = new ArrayList<Book>();
+        ArrayList<Book> bookList = new ArrayList<>();
         bookList.add(new Book("Harry Potter e a pedra filosofal", "J.K. Rolling", 1997));
         bookList.add(new Book("Harry Potter camara secreta", "J.K. Rolling", 1999));
         controller = new LibraryController(bookList);
@@ -63,5 +63,14 @@ public class LibraryControllerTest {
         }catch (CouldNotCheckoutBookException e){
             Assert.fail();
         }
+    }
+
+
+    @Test
+    public void testGettingAllBooksBooked() {
+        this.controller.getBookAtIndex(0).setAvailable(false);
+        ArrayList<Book> reservedBooks = this.controller.listAllBorrowedBooks();
+        Assert.assertEquals(1, reservedBooks.size());
+        Assert.assertEquals("Harry Potter e a pedra filosofal", reservedBooks.get(0).getName());
     }
 }

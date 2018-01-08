@@ -1,6 +1,6 @@
 package com.twu.biblioteca;
 
-import com.twu.biblioteca.controller.LibraryController;
+import com.twu.biblioteca.controller.Menu;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.menu.*;
 import com.twu.biblioteca.util.ConsoleHelper;

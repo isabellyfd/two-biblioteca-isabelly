@@ -37,4 +37,8 @@ public class LibraryController {
             throw new CouldNotCheckoutBookException();
         }
     }
+
+    public ArrayList<Book> listAllBorrowedBooks() {
+        return null;
+    }
 }

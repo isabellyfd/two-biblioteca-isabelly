@@ -1,5 +1,6 @@
-package com.twu.biblioteca.menu;
+package com.twu.biblioteca.controller;
 
+import com.twu.biblioteca.menu.Option;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 public class Menu {

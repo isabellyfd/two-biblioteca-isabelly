@@ -7,7 +7,6 @@ import org.junit.Assert;
 import com.twu.biblioteca.menu.Option;
 import com.twu.biblioteca.menu.QuitOption;
 import com.twu.biblioteca.menu.ListOption;
-import com.twu.biblioteca.menu.Menu;
 
 public class MenuTest {
 
