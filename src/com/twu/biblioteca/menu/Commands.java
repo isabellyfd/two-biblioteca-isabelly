@@ -2,7 +2,7 @@ package com.twu.biblioteca.menu;
 
 public class Commands {
     public static final String QUIT_COMMAND = "quit";
-    public static final String LIST_COMMAND = "list-books";
+    public static final String LIST_BOOKS_COMMAND = "list-books";
     public static final String CHECKOUT_COMMAND = "checkout";
     public static final String RETURN_COMMAND = "return";
     public static final String LIST_MOVIES_COMMAND = "list-movies";
