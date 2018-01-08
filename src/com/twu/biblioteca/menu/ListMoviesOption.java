@@ -3,7 +3,7 @@ package com.twu.biblioteca.menu;
 public class ListMoviesOption extends Option {
 
     public ListMoviesOption() {
-        this.setCommand("list-movies");
+        this.setCommand(Commands.LIST_MOVIES_COMMAND);
     }
 
     @Override
