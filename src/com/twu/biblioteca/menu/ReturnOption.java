@@ -50,7 +50,7 @@ public class ReturnOption extends Option {
     }
 
     private void printAllBorrowedBooksInLibrary(ArrayList<Book> reservedBooks) {
-        ConsoleHelper.printList(reservedBooks);
+        ConsoleHelper.shared.printList(reservedBooks);
         ConsoleHelper.printMessage("Choose a book above to return to library:");
     }
 

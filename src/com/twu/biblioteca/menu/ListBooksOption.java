@@ -16,6 +16,6 @@ public class ListBooksOption extends Option {
     @Override
     public void action(int index) {
         ArrayList<Book> availableBooks = Facade.shared.getAllAvailableBooks();
-        ConsoleHelper.printList(availableBooks);
+        ConsoleHelper.shared.printList(availableBooks);
     }
 }

@@ -35,7 +35,7 @@ public class ConsoleHelperTest {
         books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
         books.add(new Book("Press Here", "Herve Tullet", 2011));
 
-        ConsoleHelper.printList(books);
+        ConsoleHelper.shared.printList(books);
         Assert.assertEquals("1 - Goodnight Moon by Margaret Wise Brown, Clement Hurd - 2007\n2 - Press Here by Herve Tullet - 2011", outContent.toString().trim());
     }
 
