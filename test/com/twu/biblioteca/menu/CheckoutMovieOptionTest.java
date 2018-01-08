@@ -47,4 +47,10 @@ public class CheckoutMovieOptionTest {
         String userInput = "no";
         Assert.assertTrue(checkoutMovieOption.isNegativeDecision(userInput));
     }
+
+    @Test
+    public void testDecisionInNoUpperCase() {
+        String userInput ="NO";
+        Assert.assertTrue(checkoutMovieOption.isNegativeDecision(userInput));
+    }
 }
