@@ -27,7 +27,7 @@ public class ListMoviesOptionTest {
 
     @Test
     public void testGettingMessageFromListMovieOption() {
-        Assert.assertEquals("[list-movies] list all movies available in the library", listMoviesOption.getMessage());
+        Assert.assertEquals("[list-movies] list all available movies in the library", listMoviesOption.getMessage());
     }
 
 }
