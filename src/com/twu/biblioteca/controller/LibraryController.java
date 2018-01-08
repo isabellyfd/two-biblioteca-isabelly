@@ -48,6 +48,12 @@ public class LibraryController {
     }
 
     public void returnBook(Book book) throws CouldNotReturnBookException{
+        for(Book bookInLibrary : this.bookList){
+            if (bookInLibrary.equals(book)){
+                bookInLibrary.setAvailable(true);
+                return;
+            }
+        }
         throw new CouldNotReturnBookException();
     }
 

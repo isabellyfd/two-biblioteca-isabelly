@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotReturnBookException.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/controller/LibraryController.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/controller/LibraryController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/ReturnOption.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/ReturnOption.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/LibraryControllerTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/LibraryControllerTest.class" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,13 +55,13 @@
       <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state relative-caret-position="425">
+              <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#864#865#0" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
-                <marker date="1515431894902" expanded="true" signature="814:821" ph="{...}" />
+                <marker date="1515432155774" expanded="true" signature="814:821" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,8 +70,8 @@
       <file leaf-file-name="LibraryControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+            <state relative-caret-position="327">
+              <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -577,9 +571,6 @@
     <history-entry file="ConsoleHelperTest - 2018.01.08 at 12h 50m 55s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsoleHelperTest_testGettingUserInput - 2018.01.08 at 12h 50m 49s.xml">
-      <configuration name="ConsoleHelperTest.testGettingUserInput" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryControllerTest - 2018.01.08 at 13h 48m 20s.xml">
       <configuration name="LibraryControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -596,6 +587,9 @@
       <configuration name="LibraryControllerTest.testGettingAllBooksBookedWithLastBookBooked" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryControllerTest_testReturningBookActionSuccessful - 2018.01.08 at 14h 18m 25s.xml">
+      <configuration name="LibraryControllerTest.testReturningBookActionSuccessful" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryControllerTest_testReturningBookActionSuccessful - 2018.01.08 at 14h 23m 02s.xml">
       <configuration name="LibraryControllerTest.testReturningBookActionSuccessful" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1121,21 +1115,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        <state relative-caret-position="425">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#864#865#0" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
-            <marker date="1515431894902" expanded="true" signature="814:821" ph="{...}" />
+            <marker date="1515432155774" expanded="true" signature="814:821" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+        <state relative-caret-position="327">
+          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
           <folding />
         </state>
       </provider>
