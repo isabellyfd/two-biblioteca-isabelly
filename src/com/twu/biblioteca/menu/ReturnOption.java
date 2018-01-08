@@ -1,6 +1,10 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.Facade;
+import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.util.ConsoleHelper;
+
+import java.util.ArrayList;
 
 public class ReturnOption extends Option {
 
@@ -11,6 +15,22 @@ public class ReturnOption extends Option {
 
     @Override
     public void action(int index) {
-        ConsoleHelper.printMessage("HI");
+
+        ArrayList<Book> reservedBooks = Facade.shared.getAllBorrowedBooks();
+
+        if (reservedBooks.size() == 0){
+            ConsoleHelper.printMessage("There isn't books to return!");
+            ConsoleHelper.printMessage("");
+        }else {
+            ConsoleHelper.printList(reservedBooks);
+            ConsoleHelper.printMessage("Choose a book above to return to library:");
+            int number = ConsoleHelper.getIntFromUser();
+
+            if(number <= reservedBooks.size() && number > 0){
+                ConsoleHelper.printMessage("can return!");
+            }else{
+                ConsoleHelper.printMessage("can not return!");
+            }
+        }
     }
 }

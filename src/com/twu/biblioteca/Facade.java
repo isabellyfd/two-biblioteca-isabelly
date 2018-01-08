@@ -29,4 +29,8 @@ public class Facade {
     public void checkoutBookAt(int index) throws CouldNotCheckoutBookException{
         this.library.checkoutBookAt(index);
     }
+
+    public ArrayList<Book> getAllBorrowedBooks() {
+        return this.library.listAllBorrowedBooks();
+    }
 }

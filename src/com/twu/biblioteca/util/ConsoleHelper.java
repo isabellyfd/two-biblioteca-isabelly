@@ -43,4 +43,8 @@ public class ConsoleHelper {
             return new Input(splited[0]);
         }
     }
+
+    public static int getIntFromUser() {
+        return new Scanner(System.in).nextInt();
+    }
 }
