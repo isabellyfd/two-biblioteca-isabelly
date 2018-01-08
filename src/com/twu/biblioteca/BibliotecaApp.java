@@ -13,7 +13,7 @@ public class BibliotecaApp {
     private Menu menuController;
 
     protected BibliotecaApp(ArrayList<Book> books){
-        this.menuController = new Menu(new ListBooksOption(), new CheckoutOption(), new ReturnOption(), new QuitOption());
+        this.menuController = new Menu(new ListBooksOption(), new CheckoutOption(), new ReturnOption(), new ListMoviesOption(), new QuitOption());
     }
 
     public static BibliotecaApp getInstance() {
