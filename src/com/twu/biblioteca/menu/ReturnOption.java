@@ -1,5 +1,7 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.util.ConsoleHelper;
+
 public class ReturnOption extends Option {
 
     public ReturnOption(){
@@ -9,6 +11,6 @@ public class ReturnOption extends Option {
 
     @Override
     public void action(int index) {
-
+        ConsoleHelper.printMessage("HI");
     }
 }
