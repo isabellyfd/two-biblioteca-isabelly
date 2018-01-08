@@ -43,7 +43,8 @@ public class BibliotecaApp {
                 Option option = app.getOptionFor(userInput.getCommand());
                 option.action(userInput.getArgument());
             }else {
-                ConsoleHelper.printMessage("This option is not available! (try to fix the spelling)");
+                ConsoleHelper.printMessage("Select a valid option!");
+                ConsoleHelper.printMessage("");
             }
             app.printMenu();
             userInput = ConsoleHelper.getUserInput();
