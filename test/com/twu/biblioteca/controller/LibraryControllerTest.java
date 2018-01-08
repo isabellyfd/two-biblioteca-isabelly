@@ -23,16 +23,6 @@ public class LibraryControllerTest {
     }
 
     @Test
-    public void testGettingAllBooksFromLibrary() {
-        ArrayList<Book> books = this.controller.getBookList();
-
-        Assert.assertNotNull(books);
-        Assert.assertEquals(2, books.size());
-        Assert.assertEquals("Harry Potter e a pedra filosofal", books.get(0).getName());
-        Assert.assertEquals("Harry Potter camara secreta", books.get(1).getName());
-    }
-
-    @Test
     public void testListAllAvailableMethodBringsOnlyAvailable() {
         ArrayList<Book> books = this.controller.listAllAvailableBooks();
 
@@ -91,6 +81,11 @@ public class LibraryControllerTest {
         }catch (CouldNotReturnBookException exception){
             Assert.fail();
         }
+
+    }
+
+    @Test
+    public void test() {
 
     }
 }

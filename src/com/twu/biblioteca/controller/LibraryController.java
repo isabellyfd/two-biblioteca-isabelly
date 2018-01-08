@@ -14,10 +14,6 @@ public class LibraryController {
         this.bookList = bookList;
     }
 
-    public ArrayList<Book> getBookList() {
-        return this.bookList;
-    }
-
     public ArrayList<Book> listAllAvailableBooks() {
 
         ArrayList<Book> books = this.bookList.stream()
