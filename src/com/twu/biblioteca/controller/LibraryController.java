@@ -57,7 +57,10 @@ public class LibraryController {
     }
 
     public ArrayList<Movie> listAllAvailableMovies() {
-        return null;
+        ArrayList<Movie> movies = this.movieList.stream()
+                                                .filter(movie -> movie.isAvailable())
+                                                .collect(Collectors.toCollection(ArrayList::new));
+        return movies;
     }
 
 }
