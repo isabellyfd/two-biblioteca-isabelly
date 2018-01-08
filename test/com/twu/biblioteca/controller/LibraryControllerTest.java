@@ -74,5 +74,10 @@ public class LibraryControllerTest {
         Assert.assertEquals("Harry Potter e a pedra filosofal", reservedBooks.get(0).getName());
     }
 
-    
+    @Test
+    public void testGettingAllBooksBookedWithLastBookBooked() {
+        this.controller.getBookAtIndex(1).setAvailable(false);
+        ArrayList<Book> reservedBooks =  this.controller.listAllBorrowedBooks();
+        Assert.assertEquals("Harry Potter camara secreta", reservedBooks.get(0).getName());
+    }
 }
