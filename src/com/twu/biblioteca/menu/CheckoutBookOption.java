@@ -25,7 +25,7 @@ public class CheckoutBookOption extends Option {
     }
 
     private void printCheckoutBookMessage(Book book) {
-        ConsoleHelper.shared.printMessage("Do you really want to check you:");
+        ConsoleHelper.shared.printMessage("Do you really want to check out:");
         ConsoleHelper.shared.printMessage(book.toString());
     }
 

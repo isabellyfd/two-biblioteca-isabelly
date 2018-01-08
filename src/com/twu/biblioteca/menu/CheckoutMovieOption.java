@@ -1,5 +1,9 @@
 package com.twu.biblioteca.menu;
 
+import com.twu.biblioteca.Facade;
+import com.twu.biblioteca.entity.Movie;
+import com.twu.biblioteca.util.ConsoleHelper;
+
 public class CheckoutMovieOption extends Option {
 
     public CheckoutMovieOption() {
@@ -9,6 +13,11 @@ public class CheckoutMovieOption extends Option {
 
     @Override
     public void action(int index) {
+        Movie movie = Facade.shared.getMovieAt(index);
 
+        ConsoleHelper.shared.printMessage("Do you really want to check out:");
+        ConsoleHelper.shared.printMessage(movie.toString());
+
+        String decision = "";
     }
 }

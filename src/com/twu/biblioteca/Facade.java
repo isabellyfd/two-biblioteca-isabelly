@@ -46,5 +46,9 @@ public class Facade {
     public ArrayList<Movie>  getAllAvailableMovies() {
         return this.library.listAllAvailableMovies();
     }
+
+    public Movie getMovieAt(int index){
+        return this.library.getMovieAt(index);
+    }
 }
 
