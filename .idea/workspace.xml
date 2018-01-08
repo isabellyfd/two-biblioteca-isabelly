@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +81,8 @@
       <file leaf-file-name="CheckoutMovieOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="490">
+              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -107,11 +106,11 @@
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -364,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckoutMovieOptionTest">
+  <component name="RunManager" selected="JUnit.CheckoutMovieOptionTest.testDecisionIsYesLowerCase">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -461,7 +460,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutMovieOptionTest.testDecisionIsYesLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.twu.biblioteca.menu.*" />
@@ -473,7 +472,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.CheckoutMovieOptionTest" />
-      <option name="METHOD_NAME" value="testGettingMessageOfCheckingOutMovie" />
+      <option name="METHOD_NAME" value="testDecisionIsYesLowerCase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -572,19 +571,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest.testIfDecisionIFConInCheckOutBookUsingCapsLock" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testGettingMovieAtIndexZero" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest.testIfDecisionIFConInCheckOutBookUsingCapsLock" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testGettingMovieAtIndexZero" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest.testDecisionIsYesLowerCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testGettingMovieAtIndexZero" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest.testIfDecisionIFConInCheckOutBookUsingCapsLock" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest.testDecisionIsYesLowerCase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutMovieOptionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testGettingMovieAtIndexZero" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckoutBookOptionTest.testIfDecisionIFConInCheckOutBookUsingCapsLock" />
       </list>
     </recent_temporary>
   </component>
@@ -608,11 +607,11 @@
     <history-entry file="CheckoutBookOptionTest - 2018.01.08 at 19h 27m 34s.xml">
       <configuration name="CheckoutBookOptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutMovieOptionTest - 2018.01.08 at 19h 22m 40s.xml">
-      <configuration name="CheckoutMovieOptionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutMovieOptionTest - 2018.01.08 at 19h 41m 13s.xml">
       <configuration name="CheckoutMovieOptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutMovieOptionTest_testDecisionIsYesLowerCase - 2018.01.08 at 19h 41m 58s.xml">
+      <configuration name="CheckoutMovieOptionTest.testDecisionIsYesLowerCase" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutOptionTest - 2018.01.08 at 19h 24m 19s.xml">
       <configuration name="CheckoutOptionTest" configurationId="JUnit" />
@@ -1148,18 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -1168,10 +1155,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="490">
+          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
