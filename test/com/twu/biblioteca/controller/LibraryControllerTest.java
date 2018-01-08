@@ -96,4 +96,10 @@ public class LibraryControllerTest {
             Assert.assertTrue(movie.isAvailable());
         }
     }
+
+    @Test
+    public void testGettingMovieAtIndexZero(){
+        Movie movie = this.controller.getMovieAt(0);
+        Assert.assertEquals("Little Miss Sunshine", movie.getName());
+    }
 }
