@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/CheckoutOption.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/menu/CheckoutOptionTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/menu/CheckoutOptionTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,8 +133,8 @@
       <file leaf-file-name="Commands.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+            <state relative-caret-position="70">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -161,7 +156,7 @@
       <file leaf-file-name="CheckoutOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="28">
               <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
@@ -241,10 +236,10 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutBookOption.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
       </list>
     </option>
   </component>
@@ -632,13 +627,13 @@
     <history-entry file="CheckoutMovieOptionTest_testGettingMessageOfCheckingOutMovie - 2018.01.08 at 19h 22m 35s.xml">
       <configuration name="CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsNotChosen - 2018.01.08 at 19h 16m 31s.xml">
-      <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsNotChosen" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsNotChosen - 2018.01.08 at 19h 16m 50s.xml">
       <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsNotChosen" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutOptionTest - 2018.01.08 at 19h 24m 19s.xml">
+      <configuration name="CheckoutOptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutOptionTest - 2018.01.08 at 19h 25m 27s.xml">
       <configuration name="CheckoutOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckoutOptionTest_testIfDecisionIFConInCheckOutBookUsingCapsLock - 2018.01.08 at 19h 24m 07s.xml">
@@ -1138,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutMovieOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1172,9 +1159,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutOptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>

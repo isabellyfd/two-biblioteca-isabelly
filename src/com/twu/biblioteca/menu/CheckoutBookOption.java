@@ -11,7 +11,7 @@ public class CheckoutBookOption extends Option {
     private final String NEGATIVE_DECISION = "no";
 
     public CheckoutBookOption() {
-        this.setCommand(Commands.CHECKOUT_COMMAND);
+        this.setCommand(Commands.CHECKOUT_BOOK_COMMAND);
         this.setMessage(Commands.CHECKOUT_COMMAND_MESSAGE);
     }
 
