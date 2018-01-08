@@ -3,7 +3,7 @@ package com.twu.biblioteca.menu;
 public class ReturnOption extends Option {
 
     public ReturnOption(){
-        this.setCommand("return");
+        this.setCommand(Commands.RETURN_COMMAND);
     }
 
     @Override
