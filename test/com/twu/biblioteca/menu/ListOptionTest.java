@@ -20,7 +20,7 @@ public class ListOptionTest {
 
     @Test
     public void testIfIsChosenListOption() {
-        String userInput = "list";
+        String userInput = "list-books";
         Assert.assertTrue(this.listOption.check(userInput));
     }
 
