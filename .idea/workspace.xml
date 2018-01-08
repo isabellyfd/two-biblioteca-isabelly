@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,12 +47,12 @@
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
-              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
               <folding>
                 <element signature="e#928#929#0" expanded="true" />
                 <element signature="e#975#976#0" expanded="true" />
                 <element signature="e#2283#2284#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
+                <element signature="e#2327#2328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -618,9 +617,6 @@
     <history-entry file="CheckoutMovieOptionTest - 2018.01.08 at 19h 22m 40s.xml">
       <configuration name="CheckoutMovieOptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckoutMovieOptionTest_testGettingMessageOfCheckingOutMovie - 2018.01.08 at 19h 20m 35s.xml">
-      <configuration name="CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutMovieOptionTest_testGettingMessageOfCheckingOutMovie - 2018.01.08 at 19h 21m 07s.xml">
       <configuration name="CheckoutMovieOptionTest.testGettingMessageOfCheckingOutMovie" configurationId="JUnit" />
     </history-entry>
@@ -640,6 +636,9 @@
       <configuration name="CheckoutOptionTest.testIfDecisionIFConInCheckOutBookUsingCapsLock" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryControllerTest_testGettingMovieAtIndexZero - 2018.01.08 at 19h 31m 26s.xml">
+      <configuration name="LibraryControllerTest.testGettingMovieAtIndexZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryControllerTest_testGettingMovieAtIndexZero - 2018.01.08 at 19h 32m 27s.xml">
       <configuration name="LibraryControllerTest.testGettingMovieAtIndexZero" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1160,12 +1159,12 @@
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
-          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
           <folding>
             <element signature="e#928#929#0" expanded="true" />
             <element signature="e#975#976#0" expanded="true" />
             <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
           </folding>
         </state>
       </provider>

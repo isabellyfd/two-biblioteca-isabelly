@@ -64,7 +64,7 @@ public class LibraryController {
     }
 
     public Movie getMovieAt(int index){
-        return null;
+        return this.movieList.get(0);
     }
 
 }
