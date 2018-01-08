@@ -19,22 +19,51 @@ public class ReturnOption extends Option {
 
         ArrayList<Book> reservedBooks = Facade.shared.getAllBorrowedBooks();
 
-        if (reservedBooks.size() == 0){
-            ConsoleHelper.printMessage("There isn't books to return!");
-            ConsoleHelper.printMessage("");
+        if (thereIsBookToReturn(reservedBooks)){
+            printConsoleMessagesOfNoBooksToReturn();
         }else {
-            ConsoleHelper.printList(reservedBooks);
-            ConsoleHelper.printMessage("Choose a book above to return to library:");
-            int number = ConsoleHelper.getIntFromUser();
-
-            if(number <= reservedBooks.size() && number > 0){
-                try{
-                    Facade.shared.returnBook(reservedBooks.get(--number));
-                    ConsoleHelper.printMessage("Thank you for returning the book.");
-                }catch (CouldNotReturnBookException  exception){ }
-            }else{
-                ConsoleHelper.printMessage("This is not a valid option!");
-            }
+            runActionsWhenIsPossibleToReturn(reservedBooks);
         }
+    }
+
+    private boolean thereIsBookToReturn(ArrayList<Book> reservedBooks) {
+        return reservedBooks.size() == 0;
+    }
+
+    private void printConsoleMessagesOfNoBooksToReturn() {
+        ConsoleHelper.printMessage("There isn't books to return!");
+        ConsoleHelper.printMessage("");
+    }
+
+    private void runActionsWhenIsPossibleToReturn(ArrayList<Book> reservedBooks) {
+        printAllBorrowedBooksInLibrary(reservedBooks);
+        int number = ConsoleHelper.getIntFromUser();
+        verifyInputCorrectnessAndAct(reservedBooks, number);
+    }
+
+    private void verifyInputCorrectnessAndAct(ArrayList<Book> reservedBooks, int number) {
+        if(inputIsValidToReturnBook(reservedBooks, number)){
+            actOnDecision(reservedBooks, number);
+        }else{
+            ConsoleHelper.printMessage("This is not a valid option!");
+        }
+    }
+
+    private void printAllBorrowedBooksInLibrary(ArrayList<Book> reservedBooks) {
+        ConsoleHelper.printList(reservedBooks);
+        ConsoleHelper.printMessage("Choose a book above to return to library:");
+    }
+
+    private void actOnDecision(ArrayList<Book> reservedBooks, int number) {
+        try{
+            Facade.shared.returnBook(reservedBooks.get(--number));
+            ConsoleHelper.printMessage("Thank you for returning the book.");
+        }catch (CouldNotReturnBookException exception){
+            ConsoleHelper.printMessage(exception.getMessage());
+        }
+    }
+
+    private boolean inputIsValidToReturnBook(ArrayList<Book> reservedBooks, int number) {
+        return number <= reservedBooks.size() && number > 0;
     }
 }
