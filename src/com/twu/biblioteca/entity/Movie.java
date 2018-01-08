@@ -28,4 +28,9 @@ public class Movie {
     public double getRating() {
         return this.rating;
     }
+
+    @Override
+    public String toString() {
+        return this.name + " directed by "+ this.director + ", " + this.year + " - " + String.format("%.1f", this.rating) ;
+    }
 }
