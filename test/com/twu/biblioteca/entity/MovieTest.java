@@ -11,6 +11,6 @@ public class MovieTest {
         Assert.assertEquals("Little Miss Sunshine", movie.getName());
         Assert.assertEquals("Jonathan Dayton, Valerie Faris", movie.getDirector());
         Assert.assertEquals(2006, movie.getYear());
-        Assert.assertEquals(5.0, movie.getRating());
+        Assert.assertEquals(5.0, movie.getRating(), 0.0);
     }
 }
