@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="ListMoviesOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="266">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -587,9 +585,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryControllerTest - 2018.01.08 at 13h 53m 47s.xml">
-      <configuration name="LibraryControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryControllerTest_testGettingAllBooksBookedWithLastBookBooked - 2018.01.08 at 13h 50m 40s.xml">
       <configuration name="LibraryControllerTest.testGettingAllBooksBookedWithLastBookBooked" configurationId="JUnit" />
     </history-entry>
@@ -609,6 +604,9 @@
       <configuration name="ListMoviesOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListMoviesOptionTest - 2018.01.08 at 17h 02m 01s.xml">
+      <configuration name="ListMoviesOptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListMoviesOptionTest - 2018.01.08 at 17h 02m 34s.xml">
       <configuration name="ListMoviesOptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListMoviesOptionTest_testIfUserChoiceWasListMovies - 2018.01.08 at 16h 56m 09s.xml">
@@ -1096,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
