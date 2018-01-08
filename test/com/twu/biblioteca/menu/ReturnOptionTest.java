@@ -14,9 +14,10 @@ public class ReturnOptionTest {
 
     @Test
     public void testIfISNotChosenReturnOption() {
-        String userInput = "return";
+        String userInput = "ret";
         ReturnOption returnOption = new ReturnOption();
         Assert.assertFalse(returnOption.check(userInput));
 
     }
+    
 }
