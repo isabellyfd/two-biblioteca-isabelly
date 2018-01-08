@@ -10,11 +10,9 @@ import java.util.ArrayList;
 
 public class BibliotecaApp {
 
-    private LibraryController controller;
     private Menu menuController;
 
     protected BibliotecaApp(ArrayList<Book> books){
-        this.controller = new LibraryController(books);
         this.menuController = new Menu(new ListOption(), new CheckoutOption(), new ReturnOption(), new QuitOption());
     }
 
