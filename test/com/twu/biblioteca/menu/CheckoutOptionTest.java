@@ -7,10 +7,10 @@ import org.junit.Test;
 
 public class CheckoutOptionTest {
 
-    private CheckoutOption checkoutOption;
+    private CheckoutBookOption checkoutOption;
     @Before
     public void setup() {
-        this.checkoutOption = new CheckoutOption();
+        this.checkoutOption = new CheckoutBookOption();
     }
 
     @Test

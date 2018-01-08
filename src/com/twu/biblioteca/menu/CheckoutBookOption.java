@@ -5,12 +5,12 @@ import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.util.ConsoleHelper;
 
-public class CheckoutOption extends Option {
+public class CheckoutBookOption extends Option {
 
     private final String POSITIVE_DECISION = "yes";
     private final String NEGATIVE_DECISION = "no";
 
-    public CheckoutOption() {
+    public CheckoutBookOption() {
         this.setCommand(Commands.CHECKOUT_COMMAND);
         this.setMessage(Commands.CHECKOUT_COMMAND_MESSAGE);
     }
