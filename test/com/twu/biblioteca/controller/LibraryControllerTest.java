@@ -1,5 +1,6 @@
 package com.twu.biblioteca.controller;
 
+import com.twu.biblioteca.entity.Movie;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.exception.CouldNotReturnBookException;
 import org.junit.Assert;
@@ -85,7 +86,11 @@ public class LibraryControllerTest {
     }
 
     @Test
-    public void test() {
+    public void testRetrieveAllMoviesAvailableInLibrary() {
+        ArrayList<Movie> movies = this.controller.listAllAvailableMovies();
 
+        for (Movie movie :  movies) {
+            Assert.assertTrue(movie.isAvailable());
+        }
     }
 }

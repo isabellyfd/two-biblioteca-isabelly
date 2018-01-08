@@ -1,6 +1,7 @@
 package com.twu.biblioteca.controller;
 
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.entity.Movie;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.exception.CouldNotReturnBookException;
 
@@ -51,6 +52,10 @@ public class LibraryController {
             }
         }
         throw new CouldNotReturnBookException();
+    }
+
+    public ArrayList<Movie> listAllAvailableMovies() {
+        return null;
     }
 
 }
