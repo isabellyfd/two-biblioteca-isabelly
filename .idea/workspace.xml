@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/ListMoviesOption.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/menu/ListMoviesOption.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +101,8 @@
       <file leaf-file-name="ListMoviesOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleHelperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsoleHelperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
@@ -143,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BibliotecaApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BibliotecaApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#874#875#0" expanded="true" />
@@ -236,12 +238,12 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/entity/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListBooksOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/controller/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ReturnOption.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/util/ConsoleHelperTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/util/ConsoleHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
       </list>
     </option>
   </component>
@@ -306,7 +308,7 @@
               <item name="TWU_Biblioteca-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
@@ -363,13 +365,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsoleHelperTest">
+  <component name="RunManager" selected="Application.BibliotecaApp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="biblioteca" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -448,31 +469,6 @@
       <option name="PACKAGE_NAME" value="com.twu.biblioteca.util" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.util.ConsoleHelperTest" />
       <option name="METHOD_NAME" value="testParsingMethodUsingListInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.util" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.util.ConsoleHelperTest" />
-      <option name="METHOD_NAME" value="testPrintAllElementsOfTheListFormattedWithToString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -571,19 +567,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintMessageMethod" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testParsingMethodUsingListInput" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintMessageMethod" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testParsingMethodUsingListInput" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testParsingMethodUsingListInput" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintMessageMethod" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintAllElementsOfTheListFormattedWithToString" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testParsingMethodUsingListInput" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testGettingUserInput" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConsoleHelperTest.testPrintMessageMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -605,6 +601,9 @@
   </component>
   <component name="TestHistory">
     <history-entry file="ConsoleHelperTest - 2018.01.08 at 19h 04m 54s.xml">
+      <configuration name="ConsoleHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsoleHelperTest - 2018.01.08 at 19h 06m 12s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConsoleHelperTest_testGettingUserInput - 2018.01.08 at 19h 01m 19s.xml">
@@ -631,13 +630,9 @@
     <history-entry file="ConsoleHelperTest_testPrintWelcomeMessageCorrectly - 2018.01.08 at 18h 56m 05s.xml">
       <configuration name="ConsoleHelperTest.testPrintWelcomeMessageCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryControllerTest - 2018.01.08 at 18h 51m 52s.xml">
-      <configuration name="LibraryControllerTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1102,36 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#2061#2062#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/CheckoutOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1161,6 +1126,36 @@
         <state relative-caret-position="665">
           <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

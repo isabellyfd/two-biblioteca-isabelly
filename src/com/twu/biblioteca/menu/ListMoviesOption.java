@@ -16,9 +16,6 @@ public class ListMoviesOption extends Option {
     @Override
     public void action(int index) {
         ArrayList<Movie> movies = Facade.shared.getAllAvailableMovies();
-
-        for (Movie movie: movies){
-            ConsoleHelper.shared.printMessage(movie.toString());
-        }
+        ConsoleHelper.shared.printList(movies);
     }
 }
