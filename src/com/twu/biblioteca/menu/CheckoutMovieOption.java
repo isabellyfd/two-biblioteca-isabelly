@@ -5,10 +5,6 @@ import com.twu.biblioteca.entity.Movie;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 public class CheckoutMovieOption extends Option {
-
-    private final String POSITIVE_DECISION = "yes";
-    private final String NEGATIVE_DECISION = "no";
-
     public CheckoutMovieOption() {
         this.setCommand(Commands.CHECKOUT_MOVIE_COMMAND);
         this.setMessage(Commands.CHECKOUT_MOVIE_COMMAND_MESSAGE);
