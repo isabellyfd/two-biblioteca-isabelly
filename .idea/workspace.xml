@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/menu/ListMoviesOptionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,13 +93,11 @@
       <file leaf-file-name="ListMoviesOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="84">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,25 +357,6 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="biblioteca" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -416,31 +396,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LibraryControllerTest.testReturningBookActionSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.controller.LibraryControllerTest" />
-      <option name="METHOD_NAME" value="testReturningBookActionSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ListMoviesOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -466,6 +421,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ListMoviesOptionTest.testGettingMessageFromListMovieOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.ListMoviesOptionTest" />
+      <option name="METHOD_NAME" value="testGettingMessageFromListMovieOption" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ListMoviesOptionTest.testIfUserChoiceWasListMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -479,6 +459,31 @@
       <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.ListMoviesOptionTest" />
       <option name="METHOD_NAME" value="testIfUserChoiceWasListMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ListMoviesOptionTest.testIfUserChoiceWasNotListMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.menu" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.menu.ListMoviesOptionTest" />
+      <option name="METHOD_NAME" value="testIfUserChoiceWasNotListMovies" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -552,19 +557,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testReturningBookActionSuccessful" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CouldNotReturnBookExceptionTest.testGettingMessageFromException" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasListMovies" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CouldNotReturnBookExceptionTest.testGettingMessageFromException" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasListMovies" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasNotListMovies" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testGettingMessageFromListMovieOption" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasListMovies" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CouldNotReturnBookExceptionTest.testGettingMessageFromException" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryControllerTest.testReturningBookActionSuccessful" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testGettingMessageFromListMovieOption" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasNotListMovies" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ListMoviesOptionTest.testIfUserChoiceWasListMovies" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CouldNotReturnBookExceptionTest.testGettingMessageFromException" />
       </list>
     </recent_temporary>
   </component>
@@ -585,15 +590,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryControllerTest_testGettingAllBooksBookedWithLastBookBooked - 2018.01.08 at 13h 50m 40s.xml">
-      <configuration name="LibraryControllerTest.testGettingAllBooksBookedWithLastBookBooked" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryControllerTest_testGettingAllBooksBookedWithLastBookBooked - 2018.01.08 at 13h 53m 40s.xml">
-      <configuration name="LibraryControllerTest.testGettingAllBooksBookedWithLastBookBooked" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryControllerTest_testReturningBookActionSuccessful - 2018.01.08 at 14h 18m 25s.xml">
-      <configuration name="LibraryControllerTest.testReturningBookActionSuccessful" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryControllerTest_testReturningBookActionSuccessful - 2018.01.08 at 14h 23m 02s.xml">
       <configuration name="LibraryControllerTest.testReturningBookActionSuccessful" configurationId="JUnit" />
     </history-entry>
@@ -609,11 +605,20 @@
     <history-entry file="ListMoviesOptionTest - 2018.01.08 at 17h 02m 34s.xml">
       <configuration name="ListMoviesOptionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListMoviesOptionTest - 2018.01.08 at 17h 08m 06s.xml">
+      <configuration name="ListMoviesOptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListMoviesOptionTest_testGettingMessageFromListMovieOption - 2018.01.08 at 17h 04m 51s.xml">
+      <configuration name="ListMoviesOptionTest.testGettingMessageFromListMovieOption" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ListMoviesOptionTest_testIfUserChoiceWasListMovies - 2018.01.08 at 16h 56m 09s.xml">
       <configuration name="ListMoviesOptionTest.testIfUserChoiceWasListMovies" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ListMoviesOptionTest_testIfUserChoiceWasListMovies - 2018.01.08 at 16h 57m 39s.xml">
       <configuration name="ListMoviesOptionTest.testIfUserChoiceWasListMovies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListMoviesOptionTest_testIfUserChoiceWasNotListMovies - 2018.01.08 at 17h 02m 57s.xml">
+      <configuration name="ListMoviesOptionTest.testIfUserChoiceWasNotListMovies" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1063,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1081,14 +1078,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/menu/ListMoviesOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        <state relative-caret-position="84">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/LibraryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

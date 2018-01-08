@@ -4,6 +4,7 @@ public class ListMoviesOption extends Option {
 
     public ListMoviesOption() {
         this.setCommand(Commands.LIST_MOVIES_COMMAND);
+
     }
 
     @Override

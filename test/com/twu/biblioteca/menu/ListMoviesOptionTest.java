@@ -14,7 +14,7 @@ public class ListMoviesOptionTest {
 
     @Test
     public void testIfUserChoiceWasNotListMovies() {
-        String userInput = "list-movies";
+        String userInput = "list-movie";
         ListMoviesOption listMoviesOption = new ListMoviesOption();
         Assert.assertFalse(listMoviesOption.check(userInput));
     }
