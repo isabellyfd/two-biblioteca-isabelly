@@ -35,4 +35,10 @@ public class CheckoutMovieOptionTest {
         String userInput = "yes";
         Assert.assertTrue(checkoutMovieOption.isPositiveDecision(userInput));
     }
+
+    @Test
+    public void testDecisionIsYesUpperCase() {
+        String userInput = "YES";
+        Assert.assertTrue(checkoutMovieOption.isPositiveDecision(userInput));
+    }
 }
