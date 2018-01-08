@@ -33,4 +33,10 @@ public class Movie {
     public String toString() {
         return this.name + " directed by "+ this.director + ", " + this.year + " - " + String.format("%.1f", this.rating) ;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Movie movie = (Movie)obj;
+        return this.toString().equals(movie.toString());
+    }
 }
