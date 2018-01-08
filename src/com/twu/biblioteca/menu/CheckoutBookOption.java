@@ -55,11 +55,11 @@ public class CheckoutBookOption extends Option {
     }
 
     protected boolean isPositiveDecision(String decision){
-        return POSITIVE_DECISION.equals(decision.toLowerCase());
+        return Decisions.POSITIVE_DECISION.equals(decision.toLowerCase());
     }
 
     protected boolean isNegativeDecision(String decision){
-        return NEGATIVE_DECISION.equals(decision.toLowerCase());
+        return Decisions.NEGATIVE_DECISION.equals(decision.toLowerCase());
     }
 
     private boolean isNotTheRightCommand(String command){

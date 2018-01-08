@@ -25,10 +25,10 @@ public class CheckoutMovieOption extends Option {
     }
 
     protected boolean isPositiveDecision(String userInput){
-        return POSITIVE_DECISION.equals(userInput.toLowerCase());
+        return Decisions.POSITIVE_DECISION.equals(userInput.toLowerCase());
     }
 
     protected boolean isNegativeDecision(String userInput){
-        return NEGATIVE_DECISION.equals(userInput);
+        return Decisions.NEGATIVE_DECISION.equals(userInput.toLowerCase());
     }
 }
