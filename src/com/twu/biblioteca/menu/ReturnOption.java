@@ -2,6 +2,7 @@ package com.twu.biblioteca.menu;
 
 import com.twu.biblioteca.Facade;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.exception.CouldNotReturnBookException;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 import java.util.ArrayList;
@@ -27,9 +28,12 @@ public class ReturnOption extends Option {
             int number = ConsoleHelper.getIntFromUser();
 
             if(number <= reservedBooks.size() && number > 0){
-                ConsoleHelper.printMessage("can return!");
+                try{
+                    Facade.shared.returnBook(reservedBooks.get(--number));
+                    ConsoleHelper.printMessage("Thank you for returning the book.");
+                }catch (CouldNotReturnBookException  exception){ }
             }else{
-                ConsoleHelper.printMessage("can not return!");
+                ConsoleHelper.printMessage("This is not a valid option!");
             }
         }
     }

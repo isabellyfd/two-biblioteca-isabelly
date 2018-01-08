@@ -9,7 +9,6 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import com.twu.biblioteca.entity.Book;
-import com.twu.biblioteca.exception.CouldNotCheckoutBookExceptionTest;
 
 
 public class LibraryControllerTest {

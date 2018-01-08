@@ -3,6 +3,7 @@ package com.twu.biblioteca;
 import com.twu.biblioteca.controller.LibraryController;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+import com.twu.biblioteca.exception.CouldNotReturnBookException;
 
 import java.util.ArrayList;
 
@@ -33,4 +34,9 @@ public class Facade {
     public ArrayList<Book> getAllBorrowedBooks() {
         return this.library.listAllBorrowedBooks();
     }
+
+    public void returnBook(Book book) throws CouldNotReturnBookException{
+        this.library.returnBook(book);
+    }
 }
+
