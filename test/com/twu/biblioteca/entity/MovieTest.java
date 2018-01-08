@@ -13,4 +13,10 @@ public class MovieTest {
         Assert.assertEquals(2006, movie.getYear());
         Assert.assertEquals(5.0, movie.getRating(), 0.0);
     }
+
+    @Test
+    public void testingToStringReturn(){
+        Movie movie = new Movie("Little Miss Sunshine", "Jonathan Dayton, Valerie Faris", 2006, 5.0);
+        Assert.assertEquals("Little Miss Sunshine directed by Jonathan Dayton, Valerie Faris, 2006 - 5.0", movie.toString());
+    }
 }
