@@ -1,6 +1,7 @@
 package com.twu.biblioteca.controller;
 
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+import com.twu.biblioteca.exception.CouldNotReturnBookException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -79,5 +80,18 @@ public class LibraryControllerTest {
         this.controller.getBookAtIndex(1).setAvailable(false);
         ArrayList<Book> reservedBooks =  this.controller.listAllBorrowedBooks();
         Assert.assertEquals("Harry Potter camara secreta", reservedBooks.get(0).getName());
+    }
+
+    @Test
+    public void testReturningBookActionSuccessful() {
+        this.controller.getBookAtIndex(0).setAvailable(false);
+        Book book = this.controller.getBookAtIndex(0);
+        try{
+            this.controller.returnBook(book);
+            Assert.assertEquals(2, this.controller.listAllAvailableBooks().size());
+        }catch (CouldNotReturnBookException exception){
+            Assert.fail();
+        }
+
     }
 }

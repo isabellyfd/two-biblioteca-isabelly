@@ -2,6 +2,7 @@ package com.twu.biblioteca.controller;
 
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+import com.twu.biblioteca.exception.CouldNotReturnBookException;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
@@ -45,4 +46,9 @@ public class LibraryController {
 
         return borrowedBooks;
     }
+
+    public void returnBook(Book book) throws CouldNotReturnBookException{
+        throw new CouldNotReturnBookException();
+    }
+
 }
