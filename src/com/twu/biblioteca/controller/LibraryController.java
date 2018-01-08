@@ -39,8 +39,10 @@ public class LibraryController {
     }
 
     public ArrayList<Book> listAllBorrowedBooks() {
-        ArrayList<Book> arrayList =  new ArrayList<>();
-        arrayList.add(this.bookList.get(0));
-        return arrayList;
+        ArrayList<Book> borrowedBooks = this.bookList.stream()
+                                            .filter(book -> !book.isAvailable())
+                                            .collect(Collectors.toCollection(ArrayList::new));
+
+        return borrowedBooks;
     }
 }
