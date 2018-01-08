@@ -6,7 +6,7 @@ import org.junit.Assert;
 
 import com.twu.biblioteca.menu.Option;
 import com.twu.biblioteca.menu.QuitOption;
-import com.twu.biblioteca.menu.ListOption;
+import com.twu.biblioteca.menu.ListBooksOption;
 
 public class MenuTest {
 
@@ -14,13 +14,13 @@ public class MenuTest {
 
     @Before
     public void setup() {
-        menu = new Menu(new ListOption(), new QuitOption());
+        menu = new Menu(new ListBooksOption(), new QuitOption());
     }
 
     @Test
     public void testCreationOfMenu() {
         Assert.assertEquals(2, menu.getOptions().length);
-        Assert.assertTrue(menu.getOptions()[0] instanceof ListOption);
+        Assert.assertTrue(menu.getOptions()[0] instanceof ListBooksOption);
         Assert.assertTrue(menu.getOptions()[1] instanceof QuitOption);
     }
 

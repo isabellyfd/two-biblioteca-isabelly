@@ -6,9 +6,9 @@ import com.twu.biblioteca.util.ConsoleHelper;
 
 import java.util.ArrayList;
 
-public class ListOption extends Option {
+public class ListBooksOption extends Option {
 
-    public ListOption() {
+    public ListBooksOption() {
         this.setCommand(Commands.LIST_BOOKS_COMMAND);
         this.setMessage(Commands.LIST_BOOKS_COMMAND_MESSAGE);
     }

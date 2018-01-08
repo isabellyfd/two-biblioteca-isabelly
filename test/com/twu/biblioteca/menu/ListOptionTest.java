@@ -1,21 +1,16 @@
 package com.twu.biblioteca.menu;
 
-import com.twu.biblioteca.controller.LibraryController;
-import com.twu.biblioteca.entity.Book;
-import com.twu.biblioteca.menu.ListOption;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;
 
-import java.util.ArrayList;
-
 public class ListOptionTest {
 
-    private ListOption listOption;
+    private ListBooksOption listOption;
 
     @Before
     public void setup() {
-        this.listOption = new ListOption();
+        this.listOption = new ListBooksOption();
     }
 
     @Test
