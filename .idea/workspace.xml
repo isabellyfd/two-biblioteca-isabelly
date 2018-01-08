@@ -110,8 +110,8 @@
       <file leaf-file-name="CheckoutMovieOptionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="224">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -617,6 +617,9 @@
     <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsNotChosen - 2018.01.08 at 19h 16m 31s.xml">
       <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsNotChosen" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CheckoutMovieOptionTest_testIfCheckOutMovieIsNotChosen - 2018.01.08 at 19h 16m 50s.xml">
+      <configuration name="CheckoutMovieOptionTest.testIfCheckOutMovieIsNotChosen" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ConsoleHelperTest - 2018.01.08 at 19h 04m 54s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
@@ -631,9 +634,6 @@
     </history-entry>
     <history-entry file="ConsoleHelperTest_testParsingMethodUsingListInput - 2018.01.08 at 19h 04m 49s.xml">
       <configuration name="ConsoleHelperTest.testParsingMethodUsingListInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsoleHelperTest_testPrintMessageMethod - 2018.01.08 at 19h 01m 13s.xml">
-      <configuration name="ConsoleHelperTest.testPrintMessageMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1137,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/menu/CheckoutMovieOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="224">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

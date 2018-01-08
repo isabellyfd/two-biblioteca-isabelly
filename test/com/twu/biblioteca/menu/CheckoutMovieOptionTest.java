@@ -14,7 +14,7 @@ public class CheckoutMovieOptionTest {
 
     @Test
     public void testIfCheckOutMovieIsNotChosen() {
-        String userInput = "checkout-movie";
+        String userInput = "checkout-moie";
         CheckoutMovieOption checkoutMovieOption = new CheckoutMovieOption();
         Assert.assertFalse(checkoutMovieOption.check(userInput));
     }
