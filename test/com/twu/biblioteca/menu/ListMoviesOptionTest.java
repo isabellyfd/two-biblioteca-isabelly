@@ -19,4 +19,10 @@ public class ListMoviesOptionTest {
         Assert.assertFalse(listMoviesOption.check(userInput));
     }
 
+    @Test
+    public void testGettingMessageFromListMovieOption() {
+        ListMoviesOption listMoviesOption = new ListMoviesOption();
+        Assert.assertEquals("[list-movies] list all movies available in the library", listMoviesOption.getMessage());
+    }
+
 }
