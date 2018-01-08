@@ -42,7 +42,7 @@ public class ConsoleHelperTest {
     @Test
     public void testPrintMessageMethod(){
         String message = "Oi amiguinho!";
-        ConsoleHelper.printMessage(message);
+        ConsoleHelper.shared.printMessage(message);
         Assert.assertEquals("Oi amiguinho!", outContent.toString().trim());
     }
 

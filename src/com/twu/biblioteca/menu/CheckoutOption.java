@@ -25,30 +25,30 @@ public class CheckoutOption extends Option {
     }
 
     private void printCheckoutBookMessage(Book book) {
-        ConsoleHelper.printMessage("Do you really want to check you:");
-        ConsoleHelper.printMessage(book.toString());
+        ConsoleHelper.shared.printMessage("Do you really want to check you:");
+        ConsoleHelper.shared.printMessage(book.toString());
     }
 
     private void actOnDecision(int index, String decision) {
         if (this.isPositiveDecision(decision)){
             checkoutBookAndPrintMessage(index);
         }else {
-            ConsoleHelper.printMessage("Okay then!");
+            ConsoleHelper.shared.printMessage("Okay then!");
         }
     }
 
     private void checkoutBookAndPrintMessage(int index) {
         try {
             Facade.shared.checkoutBookAt(index);
-            ConsoleHelper.printMessage("Thank you! Enjoy the book.");
+            ConsoleHelper.shared.printMessage("Thank you! Enjoy the book.");
         }catch (CouldNotCheckoutBookException exception){
-            ConsoleHelper.printMessage(exception.getMessage());
+            ConsoleHelper.shared.printMessage(exception.getMessage());
         }
     }
 
     private String retrieveRightInputDecision(String decision) {
         while(this.isNotTheRightCommand(decision)){
-            ConsoleHelper.printMessage("yes or no?");
+            ConsoleHelper.shared.printMessage("yes or no?");
             decision = ConsoleHelper.getUserInput().getCommand();
         }
         return decision;

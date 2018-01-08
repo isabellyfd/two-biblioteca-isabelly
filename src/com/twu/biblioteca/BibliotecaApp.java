@@ -41,8 +41,8 @@ public class BibliotecaApp {
                 Option option = app.getOptionFor(userInput.getCommand());
                 option.action(userInput.getArgument());
             }else {
-                ConsoleHelper.printMessage("Select a valid option!");
-                ConsoleHelper.printMessage("");
+                ConsoleHelper.shared.printMessage("Select a valid option!");
+                ConsoleHelper.shared.printMessage("");
             }
             app.printMenu();
             userInput = ConsoleHelper.getUserInput();
@@ -50,7 +50,7 @@ public class BibliotecaApp {
     }
 
     public void printWelcomeMessage(){
-        ConsoleHelper.printMessage(ConsoleHelper.shared.welcomeMessage());
+        ConsoleHelper.shared.printMessage(ConsoleHelper.shared.welcomeMessage());
     }
 
     public void printMenu() {

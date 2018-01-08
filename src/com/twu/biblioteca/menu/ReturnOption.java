@@ -31,8 +31,8 @@ public class ReturnOption extends Option {
     }
 
     private void printConsoleMessagesOfNoBooksToReturn() {
-        ConsoleHelper.printMessage("There isn't books to return!");
-        ConsoleHelper.printMessage("");
+        ConsoleHelper.shared.printMessage("There isn't books to return!");
+        ConsoleHelper.shared.printMessage("");
     }
 
     private void runActionsWhenIsPossibleToReturn(ArrayList<Book> reservedBooks) {
@@ -45,21 +45,21 @@ public class ReturnOption extends Option {
         if(inputIsValidToReturnBook(reservedBooks, number)){
             actOnDecision(reservedBooks, number);
         }else{
-            ConsoleHelper.printMessage("This is not a valid option!");
+            ConsoleHelper.shared.printMessage("This is not a valid option!");
         }
     }
 
     private void printAllBorrowedBooksInLibrary(ArrayList<Book> reservedBooks) {
         ConsoleHelper.shared.printList(reservedBooks);
-        ConsoleHelper.printMessage("Choose a book above to return to library:");
+        ConsoleHelper.shared.printMessage("Choose a book above to return to library:");
     }
 
     private void actOnDecision(ArrayList<Book> reservedBooks, int number) {
         try{
             Facade.shared.returnBook(reservedBooks.get(--number));
-            ConsoleHelper.printMessage("Thank you for returning the book.");
+            ConsoleHelper.shared.printMessage("Thank you for returning the book.");
         }catch (CouldNotReturnBookException exception){
-            ConsoleHelper.printMessage(exception.getMessage());
+            ConsoleHelper.shared.printMessage(exception.getMessage());
         }
     }
 
