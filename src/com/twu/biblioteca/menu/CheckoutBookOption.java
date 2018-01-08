@@ -12,7 +12,7 @@ public class CheckoutBookOption extends Option {
 
     public CheckoutBookOption() {
         this.setCommand(Commands.CHECKOUT_BOOK_COMMAND);
-        this.setMessage(Commands.CHECKOUT_COMMAND_MESSAGE);
+        this.setMessage(Commands.CHECKOUT_BOOK_COMMAND_MESSAGE);
     }
 
     @Override
