@@ -16,8 +16,8 @@ public class LoginControllerTest {
     @Before
     public void setup() {
         ArrayList<User> users = new ArrayList<>();
-        users.add(new User("Isabelly", "icfd@example.com", "(81) 998061240", "123-4567", "bellypass"));
-        users.add(new User("Carol", "ccar@example.com", "(81) 998061240", "123-1111", "carolpass"));
+        users.add(new User("Isabelly", "icfd@example.com", "Rua rio capibaribe", "(81) 998061240", "123-4567", "bellypass"));
+        users.add(new User("Carol", "ccar@example.com","Rua rio cpa", "(81) 998061240", "123-1111", "carolpass"));
         this.controller = new LoginController(users);
     }
 

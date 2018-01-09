@@ -10,9 +10,9 @@ public class LoginController {
 
     public static LoginController createControllerWithUsers() {
         ArrayList<User> users = new ArrayList<>();
-        users.add(new User("Isabelly Damascena", "icfd@example.com", "(81) 998061240", "000-0001", "bellypass"));
-        users.add(new User("Caio Souza", "cbs@example.com", "(81) 998061240", "000-0002", "caiopass"));
-        users.add(new User("Wagner Palacio", "wp@example.com", "(81) 998061240", "000-0003", "wagnerpass"));
+        users.add(new User("Isabelly Damascena", "icfd@example.com", "Rua rio capiba", "(81) 998061240", "000-0001", "bellypass"));
+        users.add(new User("Caio Souza", "cbs@example.com", "Av pá de carapu","(81) 998061240", "000-0002", "caiopass"));
+        users.add(new User("Wagner Palacio", "wp@example.com","Av conde da boa", "(81) 998061240", "000-0003", "wagnerpass"));
 
         return new LoginController(users);
     }

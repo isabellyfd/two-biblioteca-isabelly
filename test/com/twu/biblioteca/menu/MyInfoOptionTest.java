@@ -10,7 +10,7 @@ public class MyInfoOptionTest {
     private MyInfoOption myInfoOption;
     @Before
     public void setup() {
-        User myUser = new User("Isabelly Damascena", "icfd@example.com", "(81) 998061240", "000-0001", "bellypass");
+        User myUser = new User("Isabelly Damascena", "icfd@example.com","Rua rio capi", "(81) 998061240", "000-0001", "bellypass");
         this.myInfoOption = new MyInfoOption(myUser);
     }
 
