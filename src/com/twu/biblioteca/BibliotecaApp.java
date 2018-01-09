@@ -4,6 +4,7 @@ import com.twu.biblioteca.controller.LoginController;
 import com.twu.biblioteca.controller.Menu;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.entity.User;
+import com.twu.biblioteca.exception.CouldNotLoginException;
 import com.twu.biblioteca.menu.*;
 import com.twu.biblioteca.menu.constants.Commands;
 import com.twu.biblioteca.util.ConsoleHelper;
@@ -18,7 +19,7 @@ public class BibliotecaApp {
 
     protected BibliotecaApp(ArrayList<Book> books){
         this.menuController = new Menu(new ListBooksOption(), new CheckoutBookOption(), new ReturnOption(), new ListMoviesOption(), new CheckoutMovieOption(), new QuitOption());
-
+        this.loginController = LoginController.createControllerWithUsers();
     }
 
     public static BibliotecaApp getInstance() {
@@ -26,6 +27,7 @@ public class BibliotecaApp {
         books.add(new Book("Goodnight Moon", "Margaret Wise Brown, Clement Hurd", 2007));
         books.add(new Book("Press Here", "Herve Tullet", 2011));
         return new BibliotecaApp(books);
+
     }
 
     public static void main(String[] args) {
@@ -34,9 +36,22 @@ public class BibliotecaApp {
 
     private static void runLibrary() {
         BibliotecaApp app = BibliotecaApp.getInstance();
+
+        ConsoleHelper.shared.printMessage("For entering in the library system you need to login!!");
+
+        User user = null;
+        while(didNotLogged(user)){
+            ConsoleHelper.shared.printMessage("Enter library number:");
+            String libraryNumber = ConsoleHelper.shared.getUserInput().getCommand();
+
+            ConsoleHelper.shared.printMessage("Enter password:");
+            String password = ConsoleHelper.shared.getUserInput().getCommand();
+            user = app.login(libraryNumber, password);
+        }
+
+
         boolean isRunning = true;
         app.printWelcomeMessage();
-
         app.printMenu();
 
         Input userInput = ConsoleHelper.shared.getUserInput();
@@ -52,6 +67,10 @@ public class BibliotecaApp {
             app.printMenu();
             userInput = ConsoleHelper.shared.getUserInput();
         }
+    }
+
+    private static boolean didNotLogged(User user) {
+        return user == null;
     }
 
     public void printWelcomeMessage(){
@@ -72,5 +91,15 @@ public class BibliotecaApp {
 
     public Option getOptionFor(String command){
         return this.menuController.getOptionFor(command);
+    }
+
+    public User login(String libraryNumber, String password){
+        User loggedUser = null;
+        try{
+             loggedUser = this.loginController.login(libraryNumber, password);
+        }catch(CouldNotLoginException e){
+
+        }
+        return loggedUser;
     }
 }
