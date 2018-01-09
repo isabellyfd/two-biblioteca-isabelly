@@ -3,7 +3,7 @@ package com.twu.biblioteca.menu.constants;
 public class Commands {
     public static final String QUIT_COMMAND = "quit";
     public static final String LIST_BOOKS_COMMAND = "list-books";
-    public static final String CHECKOUT_BOOK_COMMAND = "checkout";
+    public static final String CHECKOUT_BOOK_COMMAND = "checkout-book";
     public static final String RETURN_COMMAND = "return-book";
     public static final String LIST_MOVIES_COMMAND = "list-movies";
     public static final String CHECKOUT_MOVIE_COMMAND = "checkout-movie";
