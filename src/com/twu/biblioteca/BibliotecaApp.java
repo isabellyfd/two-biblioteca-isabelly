@@ -49,6 +49,7 @@ public class BibliotecaApp {
             user = app.login(libraryNumber, password);
         }
 
+        app.addNewOption(user);
 
         boolean isRunning = true;
         app.printWelcomeMessage();
@@ -101,5 +102,9 @@ public class BibliotecaApp {
 
         }
         return loggedUser;
+    }
+
+    public void addNewOption(User user){
+        this.menuController.addMenuOption(new MyInfoOption(user));
     }
 }

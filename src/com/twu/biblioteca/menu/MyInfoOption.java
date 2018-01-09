@@ -8,7 +8,7 @@ public class MyInfoOption extends Option {
 
     private User me;
 
-    MyInfoOption(User user){
+    public MyInfoOption(User user){
         this.setCommand(Commands.MY_INFO_COMMAND);
         this.setMessage(Commands.MY_INFO_COMMAND_MESSAGE);
         this.me = user;
