@@ -67,4 +67,8 @@ public class LibraryController {
         return this.movieList.get(index);
     }
 
+    public void checkoutMovieAt(int index){
+
+    }
+
 }

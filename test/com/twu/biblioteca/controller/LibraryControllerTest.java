@@ -102,4 +102,12 @@ public class LibraryControllerTest {
         Movie movie = this.controller.getMovieAt(0);
         Assert.assertEquals("Little Miss Sunshine", movie.getName());
     }
+
+    @Test
+    public void testCheckOutMovie() {
+        this.controller.checkoutMovieAt(0);
+        ArrayList<Movie> movies = this.controller.listAllAvailableMovies();
+        Assert.assertEquals(1, movies.size());
+        Assert.assertEquals("Into the wild", movies.get(0).getName());
+    }
 }
