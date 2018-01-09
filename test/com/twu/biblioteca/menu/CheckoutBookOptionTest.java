@@ -28,7 +28,7 @@ public class CheckoutBookOptionTest {
 
     @Test
     public void testGettingMessageFromCheckoutOption() {
-        Assert.assertEquals("[checkout] <index> checks out the book in the index passed as argument", checkoutOption.getMessage());
+        Assert.assertEquals("[checkout-book] <index> checks out the book in the index passed as argument", checkoutOption.getMessage());
     }
 
     @Test
