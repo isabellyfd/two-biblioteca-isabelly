@@ -7,7 +7,7 @@ public class ReturnOptionTest {
 
     @Test
     public void testIfIsChosenOptionIsReturn() {
-        String userInput = "return";
+        String userInput = "return-book";
         ReturnOption returnOption = new ReturnOption();
         Assert.assertTrue(returnOption.check(userInput));
     }
@@ -23,6 +23,6 @@ public class ReturnOptionTest {
     @Test
     public void testGettingMessageFromReturnOption() {
         ReturnOption returnOption = new ReturnOption();
-        Assert.assertEquals("[return] returns a book to library", returnOption.getMessage());
+        Assert.assertEquals("[return-book] returns a book to library", returnOption.getMessage());
     }
 }
