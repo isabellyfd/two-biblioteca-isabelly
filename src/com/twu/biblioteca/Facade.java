@@ -50,5 +50,9 @@ public class Facade {
     public Movie getMovieAt(int index){
         return this.library.getMovieAt(index);
     }
+
+    public void checkoutMovieAt(int index){
+        this.library.checkoutMovieAt(index);
+    }
 }
 

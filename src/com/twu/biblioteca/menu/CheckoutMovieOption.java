@@ -25,7 +25,8 @@ public class CheckoutMovieOption extends Option {
         }
 
         if (this.isPositiveDecision(decision)){
-            ConsoleHelper.shared.printMessage("checkout movie");
+            Facade.shared.checkoutMovieAt(index);
+            ConsoleHelper.shared.printMessage("Checkout done!");
         }else {
             ConsoleHelper.shared.printMessage("Okay Then!");
         }
