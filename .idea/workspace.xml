@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91ce7dd-23fe-4631-9ac5-2b8b463b7149" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginExceptionTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/LoginControllerTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/controller/LoginControllerTest.class" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LoginControllerTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LoginControllerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="9" column="102" lean-forward="false" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+              <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controller/LoginControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="649">
@@ -121,12 +118,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouldNotLoginException.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CouldNotLoginException.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="70">
+              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -260,7 +260,6 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/menu/constants/Commands.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/entity/User.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Facade.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/controller/LoginController.java" />
@@ -268,6 +267,7 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginException.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginExceptionTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controller/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java" />
       </list>
     </option>
   </component>
@@ -319,6 +319,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TWU_Biblioteca-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
@@ -620,14 +627,14 @@
     <history-entry file="CouldNotLoginExceptionTest_testGettingMessageFromException - 2018.01.09 at 13h 51m 02s.xml">
       <configuration name="CouldNotLoginExceptionTest.testGettingMessageFromException" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CouldNotLoginExceptionTest_testGettingMessageFromException - 2018.01.09 at 13h 51m 51s.xml">
+      <configuration name="CouldNotLoginExceptionTest.testGettingMessageFromException" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="LoginControllerTest - 2018.01.09 at 13h 20m 36s.xml">
       <configuration name="LoginControllerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginControllerTest - 2018.01.09 at 13h 20m 42s.xml">
       <configuration name="LoginControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginControllerTest_testingLoginCorrectLibraryNumber - 2018.01.09 at 11h 27m 11s.xml">
-      <configuration name="LoginControllerTest.testingLoginCorrectLibraryNumber" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginControllerTest_testingLoginCorrectLibraryNumber - 2018.01.09 at 13h 13m 48s.xml">
       <configuration name="LoginControllerTest.testingLoginCorrectLibraryNumber" configurationId="JUnit" />
@@ -1093,14 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controller/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
@@ -1145,16 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="102" lean-forward="false" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1183,6 +1172,27 @@
           <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/exception/CouldNotLoginExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/exception/CouldNotLoginException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
