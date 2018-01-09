@@ -68,7 +68,7 @@ public class LibraryController {
     }
 
     public void checkoutMovieAt(int index){
-
+        this.movieList.get(0).setAvailable(false);
     }
 
 }

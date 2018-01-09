@@ -35,6 +35,10 @@ public class Movie {
         return this.isAvailable;
     }
 
+    public void setAvailable(boolean isAvailable){
+        this.isAvailable = isAvailable;
+    }
+
     @Override
     public String toString() {
         return this.name + " directed by "+ this.director + ", " + this.year + " - " + String.format("%.1f", this.rating) ;
