@@ -13,23 +13,38 @@ public class CheckoutMovieOption extends Option {
     @Override
     public void action(int index) {
         Movie movie = Facade.shared.getMovieAt(--index);
+        printCheckoutMovieMessage(movie);
+        String decision = retrieveRightInputDecision();
 
-        ConsoleHelper.shared.printMessage("Do you really want to check out:");
-        ConsoleHelper.shared.printMessage(movie.toString());
+        actOnDecision(index, decision);
+    }
 
+    private void actOnDecision(int index, String decision) {
+        if (this.isPositiveDecision(decision)){
+            checkoutAndPrintMessage(index);
+        }else {
+            ConsoleHelper.shared.printMessage("Okay Then!");
+        }
+    }
+
+    private void checkoutAndPrintMessage(int index) {
+        Facade.shared.checkoutMovieAt(index);
+        ConsoleHelper.shared.printMessage("Checkout done!");
+    }
+
+    private String retrieveRightInputDecision() {
         String decision = "";
 
         while (isNotTheRightCommand(decision)){
             ConsoleHelper.shared.printMessage("yes or no?");
             decision = ConsoleHelper.shared.getUserInput().getCommand();
         }
+        return decision;
+    }
 
-        if (this.isPositiveDecision(decision)){
-            Facade.shared.checkoutMovieAt(index);
-            ConsoleHelper.shared.printMessage("Checkout done!");
-        }else {
-            ConsoleHelper.shared.printMessage("Okay Then!");
-        }
+    private void printCheckoutMovieMessage(Movie movie) {
+        ConsoleHelper.shared.printMessage("Do you really want to check out:");
+        ConsoleHelper.shared.printMessage(movie.toString());
     }
 
     protected boolean isPositiveDecision(String userInput){
