@@ -1,7 +1,9 @@
 package com.twu.biblioteca;
 
+import com.twu.biblioteca.controller.LoginController;
 import com.twu.biblioteca.controller.Menu;
 import com.twu.biblioteca.entity.Book;
+import com.twu.biblioteca.entity.User;
 import com.twu.biblioteca.menu.*;
 import com.twu.biblioteca.menu.constants.Commands;
 import com.twu.biblioteca.util.ConsoleHelper;
@@ -12,9 +14,11 @@ import java.util.ArrayList;
 public class BibliotecaApp {
 
     private Menu menuController;
+    private LoginController loginController;
 
     protected BibliotecaApp(ArrayList<Book> books){
         this.menuController = new Menu(new ListBooksOption(), new CheckoutBookOption(), new ReturnOption(), new ListMoviesOption(), new CheckoutMovieOption(), new QuitOption());
+
     }
 
     public static BibliotecaApp getInstance() {
