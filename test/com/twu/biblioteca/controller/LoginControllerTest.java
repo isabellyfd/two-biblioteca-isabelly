@@ -2,6 +2,7 @@ package com.twu.biblioteca.controller;
 
 import com.twu.biblioteca.entity.User;
 import com.twu.biblioteca.exception.CouldNotLoginException;
+import com.twu.biblioteca.exception.CouldNotLoginExceptionTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
