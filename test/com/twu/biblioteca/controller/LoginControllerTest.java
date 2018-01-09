@@ -35,7 +35,7 @@ public class LoginControllerTest {
     @Test
     public void testingThrowingExceptionWhenPassIsWrong() {
         try{
-            User loginUSer = controller.login("123-4567", "heuehueh");
+            controller.login("123-4567", "heuehueh");
             Assert.fail();
         }catch (CouldNotLoginException e){
             Assert.assertNotNull(e);
@@ -45,7 +45,7 @@ public class LoginControllerTest {
     @Test
     public void testingThrowingExceptionWhenLibraryNumberIsWrong() {
         try{
-            User loginUSer = controller.login("123-4237", "bellypass");
+            controller.login("123-4237", "bellypass");
             Assert.fail();
         }catch (CouldNotLoginException e){
             Assert.assertNotNull(e);
