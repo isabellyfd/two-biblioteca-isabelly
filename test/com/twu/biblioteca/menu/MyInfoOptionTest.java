@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class MyInfoOptionTest {
 
-
     @Test
     public void testIfMyInfoOptionIsChosen(){
         String userInput = "my-info";
