@@ -3,6 +3,8 @@ package com.twu.biblioteca.menu;
 import com.twu.biblioteca.Facade;
 import com.twu.biblioteca.entity.Book;
 import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
+import com.twu.biblioteca.menu.constants.Commands;
+import com.twu.biblioteca.menu.constants.Decisions;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 public class CheckoutBookOption extends Option {
