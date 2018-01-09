@@ -6,7 +6,7 @@ import com.twu.biblioteca.exception.CouldNotCheckoutBookException;
 import com.twu.biblioteca.util.ConsoleHelper;
 
 public class CheckoutBookOption extends Option {
-    
+
 
     public CheckoutBookOption() {
         this.setCommand(Commands.CHECKOUT_BOOK_COMMAND);
@@ -17,8 +17,7 @@ public class CheckoutBookOption extends Option {
     public void action(int index) {
         Book book = Facade.shared.getBookAt(--index);
         printCheckoutBookMessage(book);
-        String decision = "";
-        decision = retrieveRightInputDecision(decision);
+        String decision = retrieveRightInputDecision();
         actOnDecision(index, decision);
     }
 
@@ -44,7 +43,8 @@ public class CheckoutBookOption extends Option {
         }
     }
 
-    private String retrieveRightInputDecision(String decision) {
+    private String retrieveRightInputDecision() {
+        String decision = "";
         while(this.isNotTheRightCommand(decision)){
             ConsoleHelper.shared.printMessage("yes or no?");
             decision = ConsoleHelper.shared.getUserInput().getCommand();
